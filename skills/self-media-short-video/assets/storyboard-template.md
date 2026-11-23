@@ -1,46 +1,46 @@
-# 短视频分镜：{主题}
+# Short-video storyboard: {topic}
 
-- 平台：
-- 目标受众：
-- 内容目标：
-- 目标时长：
-- 出镜方式：
-- 一句话核心判断：
-- 核心问题（15 秒内提出）：
-- 母题句（全片重复 2 到 3 次）：
-- 进度装置（清单、计数器、年份推进或前后对照）：
-- 开放式结尾的问题：
-- 主要行动：
+- Platform:
+- Target audience:
+- Content goal:
+- Target length:
+- How the creator appears on camera:
+- Core claim in one sentence:
+- Central question (raised within 15 seconds):
+- Motif line (repeated 2 to 3 times in the video):
+- Progress device (checklist, counter, years moving forward, or before and after):
+- Question for the open ending:
+- Main call to action:
 
-## 钩子
+## Hooks
 
-1. {钩子 A}
-2. {钩子 B}
-3. {钩子 C}
+1. {Hook A}
+2. {Hook B}
+3. {Hook C}
 
-- 推荐：
-- 理由：
+- Recommended:
+- Reason:
 
-## 分镜
+## Storyboard
 
-| 镜号 | 时间 | 时长 | 景别或录屏 | 画面和动作 | 口播 | 字幕或屏幕文字 | 证据或素材 | BGM、音效、转场 |
+| Shot | Time | Length | Shot size or screen recording | Picture and action | Spoken lines | Subtitles or on-screen text | Evidence or assets | Music, sound effects, transitions |
 |---|---|---:|---|---|---|---|---|---|
 | 1 | 00:00 | | | | | | | |
 
-## 发布字段
+## Publishing fields
 
-- 标题或发布文案：
-- 话题：
-- 封面标题：
-- 封面画面：
-- BGM 建议：
-- 合集或商业声明：
+- Title or publishing copy:
+- Hashtags:
+- Cover title:
+- Cover picture:
+- Background music suggestion:
+- Collection or commercial statement:
 
-## 素材缺口
+## Asset gaps
 
-- {缺少的素材}
+- {missing asset}
 
-## 时长核验
+## Length check
 
-- 分镜总时长：
-- 与目标时长一致：否
+- Total storyboard length:
+- Matches the target length: no

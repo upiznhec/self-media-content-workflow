@@ -1,18 +1,18 @@
-# 选题池
+# Topic pool
 
-| 优先级 | 母题 | 一句话钩子 | 内容目标 | 目标受众 | 主平台 | 扩展平台 | 一手证据 | 仍缺证据 | 时效窗口 | 系列 | 预计成本 | 状态 |
+| Priority | Core topic | One-sentence hook | Content goal | Target audience | Main platform | Extra platforms | First-hand evidence | Evidence still missing | Timeliness window | Series | Estimated cost | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---:|---|
 | | | | | | | | | | | | | |
 
-## 栏目
+## Series
 
-| 栏目 | 内容承诺 | 证据来源 | 平台 | 频率 | 停止条件 |
+| Series | Content promise | Evidence sources | Platforms | Frequency | When to stop |
 |---|---|---|---|---|---|
 | | | | | | |
 
-## 本周期唯一实验
+## The single experiment this cycle
 
-- 假设：
-- 只改的变量：
-- 成功标准：
-- 观察窗口：
+- Hypothesis:
+- The only variable changed:
+- Success standard:
+- Observation window:

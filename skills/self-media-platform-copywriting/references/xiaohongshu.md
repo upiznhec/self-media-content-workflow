@@ -1,34 +1,34 @@
-# 小红书
+# Xiaohongshu (RedNote)
 
-## 适合内容
+## Suitable content
 
-真实过程、对比、教程、避坑、清单、阶段复盘、生活化经验和强视觉证据。
+Real processes, comparisons, tutorials, pitfalls to avoid, checklists, progress reviews, everyday experience and strong visual evidence.
 
-## 产物
+## Outputs
 
-- 3 个标题候选和 1 版正文。
-- 图文默认 6 到 9 页，第一页是封面，最后一页收束。
-- 每页的页面文案、画面任务和素材来源。
-- 话题、首评和商业合作声明。
+- 3 title candidates and 1 version of the body.
+- Image posts have 6 to 9 pages by default; the first page is the cover and the last page wraps up.
+- The text, visual job and asset source of each page.
+- Hashtags, a first comment and a commercial partnership disclosure.
 
-## 写法
+## How to write
 
-- 标题对应用户会搜索的具体问题或身份处境。
-- 开头尽快出现身份、场景、结果和可信证据。
-- 每页只承担一个信息任务。
-- 使用真实截图、数字、失败和取舍。
-- 不做未亲测工具合集，不承诺无法证明的收益。
+- The title matches a concrete question or situation that users would search for.
+- The opening shows identity, scene, result and credible evidence as early as possible.
+- Each page does only one information job.
+- Use real screenshots, numbers, failures and trade-offs.
+- Do not make round-ups of tools you have not tried, and do not promise gains you cannot prove.
 
-## 组图
+## Image sets
 
-1. 定义全组视觉锚：画风、色板、光线、构图、文字和基调。可从 [visual-styles.md](visual-styles.md) 的预设初始化，用户已选风格时直接沿用。
-2. 建立文案到画面的逐页映射。
-3. 使用同一参考图、尺寸和视觉前缀保持一致。
-4. 软件内容优先使用真实界面。缺素材时使用场景或隐喻。
-5. 出图后检查贴题、统一、可读和事实一致。
+1. Define the visual anchor for the whole set: art style, palette, lighting, composition, text and tone. You can start from a preset in [visual-styles.md](visual-styles.md); if the user has already chosen a style, use it.
+2. Map the copy to visuals page by page.
+3. Use the same reference image, size and visual prefix to keep the set consistent.
+4. For software content, prefer real interfaces. When material is missing, use scenes or metaphors.
+5. After generating the images, check that they fit the topic, match each other, are readable and agree with the facts.
 
-## 检查
+## Checks
 
-- 标题和封面是否在手机上可读。
-- 页数、标题长度、图片比例和话题限制是否以当前发布界面核验。
-- 首评是否提供正文之外的补充价值。
+- Are the title and cover readable on a phone?
+- Have the number of pages, title length, image ratio and hashtag limits been checked in the current publishing screen?
+- Does the first comment add value beyond the body?

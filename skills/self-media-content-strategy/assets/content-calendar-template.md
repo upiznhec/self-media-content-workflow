@@ -1,29 +1,29 @@
-# 内容日历：{周期}
+# Content calendar: {period}
 
-## 产能
+## Capacity
 
-- 周期：
-- 可投入时间：
-- 计划母题数：
-- 主平台：
-- 扩展平台：
-- 热点插槽上限：
+- Period:
+- Time available:
+- Planned number of core topics:
+- Main platform:
+- Extra platforms:
+- Maximum number of trend slots:
 
-## 排期
+## Schedule
 
-| 日期 | 母题 | 内容目标 | 主平台 | 扩展平台 | 证据准备 | 预计时间 | 状态 |
+| Date | Core topic | Content goal | Main platform | Extra platforms | Evidence ready | Estimated time | Status |
 |---|---|---|---|---|---|---:|---|
 | | | | | | | | |
 
-## 本周期唯一实验
+## The single experiment this cycle
 
-- 假设：
-- 只改的变量：
-- 成功标准：
-- 观察窗口：
+- Hypothesis:
+- The only variable changed:
+- Success standard:
+- Observation window:
 
-## 复盘时间
+## Review dates
 
-- 单篇观察窗口：
-- 周复盘：
-- 月复盘：
+- Observation window for each piece:
+- Weekly review:
+- Monthly review:

@@ -1,175 +1,169 @@
 ---
 name: self-media-content-workflow
-description: 通用自媒体内容生产与经营工作流。用于自媒体内容创作、选题策划、热点或竞品研究、多平台改写、短视频脚本、数字人视频、动画解说视频、YouTube 与抖音视频号小红书多平台视频发布、发布包、公众号草稿、内容数据分析、周复盘、月复盘和继续未完成任务。负责识别请求类型，调用创作简报、内容策略、热点竞品、平台文案、短视频与视频制片、视频发布、数据复盘和交付归档模块，并管理方向确认、标题确认、终稿确认和发布授权。
+description: A general workflow for producing and running a creator's social media content. Use it for content creation, topic planning, trend or competitor research, adapting content for several platforms, short-video scripts, digital-human videos, animated explainer videos, publishing packs, and resuming unfinished tasks. It works out the type of request, calls the content brief, content strategy, trend and competitor research, platform copywriting and short-video modules, and manages the direction, platform, title and final-copy approvals.
 ---
 
-# 自媒体内容工作流
+# Self-media content workflow
 
-## 目标
+## Goal
 
-把账号定位、内容目标、证据、平台表达、视觉素材、发布和数据复盘连接成可续跑闭环。优先交付可信、平台原生、可执行的内容，不以批量生成替代真实判断。
+Connect account positioning, content goals, evidence, platform-native writing and visual assets into a workflow that can be picked up again at any stage. Deliver content that is credible, native to each platform and ready to act on. Do not replace real judgment with bulk generation.
 
-## 核心原则
+## Core principles
 
-- 先确认账号定位、目标受众、内容目标和平台，再写正文。
-- 一次推进一个母题。多平台内容共享事实与证据，不共享同一份正文。
-- 区分事实、个人判断、推断和建议。关键数字必须有来源。
-- 只问会改变方向的问题。可以从现有文件和公开来源获得的信息不要反问用户。
-- 重要产出按里程碑保存。小改动留在当前版本，不为每句修改新建文件。
-- 对用户使用“保存成文件、成品、作品库”等自然表达，避免暴露内部术语。
-- 只创建草稿或发布包，不直接群发。任何外部写操作必须先获得明确授权。
-- 不使用主账号登录态进行自动化竞品采集，不自动点赞、评论、关注或私信。
-- 不声称能检测 AI 生成概率。只检查模板化、空泛和不符合账号声音的特征。
-- 优先遵守当前项目的 `AGENTS.md`、目录规则和用户指令。
+- Confirm the account positioning, target audience, content goal and platforms before writing the body.
+- Work on one core topic at a time. Versions for different platforms share facts and evidence, not one body text.
+- Separate facts, personal judgments, inferences and advice. Every key number needs a source.
+- Ask only questions that change the direction. Do not ask the user for information you can get from existing files or public sources.
+- Save important outputs at milestones. Keep small edits in the current version; do not create a new file for every changed sentence.
+- With the user, use everyday words such as "save it as a file", "finished piece" or "content library", and avoid internal terms.
+- Deliver publishing packs; the user publishes. Never broadcast to several platforms at once. Any external write action needs the user's explicit permission first.
+- Do not use the creator's main account login for automated competitor collection, and do not like, comment, follow or send messages automatically.
+- Do not claim to detect how likely a text is to be AI-generated. Check only for templated, vague and off-voice writing.
+- Follow the current project's `AGENTS.md`, folder rules and user instructions first.
 
-## 解析工作区
+## Resolve the workspace
 
-按以下顺序确定内容根目录：
+Find the content root folder in this order:
 
-1. 使用用户明确指定的路径。
-2. 使用项目说明中已有的内容目录和命名规范。
-3. 使用当前工作区下的 `self-media/`。
+1. The path the user names.
+2. The content folder and naming rules already in the project's instructions.
+3. `self-media/` in the current workspace.
 
-不要假设特定 Vault、账号、增长计划或厂商工具存在。默认使用 Markdown 保存文字产物，除非项目规则或用户明确要求其他格式。
+Do not assume that a particular vault, account, growth plan or vendor tool exists. Save text outputs as Markdown unless the project rules or the user ask for another format.
 
-## 请求路由
+## Request routing
 
-根据用户真正需要的结果，只加载必要模块：
+Load only the modules needed for the result the user actually wants:
 
-| 请求 | 调用模块 | 结果 |
+| Request | Modules | Result |
 |---|---|---|
-| 单篇或多平台创作 | `self-media-content-brief` → `self-media-platform-copywriting` | 创作简报和平台原生稿 |
-| 账号定位、选题池、栏目、内容日历 | `self-media-content-strategy` | 策略、选题池、栏目和排期 |
-| 热点追踪、关键词研究、竞品拆解 | `self-media-trend-radar` | 研究报告和原创选题 |
-| 口播、分镜、字幕、拍摄方案、数字人视频、动画解说视频 | `self-media-short-video` | 可拍摄短视频包；用户明确选择数字人、确认肖像与声音权利，并在所选平台手动上传和选定素材后，可进入数字人制片和成片交付；用户要无真人出镜的动画成片且制片能力可用时，进入动画解说制片，并派生横竖屏多平台版本 |
-| 视频上传、多平台同步发布、YouTube 私密上传或定时 | `self-media-video-publisher` | 逐平台发布包；逐平台授权后上传为私密、草稿或定时，结果写回任务卡 |
-| 单篇、周度或月度数据复盘 | `self-media-content-analytics` | 归因、决策和待验证实验 |
-| 保存、版本、发布包和归档 | `self-media-content-delivery` | 已核验文件和内容索引 |
-| 公众号排版、草稿箱写入、小绿书图片消息 | `self-media-wechat-publisher` | 已排版并核对的公众号草稿 |
+| A single piece or multi-platform content | `self-media-content-brief` → `self-media-platform-copywriting` | Content brief and platform-native drafts |
+| Account positioning, topic pool, series, content calendar | `self-media-content-strategy` | Strategy, topic pool, series and schedule |
+| Trend tracking, keyword research, competitor teardowns | `self-media-trend-radar` | Research report and original topics |
+| Spoken script, storyboard, subtitles, shooting plan, digital-human video, animated explainer video | `self-media-short-video` | A short-video package ready to shoot. When the user explicitly chooses a digital human, confirms the likeness and voice rights, and has uploaded and selected the assets on the chosen platform themselves, it can go on to digital-human production and a finished video. When the user wants an animated video with no on-camera presenter and production tools are available, it goes on to animated explainer production and derives landscape and vertical versions for several platforms |
 
-使用子 Skill 前完整读取其 `SKILL.md`。某个模块未安装时，按本 Skill 的同名阶段执行最小流程，不虚构不存在的能力。
+Read a module's whole `SKILL.md` before using it. If a module is not installed, run a minimal version of the stage with the same name in this Skill, and do not invent capabilities that do not exist.
 
-## 启动与续跑
+## Start and resume
 
-1. 在内容根目录中查找状态为等待用户、创作中、等待确认、待发布或待复盘的任务卡。
-2. 用户明确说“继续”时，恢复最近一个未完成任务。
-3. 用户只说“自媒体内容创作”且存在未完成任务时，先报告当前状态，只问继续还是新建。
-4. 用户提供明确母题、链接或素材时，直接进入创作简报，不强制重新选题。
-5. 用户只要求策略、研究或数据分析时，走对应分支，不创建无关稿件。
+1. In the content root folder, look for task cards whose status is awaiting the user, writing, or awaiting approval.
+2. When the user says "continue", resume the most recent unfinished task.
+3. When the user only asks for self-media content creation in general and an unfinished task exists, report its current status first and ask only whether to continue it or start a new one.
+4. When the user gives a clear core topic, link or material, go straight to the content brief; do not force a new topic search.
+5. When the user asks only for strategy or research, take that branch and do not create unrelated drafts.
 
-## 内容创作状态流
+## Content creation status flow
 
-`需求澄清 → 等待方向确认 → 研究与证据 → 等待平台确认 → 发布预检 → 创作中 → 等待标题确认 → 素材生成 → 质量审校 → 等待终稿确认 → 待发布 → 草稿已创建或已发布 → 待复盘 → 已复盘`
+`Clarifying needs → Awaiting direction approval → Research and evidence → Awaiting platform approval → Preflight → Writing → Awaiting title approval → Making assets → Quality review → Awaiting final-copy approval → Publishing pack delivered`
 
-以下转换必须由用户完成：
+These transitions must be made by the user:
 
-1. 确认创作方向。
-2. 确认平台组合。
-3. 选择或修改标题。
-4. 确认终稿。
-5. 授权创建草稿或执行其他外部写操作。
+1. Approve the creative direction.
+2. Approve the platform mix.
+3. Choose or edit the title.
+4. Approve the final copy.
+5. Authorize any external write action.
 
-终稿确认不等于发布授权。
+Approving the final copy does not authorize any external write action.
 
-## 创作主流程
+## Main creation flow
 
-### 1. 创建简报并确认方向
+### 1. Write the brief and approve the direction
 
-调用 `self-media-content-brief`。将账号定位、目标受众、内容目标、核心判断、证据、调性、深度、禁区和平台角度整理成一张确认卡。信息不足时最多问 3 个高影响问题，并允许用户采用合理默认值。
+Call `self-media-content-brief`. Put the account positioning, target audience, content goal, core claim, evidence, tone, depth, no-go areas and platform angles on one card for approval. When information is missing, ask at most 3 high-impact questions, and let the user accept reasonable defaults.
 
-### 2. 补研究和证据
+### 2. Add research and evidence
 
-按需调用 `self-media-trend-radar`。优先使用用户真实经历、后台数据、原始素材、官方文档和一手发布。竞品只用于识别需求、结构和表达机会，不洗稿。
+Call `self-media-trend-radar` when needed. Prefer the user's real experience, back-end data, original material, official documents and first-hand releases. Use competitors only to find needs, structures and openings for expression; never rewrite their content as your own.
 
-证据包至少包含：
+The evidence pack contains at least:
 
-- 一句话判断。
-- 3 项可验证证据。
-- 事实、判断、推断和建议的边界。
-- 读者能带走的具体结果。
-- 暂时不能说或无法证明的内容。
+- A one-sentence claim.
+- 3 pieces of verifiable evidence.
+- The boundaries between facts, judgments, inferences and advice.
+- A concrete result the reader can take away.
+- What cannot be said yet or cannot be proven.
 
-### 3. 选择平台和预检能力
+### 3. Choose platforms and check capabilities
 
-读取 [platforms.md](references/platforms.md)，推荐一个主平台和最多两个扩展平台。说明每个平台的作用、产物和时间成本。
+Read [platforms.md](references/platforms.md) and recommend one main platform and at most two extra platforms. Explain each platform's role, output and time cost.
 
-读取 [preflight-and-registry.md](references/preflight-and-registry.md)。只检查已选平台的写作、图片、视频原片或录屏、数字人敏感素材与平台就绪、视频合成与字幕、草稿和数据能力。其中动画制片管线和配乐授权仅在视频制作模式为动画解说制片时检查，视频上传仅在用户希望由工作流上传视频时检查；数字人敏感素材与平台就绪、视频合成与字幕仅在视频制作模式为数字人制片时检查；其他内容类型和真人出镜、素材解析任务将这两项标记为不适用，不因此进入 `AWAITING_USER`。能力不可用时，给出手动发布包等降级方案。数字人制作的权利确认、手动上传、第三方数据处理、生成、合成和验收边界见 [digital-human-production.md](references/digital-human-production.md)。
+Read [preflight-and-registry.md](references/preflight-and-registry.md). Check only the capabilities the chosen platforms need: writing, images, raw footage or screen recordings, digital-human sensitive assets and platform readiness, and video composition and subtitles. Check the animation pipeline and music licensing only when the video production mode is animated explainer production. Check digital-human sensitive assets and platform readiness, and video composition and subtitles, only when the video production mode is digital-human production; for other content types and for on-camera or footage-based tasks, mark these two as not applicable and do not go into `AWAITING_USER` because of them. When a capability is unavailable, offer a fallback such as a manual publishing pack. For the boundaries of digital-human production (rights confirmation, manual upload, third-party data processing, generation, composition and acceptance), see [digital-human-production.md](references/digital-human-production.md).
 
-### 4. 生成平台原生初稿
+### 4. Write platform-native first drafts
 
-调用 `self-media-platform-copywriting`。不同平台分别设计标题、开头、证据顺序、结构和行动，不做机械缩写。
+Call `self-media-platform-copywriting`. Design the title, opening, order of evidence, structure and call to action separately for each platform; do not just shorten one text mechanically.
 
-内部先生成 6 到 8 个标题，覆盖结果、利益、身份、冲突、反差、好奇和数字等入口。筛选后只向用户展示最强的 3 个，并解释适用入口。
+Generate 6 to 8 titles internally, covering entry points such as result, benefit, identity, conflict, contrast, curiosity and numbers. After screening, show the user only the strongest 3 and explain which entry point each one uses.
 
-先保存完整初稿，再等待标题确认。未确认标题前不生成封面。
+Save the complete first draft before waiting for title approval. Do not make covers before the title is approved.
 
-### 5. 生成视觉或视频素材
+### 5. Make visual or video assets
 
-标题确认后再生成素材。先从 `self-media-platform-copywriting` 的视觉风格库（`references/visual-styles.md`）按内容类型和平台推荐 2 到 3 套风格，一句话说明各自差异，等待用户选择；账号已有稳定风格偏好时默认沿用并告知。该模块未安装时，直接与用户确认画风、色板和构图。
+Make assets only after the title is approved. First recommend 2 to 3 styles from the visual style library of `self-media-platform-copywriting` (`references/visual-styles.md`) based on the content type and platform, say in one sentence how they differ, and wait for the user to choose. When the account already has a stable style preference, use it by default and say so. If that module is not installed, confirm the art style, palette and composition with the user directly.
 
-选定风格写入任务卡视觉锚，再建立“文案到画面”映射。软件或产品内容有真实界面素材时使用真实素材，没有时使用场景或隐喻，不虚构产品 UI。
+Write the chosen style into the task card's visual anchor, then map the copy to visuals. For software or product content, use real interface material when it exists; otherwise use scenes or metaphors, and never invent a product interface.
 
-视频调用 `self-media-short-video`。默认没有原片时交付脚本、分镜、字幕、封面和发布字段。用户明确选择数字人制片时，必须先确认肖像与声音权利，并由用户本人在 Topview 或所选数字人平台中手动上传、创建和选定数字人及声音；本工作流不上传原始头像或录音。用户确认平台素材已就绪后，才调用可用适配器生成讲解片段，再合成画面解析、字幕和人物窗口，最后按目标平台核验比例、时长、声音、字幕和人物裁切。涉及付费生成时遵守运行时工具的费用确认规则。
+For video, call `self-media-short-video`. By default, without raw footage, deliver the script, storyboard, subtitles, cover and publishing fields. When the user explicitly chooses digital-human production, first confirm the likeness and voice rights; the user then uploads, creates and selects the digital human and voice in Topview or another chosen digital-human platform themselves. This workflow never uploads original portraits or recordings. Only after the user confirms the platform assets are ready, call an available adapter to generate the presenter clips, then compose the explanatory visuals, subtitles and presenter window, and finally check the aspect ratio, length, sound, subtitles and presenter framing for each target platform. For paid generation, follow the runtime tool's rules for confirming costs.
 
-用户要无真人出镜的动画解说成片（科普、历史、品牌故事）时，按 `self-media-short-video` 的动画解说制片规范执行：脚本与事实确认、音色试听选定、视觉锚确认后再批量生成素材和渲染。音乐只用本地合成、平台音乐库或用户持有授权的曲目，并记录署名要求。主版本完成后派生各平台版本（YouTube 16:9 加 SRT 字幕，抖音、视频号、小红书 9:16 烧录字幕），记录到发布矩阵。
+When the user wants a finished animated explainer with no on-camera presenter (science, history, brand stories), follow the animated explainer production guidance in `self-media-short-video`: confirm the script and facts, audition and choose a voice, and confirm the visual anchor before generating assets in bulk and rendering. Use only locally synthesized music, a platform's music library or tracks the user holds a license for, and record the attribution requirements. After the master version is finished, derive the version for each platform (YouTube 16:9 with an SRT subtitle file; Douyin, WeChat Channels and Xiaohongshu 9:16 with burned-in subtitles) and record them in the release matrix.
 
-### 6. 质量审校
+### 6. Quality review
 
-完整读取 [quality-gates.md](references/quality-gates.md)，检查：
+Read [quality-gates.md](references/quality-gates.md) in full and check:
 
-1. 事实与证据。
-2. 账号声音和模板化表达。
-3. 平台原生程度。
-4. 标题、正文和视觉一致性。
-5. 内容合规和商业披露。
-6. 发布包完整性。
+1. Facts and evidence.
+2. Account voice and templated writing.
+3. How native each version is to its platform.
+4. Consistency between title, body and visuals.
+5. Compliance and commercial disclosure.
+6. Completeness of the publishing pack.
 
-失败项必须写明修改动作和复检结果。通过审校后等待终稿确认。
+For each failed item, write down the fix and the result of the recheck. After the review passes, wait for final-copy approval.
 
-### 7. 保存、创建草稿或交付发布包
+### 7. Save and deliver the publishing pack
 
-调用 `self-media-content-delivery` 保存里程碑产物并回读验证。只向用户报告已确认存在且非空的文件。
+Save milestone outputs and read them back to verify them. Report to the user only files confirmed to exist and not to be empty.
 
-完整读取 [publishing-and-review.md](references/publishing-and-review.md)。公众号草稿在用户授权后优先调用 `self-media-wechat-publisher` 排版并写入草稿箱；该模块或其依赖不可用时交付手动发布包。视频成片调用 `self-media-video-publisher`：先交付逐平台发布包，用户逐平台授权后再按授权级别填表、私密上传或定时发布。任何平台都不直接群发。
+Read [publishing-pack.md](references/publishing-pack.md) in full and deliver a manual publishing pack for each chosen platform. The user publishes; never broadcast to several platforms at once.
 
-### 8. 数据复盘和风格学习
+### 8. Learn the account's style
 
-发布后调用 `self-media-content-analytics`。记录原始数据，按同平台、同内容类型和相近时间比较，输出核心结论、归因、对比、下次动作和待验证假设。
+Read [style-learning.md](references/style-learning.md). Record a single manual edit only as an observation; it becomes a stable preference only when it repeats or the user explicitly confirms it.
 
-读取 [style-learning.md](references/style-learning.md)。单次人工修改只记为观察，重复出现或用户明确确认后才升级为稳定偏好。
+## Tool adaptation principles
 
-## 工具适配原则
+- First find out which search, browser, image, video and document tools the current environment already provides.
+- Digital-human generation, visual composition and subtitle rendering follow the same principle. Topview MCP is an optional generation adapter, used only after the user has uploaded the sensitive assets themselves and confirmed they are ready; it is not a hard dependency of the core Skills.
+- Prefer official APIs, authenticated connectors or a browser the user is already signed in to.
+- Do not require the user to install a particular vendor's tool for this Skill.
+- When charts, tables or reports are needed, reuse the document and data capabilities the environment already has.
+- Use the environment's scheduling capabilities only when the user explicitly asks for reminders.
+- Never write cookies, tokens, secrets or complete credentials into task cards, logs or the repository.
+- Never write original portraits, recordings, their local paths, temporary upload or download links, object storage keys or digital-human platform private IDs into task cards, logs, the content registry or the repository. Index paths of deliverables such as generated clips, final videos and subtitles are recorded as usual; resource IDs needed at run time are used only as temporary references for that operation.
+- Collection tools are read-only by default. When a CAPTCHA, rate limit or platform risk control appears, stop at once and hand over to the user.
+- Platforms such as Bilibili can be used as public, read-only research sources, but they become creation platforms only when the user chooses them.
 
-- 先发现当前环境已经提供的搜索、浏览器、图片、视频、文档、发布和数据工具。
-- 数字人生成、画面合成和字幕渲染遵循同一适配原则；Topview MCP 只在用户完成敏感素材手动上传并确认就绪后作为可选生成适配器，不是核心 Skill 的硬依赖。
-- 优先使用官方 API、已认证连接器或用户已登录的浏览器。
-- 不要求用户为了本 Skill 安装某个特定厂商工具。
-- 需要图表、表格或报告时复用当前环境已有的文档和数据能力。
-- 只有用户明确要求提醒或定期复盘时，才使用当前环境的调度能力。
-- 不把 Cookie、Token、Secret 或完整凭证写入任务卡、日志或仓库。
-- 不把原始头像、录音及其本机路径、临时上传/下载链接、对象存储键或数字人平台私有标识写入任务卡、日志、内容注册表或仓库；生成片段、最终成片和字幕等交付物的索引路径正常记录，运行时必需的资源标识只做本次操作的临时引用。
-- 采集工具默认只读。验证码、限流和平台风控出现时立即停止并交给用户。
-- B 站等平台可以作为公开只读研究源，但只有用户选择时才成为创作平台。
+## Completion status
 
-## 完成状态
+Each time you pause or finish, report the current task, completed stages, output paths, known fallbacks and the single next action. Use these statuses:
 
-每次暂停或结束时报告：当前任务、已完成阶段、产物路径、已知降级项和下一步唯一动作。使用以下状态：
+- `AWAITING_USER`: waiting for the direction, platforms, title, final copy or permission for an external write action, or for the user to upload, create and select assets on the digital-human platform themselves.
+- `DONE`: every authorized step for this session is complete.
+- `DONE_WITH_CONCERNS`: complete, but with clear fallbacks.
+- `BLOCKED`: a key dependency failed and the work cannot continue now.
+- `NEEDS_CONTEXT`: information that would change the result is missing.
 
-- `AWAITING_USER`：等待方向、平台、标题、终稿、发布授权，或等待用户在数字人平台手动上传、创建和选定素材。
-- `DONE`：本次已授权步骤全部完成。
-- `DONE_WITH_CONCERNS`：完成但存在明确降级。
-- `BLOCKED`：关键依赖失败且当前无法继续。
-- `NEEDS_CONTEXT`：缺少会改变结果的必要信息。
+## Resources
 
-## 资源
-
-- 平台选择：[platforms.md](references/platforms.md)
-- 发布预检和内容注册：[preflight-and-registry.md](references/preflight-and-registry.md)
-- 质量审校：[quality-gates.md](references/quality-gates.md)
-- 发布和复盘：[publishing-and-review.md](references/publishing-and-review.md)
-- 风格学习：[style-learning.md](references/style-learning.md)
-- 数字人视频制作：[digital-human-production.md](references/digital-human-production.md)
-- 动画解说制片：[animated-explainer-production.md](../self-media-short-video/references/animated-explainer-production.md)
-- 视频多平台版本：[video-platform-versions.md](../self-media-short-video/references/video-platform-versions.md)
-- 任务卡：[content-task-template.md](assets/content-task-template.md)
-- 内容注册表：[content-registry-template.md](assets/content-registry-template.md)
+- Platform selection: [platforms.md](references/platforms.md)
+- Preflight and content registry: [preflight-and-registry.md](references/preflight-and-registry.md)
+- Quality review: [quality-gates.md](references/quality-gates.md)
+- Publishing pack: [publishing-pack.md](references/publishing-pack.md)
+- Style learning: [style-learning.md](references/style-learning.md)
+- Digital-human video production: [digital-human-production.md](references/digital-human-production.md)
+- Animated explainer production: [animated-explainer-production.md](../self-media-short-video/references/animated-explainer-production.md)
+- Multi-platform video versions: [video-platform-versions.md](../self-media-short-video/references/video-platform-versions.md)
+- Task card: [content-task-template.md](assets/content-task-template.md)
+- Content registry: [content-registry-template.md](assets/content-registry-template.md)

@@ -1,31 +1,31 @@
-# 研究与采集安全
+# Research and collection safety
 
-## 账号隔离
+## Account separation
 
-- 不使用需要经营或变现的主账号登录态执行自动化竞品采集。
-- 优先使用官方公开页面、匿名接口、用户提供链接和公开只读数据。
-- 必须登录才能研究时，使用独立采集账号，并先获得用户同意。
+- Do not use the login of a main account that is run or monetized for automated competitor collection.
+- Prefer official public pages, anonymous interfaces, links the user provides and public read-only data.
+- When research truly requires a login, use a separate collection account, and get the user's consent first.
 
-## 只读边界
+## Read-only boundary
 
-- 允许访问、搜索、读取、截图和记录公开信息。
-- 不自动点赞、评论、关注、收藏、私信或发布。
-- 不绕过验证码、登录限制、付费墙或访问控制。
+- Visiting, searching, reading, taking screenshots and recording public information are allowed.
+- Do not like, comment, follow, save, send messages or publish automatically.
+- Do not get around CAPTCHAs, login limits, paywalls or access controls.
 
-## 控频和样本
+## Rate control and samples
 
-- 在开始前限定平台、时间范围、关键词和样本数量。
-- 不连续快速翻页或批量抓取无关内容。
-- 遇到限流、验证码、异常响应或风控提示时立即停止。
+- Before starting, limit the platforms, time range, keywords and sample size.
+- Do not page quickly through results or collect unrelated content in bulk.
+- Stop at once on rate limits, CAPTCHAs, unusual responses or risk-control warnings.
 
-## 凭证与隐私
+## Credentials and privacy
 
-- 不在命令行、聊天、任务卡、日志或仓库中暴露完整 Cookie、Token 和 Secret。
-- 不下载或保存不属于研究所需的个人信息。
-- 引用评论时去除可识别信息，除非评论本身是公开署名且引用必要。
+- Do not expose complete cookies, tokens or secrets in the command line, chat, task cards, logs or the repository.
+- Do not download or keep personal information the research does not need.
+- When quoting comments, remove identifying information, unless the comment is publicly signed and quoting it is necessary.
 
-## 原创与合规
+## Originality and compliance
 
-- 竞品样本只用于分析需求、结构、表达和公开数据。
-- 不复制段落、脚本、画面和独特表达。
-- 不把公开互动量直接解释为真实收入、转化或商业成功。
+- Use competitor samples only to analyze needs, structure, expression and public data.
+- Do not copy paragraphs, scripts, visuals or distinctive expressions.
+- Do not read public engagement numbers as real income, conversions or commercial success.

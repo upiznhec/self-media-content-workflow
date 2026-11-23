@@ -1,50 +1,50 @@
 # Reddit
 
-## 适合内容
+## Suitable content
 
-真实经验、踩坑复盘、开源项目和自己做的工具展示、对具体问题的回答。Reddit 用户对营销腔和 AI 生成内容很敏感，内容价值必须先于产品出现。
+Real experience, retrospectives of mistakes, open-source projects and tools you built yourself, and answers to specific questions. Reddit users are very sensitive to marketing language and AI-generated content, so the value of the content must come before the product.
 
-## 产物
+## Outputs
 
-二选一：
+One of two:
 
-- **回复**：在已有讨论帖下回答楼主的问题。优先这一种，前提是帖子由 `self-media-trend-radar` 的 [Reddit 讨论发现](../../self-media-trend-radar/references/reddit-discovery.md)选出，或由用户提供。
-- **发帖**：只发到明确欢迎项目展示的子版块，或发在子版块的项目展示周帖里。
+- **Reply**: answer the original poster's question in an existing thread. Prefer this one, provided the thread was chosen through the [Reddit discussion discovery](../../self-media-trend-radar/references/reddit-discovery.md) of `self-media-trend-radar` or was given by the user.
+- **Post**: post only to subreddits that clearly welcome project showcases, or in a subreddit's weekly showcase thread.
 
-每条产物附：目标子版块和帖子链接、该版相关版规摘要、能不能放链接、需要用户确认的个人经历。
+Each output comes with the target subreddit and thread link, a summary of that subreddit's relevant rules, whether a link may be included, and the personal experiences the user needs to confirm.
 
-## 先读版规
+## Read the rules first
 
-写之前读目标子版块的版规，按版规决定写不写、放不放链接：
+Before writing, read the target subreddit's rules and decide by them whether to write and whether to include a link:
 
-- 版规禁止 AI 生成回复的子版块，不起草，直接告诉用户该版需要本人亲自写。
-- 版规禁止自我推广或工具链接的子版块，只写不带链接、不提产品名的经验回答，或者不写。
-- 允许链接的子版块，链接只放一个，并写明「这是我做的」一类的关系说明。
-- 版规要求自荐比例时（如十条里最多一条），提醒用户控制频率。
+- If the subreddit bans AI-generated replies, do not draft; tell the user that this subreddit needs them to write it themselves.
+- If the subreddit bans self-promotion or tool links, write only an answer based on experience, with no link and no product name, or do not write.
+- If the subreddit allows links, include only one, and state the relationship, for example "I built this".
+- If the rules set a self-promotion ratio (such as at most one post in ten), remind the user to keep to that frequency.
 
-版规会变，以发帖时子版块页面为准。
+Rules change; follow the subreddit page at the time of posting.
 
-## 写法
+## How to write
 
-- 第一句直接回答楼主的问题，不寒暄，不复述问题。
-- 用第一人称讲具体做法和取舍，产品只作为做法的出处出现。
-- 口语、短段落，不用列表堆功能，不用营销词，不用破折号，不写总结式结尾。
-- 中文账号的读者不熟悉的平台名（如小红书）第一次出现时加一句英文解释。
-- 不编造用户没有提供的使用时长、数据、效果和经历。草稿里出现的个人经历全部列为待用户确认项，用户没确认的删掉。
-- 推荐链接、联盟链接不放进 Reddit。
+- Answer the original poster's question in the first sentence; no small talk, and do not restate the question.
+- Use the first person to describe concrete methods and trade-offs; the product appears only as the source of the method.
+- Conversational, short paragraphs; no lists of features, no marketing words, no dashes, no summarizing ending.
+- The first time a platform or product name that Reddit readers may not know appears (such as Xiaohongshu), add one sentence explaining it.
+- Do not invent how long the user has used something, or data, effects and experiences the user has not provided. List every personal experience in the draft as an item for the user to confirm, and delete those the user does not confirm.
+- Do not put referral or affiliate links on Reddit.
 
-## 改写
+## Rewriting
 
-初稿完成后，可交给另一个模型改写一遍，去掉书面腔和工整句式。改写稿必须逐条对照初稿：事实、链接、产品名和关系说明没有被改，没有新增经历和数字。改写不能用来让 AI 生成内容规避禁止 AI 内容的版规。
+After the first draft, you can hand it to another model to rewrite once, to remove a formal written tone and overly neat sentences. Check the rewrite item by item against the first draft: the facts, links, product names and relationship statement have not changed, and no experiences or numbers have been added. Rewriting must not be used to slip AI-generated content past rules that ban AI content.
 
-## 发布
+## Publishing
 
-只交付草稿，由用户本人登录发布。不自动发帖、不自动回复、不用多个账号互相点赞，同一段文字不复制到多个帖子。
+Deliver drafts only; the user logs in and posts personally. Do not post or reply automatically, do not use several accounts to upvote each other, and do not copy the same text into several threads.
 
-## 检查
+## Checks
 
-- 版规允许这种内容和链接吗。
-- 第一句是否回答了楼主。
-- 去掉产品链接后，这条回复还有没有用。
-- 个人经历是否都经过用户确认。
-- 关系说明是否清楚。
+- Do the subreddit rules allow this kind of content and link?
+- Does the first sentence answer the original poster?
+- Without the product link, is the reply still useful?
+- Has the user confirmed every personal experience?
+- Is the relationship statement clear?

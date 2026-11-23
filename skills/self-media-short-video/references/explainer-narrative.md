@@ -1,85 +1,85 @@
-# 解说视频的节奏与风格
+# Pacing and style of explainer videos
 
-本规范总结自一组高流量的 2 到 3 分钟科普解说视频：它们没有配音，只靠配乐和文字动画讲完一个科学或历史故事。适用于动画解说制片的脚本和画面设计，有配音的视频同样适用。下文时间点以 2 分钟为参考，90 秒的片子按比例压缩。
+This guidance is drawn from a group of high-traffic science explainer videos, 2 to 3 minutes long. They have no voice-over and tell a science or history story with only music and animated text. It applies to the script and visual design of animated explainer production, and works for videos with a voice-over too. The time points below use a 2-minute video as the reference; compress them in proportion for a 90-second video.
 
-## 结构
+## Structure
 
-| 位置 | 段落 | 任务 |
+| Position | Section | Job |
 |---|---|---|
-| 0 到 5 秒 | 第二人称钩子 | 用“你”的身体、日常或情绪把观众拉进来，或者抛出一句能反复出现的母题短句 |
-| 5 到 15 秒 | 核心问题 | 提出一个贯穿全片的问题，观众留下来就是为了等答案 |
-| 15 到 20 秒 | 片名卡 | 问题抛出之后再亮片名，可以带新闻钩子（如当年的诺贝尔奖、周年、发布会） |
-| 前 1/4 | 赌注 | 说明为什么重要：一个代价、一场事故、一个反差 |
-| 中段 | 拆解 | 把答案拆成 2 到 4 步，用进度装置串起来，每完成一步回到装置一次 |
-| 约 2/3 处 | 情绪高点 | 一个具体的人加一个具体的细节（日期、地点、物件） |
-| 结尾前 | 人物与出处 | 屏幕上写出真实人物的中英文名、机构、论文或专利年份 |
-| 结尾 | 回扣开头 | 重复开头的动作或母题句，此时它的意思已经变了 |
-| 最后一句 | 开放式结尾 | 把问题还给观众，不总结、不说教 |
+| 0 to 5 seconds | Second-person hook | Draw viewers in through "your" body, daily life or feelings, or open with a short motif line that can recur |
+| 5 to 15 seconds | Central question | Raise one question that runs through the whole video; viewers stay to hear the answer |
+| 15 to 20 seconds | Title card | Show the title only after the question is raised, possibly with a news hook (such as that year's Nobel Prize, an anniversary or a launch event) |
+| First quarter | The stakes | Say why it matters: a cost, an accident, a contrast |
+| Middle | Breakdown | Split the answer into 2 to 4 steps linked by a progress device, and return to the device after each step |
+| About two-thirds in | Emotional peak | One specific person plus one specific detail (a date, a place, an object) |
+| Before the end | People and sources | Show the real person's name, their institution, and the year of the paper or patent on screen |
+| End | Callback to the opening | Repeat the opening action or motif line; by now its meaning has changed |
+| Last line | Open ending | Hand the question back to the viewers; do not summarize or preach |
 
-### 钩子写法
+### Writing hooks
 
-- **第二人称**：“你每天上车第一件事，是在用一个 1959 年的发明。”让观众先意识到“和我有关”。
-- **母题句**：“这个名字，被法院没收过一次。”短、有反差，可以在中段和结尾各重复一次。
-- 第三人称的冲突陈述也有效（“法院判决：他不能再用自己的名字造车”），但第二人称更容易让刷到的人停下来。两种写法可以作为实验变量交替使用。
+- **Second person**: "The first thing you do every time you get in a car is use an invention from 1959." It makes viewers realize first that "this is about me".
+- **Motif line**: "This name was once taken away by a court." Short and with a contrast; it can be repeated once in the middle and once at the end.
+- A third-person statement of conflict also works ("A court ruled that he could no longer build cars under his own name"), but the second person makes people scrolling past more likely to stop. The two can be alternated as an experiment variable.
 
-### 进度装置
+### Progress devices
 
-给观众一个看得见的进度，让他知道故事走到哪了、还剩多少：
+Give viewers visible progress, so they know where the story is and how much is left:
 
-- 清单打勾：“要做到这件事，需要三个条件”，然后一条条打勾。
-- 计数器：年份、数量、百分比随叙事滚动。
-- 年份推进：时间轴上的里程碑依次点亮，但每一站都要回答核心问题。
-- 前后对照：同一个数字在开头和结尾各出现一次。
+- Checklist ticks: "Three conditions are needed for this to work", then tick them off one by one.
+- Counters: years, quantities and percentages that roll along with the story.
+- Years moving forward: milestones on a timeline light up in turn, but every stop must answer the central question.
+- Before and after: the same number appears once at the beginning and once at the end.
 
-### 避免流水账
+### Avoid a list of dates
 
-按年份罗列事实（1899 年……1909 年……1932 年……）是最常见的掉留存原因。时间线只有在每一站都推进核心问题时才用；否则改成“问题，拆解，答案”的结构，年份降为屏幕上的小字。
+Listing facts year by year (1899... 1909... 1932...) is the most common reason viewers drop off. Use a timeline only when every stop moves the central question forward; otherwise switch to a "question, breakdown, answer" structure, and turn the years into small on-screen text.
 
-## 写作规则
+## Writing rules
 
-- 一行一意，每行不超过 14 个字，屏幕停留 1 到 2.5 秒。2 分钟大约 70 到 110 行。
-- 用破折号制造悬念，下一行揭晓：“问题出在一个你天天看见的地方——”
-- 先比喻后机制：抽象概念先给日常类比（城市的灯光、钥匙和锁、一扇门），再讲原理。
-- 每段至少一个精确数字，并用动画呈现（滚动计数、进度条、对比柱）；数字旁边用小字标出处。
-- 每行最多 1 到 2 个关键词用强调色，通常是数字、反差词或核心名词。
-- 母题句全片重复 2 到 3 次：开头、中段、结尾。
-- 至少一个“小人物细节”：某人在哪一天、在什么地方、用了什么东西。
-- 有配音时，屏幕字幕与口播逐句一致；没有配音时，文字就是旁白，节奏要更紧。
+- One idea per line, short enough to read as one line on a phone. Each line stays on screen for 1 to 2.5 seconds; a 2-minute video has about 70 to 110 lines.
+- Use a dash to build suspense, and reveal on the next line: "The problem lies somewhere you see every day—"
+- Metaphor before mechanism: give an everyday analogy for an abstract concept first (city lights, a key and a lock, a door), then explain the principle.
+- Each section has at least one precise number, shown with animation (a rolling counter, a progress bar, comparison bars), with the source in small text next to it.
+- At most 1 to 2 key words per line in the accent color, usually numbers, contrasting words or core nouns.
+- Repeat the motif line 2 to 3 times in the video: at the beginning, in the middle and at the end.
+- At least one "small-person detail": on what day, in what place and with what object someone did something.
+- With a voice-over, the on-screen subtitles match the spoken lines sentence by sentence; without a voice-over, the text is the narration, and the pace must be tighter.
 
-## 画面风格
+## Visual style
 
-- **系列统一的家族风格**：一种底色（通常偏暗）、一种暖色主色、一种冷色点缀，字体和版式全系列不变，让观众一眼认出是你的视频。
-- **文字是主角**：大号衬线标题加居中字幕，留白多，画面元素为文字服务。
-- **画面路线**：
-  - 程序化动态图形（粒子、线描、图表、计数器，用代码生成）：适合抽象的科学、数据和机制，成本低、数字精确、风格稳定。
-  - 插画场景（AI 绘制素材）：适合人物、历史、实物和年代感。
-  - 混合：插画场景承担年代和人物，动态图形承担数字和机制。
-- 每个比喻都要有对应的视觉隐喻，画面跟着文字变形。
-- 画面以连续变形和推拉为主，少用硬切；一条 2 分钟的片子硬切可以少到 3 到 5 次。
+- **One family style for the series**: one background color (usually dark), one warm main color and one cool accent, with the same fonts and layout throughout the series, so viewers recognize your videos at a glance.
+- **Text is the lead**: large serif titles plus centered subtitles, plenty of empty space, and visual elements that serve the text.
+- **Visual routes**:
+  - Procedural motion graphics (particles, line drawings, charts, counters, generated by code): good for abstract science, data and mechanisms; low cost, exact numbers and a stable style.
+  - Illustrated scenes (AI-drawn assets): good for people, history, physical objects and a sense of period.
+  - Mixed: illustrated scenes carry the period and the people; motion graphics carry the numbers and mechanisms.
+- Every metaphor needs a matching visual metaphor, and the picture changes shape along with the text.
+- Visuals mostly use continuous morphing, push-ins and pull-outs, with few hard cuts; a 2-minute video can have as few as 3 to 5 hard cuts.
 
-## 配乐
+## Music
 
-- 纯配乐也能撑满 2 分钟：选慢速（约 55 到 70 BPM）、小调、低频铺底、全程响度平稳的氛围曲，不和文字抢注意力。
-- 有配音时同样选平稳的氛围曲，解说时再压低。
-- 在音频库里检索时可用：Ambient、Cinematic、Calm、Dark、Piano、Pads。
-- 系列可以固定一首或一组配乐，成为听觉标识；授权和署名要求照常记录。
+- Music alone can carry 2 minutes: choose a slow (about 55 to 70 BPM), minor-key ambient track with a low-frequency bed and steady loudness throughout, so it does not compete with the text for attention.
+- With a voice-over, also choose a steady ambient track, and lower it under the narration.
+- Search terms for audio libraries: Ambient, Cinematic, Calm, Dark, Piano, Pads.
+- A series can keep one track or one set of tracks as its sound identity; record the license and attribution requirements as usual.
 
-## 两种成片形态
+## Two final formats
 
-| 形态 | 适合 | 代价 |
+| Format | Suits | Cost |
 |---|---|---|
-| 配音加字幕 | YouTube 主版本，需要声音建立信任的账号 | 需要合成配音或真人录音 |
-| 纯字幕加配乐 | 小红书、视频号、X 等静音浏览为主的信息流 | 不需要配音、制作更快，但全靠文字节奏，每行都要更短更狠 |
+| Voice-over plus subtitles | YouTube master versions, and accounts that need a voice to build trust | Needs a synthetic voice or a human recording |
+| Subtitles only, plus music | Feeds browsed mostly with the sound off, such as Xiaohongshu, WeChat Channels and X | No voice-over needed and faster to make, but it depends entirely on the rhythm of the text, so every line must be shorter and sharper |
 
-同一个母题可以先出配音版，再用同一套画面和字幕派生纯字幕版，作为实验。
+For the same core topic, you can make the voice-over version first, then derive a subtitles-only version from the same visuals and subtitles, as an experiment.
 
-## 自检清单
+## Self-check
 
-- 前 5 秒有没有出现“你”，或一句能重复的母题句？
-- 15 秒内有没有提出一个明确的问题？
-- 有没有一个进度装置，且中途至少回到它两次？
-- 有没有按年份罗列却不推进问题的段落？
-- 每个关键数字是否都有动画呈现和出处小字？
-- 情绪高点是否有一个具体的人和一个具体的细节？
-- 结尾是否回扣开头，并以一个问题收束？
-- 关掉声音，只看字幕，能不能看懂全片？
+- Does "you" or a repeatable motif line appear in the first 5 seconds?
+- Is a clear question raised within 15 seconds?
+- Is there a progress device, and does the video return to it at least twice?
+- Are there sections that list years without moving the question forward?
+- Is every key number animated and marked with its source in small text?
+- Does the emotional peak have one specific person and one specific detail?
+- Does the ending call back to the opening and close with a question?
+- With the sound off and only the subtitles, can the whole video be understood?

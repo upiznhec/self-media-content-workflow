@@ -1,69 +1,69 @@
-# 视频发布矩阵：{主题}
+# Video release matrix: {topic}
 
-- 主版本：{文件路径}（画幅、分辨率、时长）
-- 音频：平均响度 {dB}，峰值 {dB}
-- 字幕文件：{SRT 路径}
-- 配乐：{曲名 - 作者}，授权 {类型}，署名文本：{文本}
-- AI 生成内容：画面 {是/否}，配音 {是/否}
+- Master version: {file path} (aspect ratio, resolution, length)
+- Audio: average loudness {dB}, peak {dB}
+- Subtitle file: {SRT path}
+- Music: {track title - artist}, license {type}, attribution text: {text}
+- AI-generated content: visuals {yes/no}, voice-over {yes/no}
 
-## 版本
+## Versions
 
-| 平台 | 视频文件 | 画幅 | 时长 | 字幕 | 封面 | 标题 | 状态 |
+| Platform | Video file | Aspect ratio | Length | Subtitles | Cover | Title | Status |
 |---|---|---|---|---|---|---|---|
-| YouTube | | 16:9 | | SRT 上传 | | | 未开始 |
-| 抖音 | | 9:16 | | 烧录 | | | 未开始 |
-| 视频号 | | | | 烧录 | | | 未开始 |
-| 小红书 | | | | 烧录 | | | 未开始 |
+| YouTube | | 16:9 | | SRT upload | | | Not started |
+| Douyin | | 9:16 | | Burned in | | | Not started |
+| WeChat Channels | | | | Burned in | | | Not started |
+| Xiaohongshu | | | | Burned in | | | Not started |
 
-## 各平台发布字段
+## Publishing fields for each platform
 
 ### YouTube
 
-- 标题：
-- 描述（含章节和署名）：
-- 标签：
-- 缩略图：
-- 字幕文件：
-- 观众设置（是否为儿童内容）：
-- 更改或合成内容声明：
-- 公开范围：私密 / 不公开 / 公开 / 定时
+- Title:
+- Description (with chapters and attribution):
+- Tags:
+- Thumbnail:
+- Subtitle file:
+- Audience setting (made for kids or not):
+- Altered or synthetic content declaration:
+- Visibility: private / unlisted / public / scheduled
 
-### 抖音
+### Douyin
 
-- 标题或发布文案：
-- 话题：
-- 封面：
-- AI 生成声明：
-- 合集：
+- Title or publishing copy:
+- Hashtags:
+- Cover:
+- AI-generated declaration:
+- Collection:
 
-### 视频号
+### WeChat Channels
 
-- 描述：
-- 话题：
-- 封面：
-- AI 生成声明：
-- 合集或活动：
+- Description:
+- Hashtags:
+- Cover:
+- AI-generated declaration:
+- Collection or campaign:
 
-### 小红书
+### Xiaohongshu
 
-- 标题：
-- 正文：
-- 话题：
-- 封面（3:4）：
-- AI 生成声明：
+- Title:
+- Body:
+- Hashtags:
+- Cover (3:4):
+- AI-generated declaration:
 
-## 发布授权与结果
+## Publishing (as reported by the user)
 
-| 平台 | 发布方式 | 用户授权 | 授权时间 | 结果 | 链接 |
-|---|---|---|---|---|---|
-| YouTube | 手动 / 填表助手 / 私密上传 / 定时 | 否 | | | |
-| 抖音 | | 否 | | | |
-| 视频号 | | 否 | | | |
-| 小红书 | | 否 | | | |
+| Platform | Published | Time | Link |
+|---|---|---|---|
+| YouTube | no | | |
+| Douyin | no | | |
+| WeChat Channels | no | | |
+| Xiaohongshu | no | | |
 
-## 核验
+## Checks
 
-- 各版本时长、画幅、音轨已核验：否
-- 字幕和片尾署名可读：否
-- 描述中的配乐署名已写：否
-- 手机预览已完成：否
+- Length, aspect ratio and audio track of each version checked: no
+- Subtitles and end attribution readable: no
+- Music attribution written in the description: no
+- Phone preview done: no

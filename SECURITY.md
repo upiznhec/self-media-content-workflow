@@ -2,21 +2,20 @@
 
 ## Supported version
 
-安全修复优先应用于最新版本。
+Security fixes are applied to the latest version first.
 
 ## Reporting
 
-请使用 GitHub Private Vulnerability Reporting 或 Security Advisory 私下报告安全问题。不要在公开 Issue 中提交 Cookie、Token、Secret、登录截图、用户数据或可复现的账号接管信息。
+Report security issues privately through GitHub Private Vulnerability Reporting or a security advisory. Do not post cookies, tokens, secrets, login screenshots, user data or reproducible account-takeover details in public issues.
 
 ## Security boundaries
 
-- 竞品研究默认只读，不使用创作者主账号登录态自动采集。
-- 不自动点赞、评论、关注、私信或群发。
-- 不绕过验证码、限流、付费墙或平台访问控制。
-- 不在 Skill、任务卡、日志和仓库保存完整凭证。
-- 数字人制片中不代替用户上传原始头像或录音；头像与声音由用户本人在所选平台手动上传、创建并选定。
-- 不在任务卡、日志、内容注册表和仓库持久化原始头像、录音等原始敏感素材及其本机路径、临时链接、对象存储键或数字人平台私有标识，只记录生成片段、字幕和最终视频等交付物的索引路径。
-- 视频上传逐平台授权，优先上传为私密或草稿；不一键群发，不代输密码或验证码。上传工具保存的登录态、OAuth 令牌只留在用户本机，不写入任务卡、日志、发布包或仓库。
-- 不为躲避版权识别而变速、加噪音或裁切画面。
-- 外部写操作必须获得用户明确授权。
-- 平台风控、登录失效或权限异常出现时立即停止。
+- Competitor research is read-only by default and never collects automatically with the creator's main account login.
+- No automatic likes, comments, follows, direct messages or mass messages.
+- No getting around CAPTCHAs, rate limits, paywalls or platform access controls.
+- No complete credentials are saved in Skills, task cards, logs or the repository.
+- In digital-human production, original portraits and recordings are never uploaded on the user's behalf; the user uploads, creates and selects the portrait and voice on the chosen platform themselves.
+- Original sensitive assets such as portraits and recordings, and their local paths, temporary links, object storage keys or digital-human platform private IDs, are never kept in task cards, logs, the content registry or the repository. Only index paths of deliverables such as generated clips, subtitles and final videos are recorded.
+- No changing the speed, adding noise or cropping the picture to dodge copyright detection.
+- External write actions need the user's explicit permission.
+- Stop at once when platform risk controls, expired logins or permission errors appear.

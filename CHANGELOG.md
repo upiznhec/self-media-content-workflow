@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## English edition - 2026-11-22
+
+Based on the original repository, [yanhua1010/self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow), at commit `1cdc246` (2026-11-09).
+
+### Changes
+
+- Translate all kept Skills, references, templates and repository files into English, keeping the method and the meaning.
+- Keep `self-media-content-workflow` (trimmed to the kept modules), `self-media-content-brief`, `self-media-content-strategy`, `self-media-trend-radar` (research process and Reddit discussion discovery), `self-media-platform-copywriting` and `self-media-short-video`.
+- Remove `self-media-content-analytics`, `self-media-content-delivery`, `self-media-wechat-publisher`, `self-media-video-publisher`, the workbench app, and the trend radar's overseas comparison mode with its scripts. The workflow now ends with a publishing pack, and the user publishes.
+- Rewrite rules that counted Chinese characters by what they are for: on-screen text and subtitle lines are short enough to read as one line on a phone, and narration length is estimated at about 150 words a minute. Remove details that only applied to Chinese text or Chinese-speaking viewers.
+- Add a note on platforms that are not covered: Instagram and Facebook (follow the Xiaohongshu method), TikTok (use the short-video Skill) and LinkedIn.
+
+The entries below come from the original repository. Some of them describe parts that this edition removed.
+
 ## Unreleased
 
 ### Features

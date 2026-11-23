@@ -1,24 +1,21 @@
-# 内容注册表
+# Content registry
 
-> 只记录索引和状态。证据、版本和详细数据保存在任务卡与复盘文件中。
+> Records only indexes and statuses. Evidence, versions and detailed data stay in the task cards.
 >
-> `类型` 可填写“数字人视频”；`素材` 只记录用户内容目录中数字人生成片段、最终合成视频和字幕文件的索引路径，不记录原始头像、录音及其本机路径、临时链接或平台私有标识，也不把媒体文件写入公开的 Skill 源码仓库。
+> `Type` can be "digital-human video". `Assets` records only the index paths, in the user's content folder, of generated digital-human clips, the final composed video and subtitle files. Never record original portraits, recordings, their local paths, temporary links or platform private IDs, and never put media files into the public Skill source repository.
 
-| 日期 | 母题 | 类型 | 目标 | 平台 | 任务卡 | 原稿 | 终稿 | 素材 | 状态 | 发布链接 | 复盘 |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | | | |
+| Date | Core topic | Type | Goal | Platforms | Task card | First draft | Final copy | Assets | Status | Publish link |
+|---|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | | |
 
-## 状态
+## Statuses
 
-- 需求澄清
-- 研究与证据
-- 创作中
-- 等待标题确认
-- 素材生成
-- 质量审校
-- 等待终稿确认
-- 待发布
-- 草稿已创建
-- 已发布
-- 待复盘
-- 已复盘
+- Clarifying needs
+- Research and evidence
+- Writing
+- Awaiting title approval
+- Making assets
+- Quality review
+- Awaiting final-copy approval
+- Publishing pack delivered
+- Published

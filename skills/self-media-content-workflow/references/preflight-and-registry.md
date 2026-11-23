@@ -1,54 +1,47 @@
-# 发布预检与内容注册
+# Preflight and content registry
 
-## 发布预检
+## Preflight
 
-在完整写稿和生成素材前，只检查已选平台需要的能力：
+Before writing the full draft and making assets, check only the capabilities the chosen platforms need:
 
-| 能力 | 检查内容 | 不可用时 |
+| Capability | What to check | If unavailable |
 |---|---|---|
-| 写作 | 平台模块、目标语言、项目格式 | 交付 Markdown 初稿 |
-| 图片 | 生成或编辑工具、参考素材、输出目录 | 交付视觉方案和提示词 |
-| 视频原片或录屏 | 原片、录屏、字幕、音频和剪辑工具 | 交付脚本、分镜和素材清单 |
-| 数字人敏感素材与平台就绪 | 肖像/声音权利确认、第三方数据处理条款、用户手动上传完成、可用数字人/声音已选定和发音词表 | 保持 `AWAITING_USER`，交付数字人分镜、台词、头像要求和手动上传清单 |
-| 视频合成与字幕 | 画面解析素材、人物窗口、字幕渲染和竖屏导出能力 | 交付画面映射、字幕稿、合成规格和可手动完成的发布包 |
-| 动画制片管线 | 配音、图像生成和视频合成能力（如已安装的动画制片 Skill）、凭证是否已配置（只判断存在性）、预估费用 | 交付段落脚本、分镜、画面提示词、配音稿和素材清单 |
-| 配乐授权 | 曲目来源（本地合成、平台音乐库、用户授权曲目）、授权类型和署名要求 | 使用本地合成或平台音乐库，或交付无配乐版本 |
-| 视频上传 | 官方 API、填表助手、上传工具或已登录浏览器；各平台可用的发布级别 | 交付逐平台手动发布包 |
-| 草稿 | 已认证连接器、API、发布 CLI（如公众号的 wenyan）或已登录浏览器 | 交付手动发布包 |
-| 数据 | 后台截图、导出文件或只读连接器 | 标记缺失字段，不估算 |
+| Writing | Platform module, target language, project format | Deliver a Markdown first draft |
+| Images | Generation or editing tools, reference material, output folder | Deliver a visual plan and prompts |
+| Raw footage or screen recordings | Footage, screen recordings, subtitles, audio and editing tools | Deliver a script, storyboard and asset list |
+| Digital-human sensitive assets and platform readiness | Likeness and voice rights confirmed, third-party data-processing terms, the user's manual upload done, a digital human and voice selected, and a pronunciation list | Stay in `AWAITING_USER`; deliver the digital-human storyboard, lines, portrait requirements and a manual upload checklist |
+| Video composition and subtitles | Explanatory visuals, presenter window, subtitle rendering and vertical export | Deliver the visual mapping, subtitle script, composition specs and a publishing pack that can be finished by hand |
+| Animation pipeline | Voice, image generation and video composition (for example an installed animation production Skill), whether credentials are configured (check only that they exist), estimated cost | Deliver the section script, storyboard, image prompts, voice-over script and asset list |
+| Music licensing | Track source (local synthesis, a platform music library, tracks the user holds a license for), license type and attribution requirements | Use local synthesis or a platform music library, or deliver a version without music |
 
-动画制片管线和配乐授权仅在视频制作模式为动画解说制片时检查；视频上传仅在用户希望由工作流上传视频时检查。数字人敏感素材与平台就绪、视频合成与字幕仅在任务卡视频制作模式为数字人制片时检查；其他内容类型和真人出镜、素材解析任务将这两项标记为不适用，不因此保持 `AWAITING_USER`。
+Check the animation pipeline and music licensing only when the video production mode is animated explainer production. Check digital-human sensitive assets and platform readiness, and video composition and subtitles, only when the task card's video production mode is digital-human production; for other content types and for on-camera or footage-based tasks, mark these two as not applicable and do not stay in `AWAITING_USER` because of them.
 
-预检只报告能力是否可用，不输出凭证内容。
+The preflight reports only whether a capability is available; it never prints credential contents.
 
-## 数字人敏感素材安全
+## Digital-human sensitive asset safety
 
-- 用户本人在 Topview 或所选数字人平台中手动上传、创建和选定头像与声音；本工作流不调用上传凭证、文件上传或声音克隆接口代传。
-- 上传前确认用户是本人或持有明确授权，并提示其阅读所选平台当前关于存储、模型改进、第三方处理、删除和退出机制的条款。
-- 任务卡和内容注册表对敏感素材只记录权利确认、条款已知悉、手动上传完成和素材已选定等状态；生成片段、最终成片和字幕等交付物的索引路径可写入任务卡、内容注册表和保存验证。
-- 不记录原始头像、录音及其本机路径、临时上传/下载链接、对象存储键、文件 ID、数字人 ID、声音 ID 或可用于重新获取敏感素材的私有标识。
-- 运行时必需的资源标识只做本次授权操作的临时引用，不写入任务卡、日志、内容注册表或仓库。
-- 数字人生成片段和最终成片写入用户内容目录或用户指定的交付目录，不写入公开的 Skill 源码仓库。
+- The user uploads, creates and selects the portrait and voice in Topview or the chosen digital-human platform themselves. This workflow never uploads on their behalf through upload credentials, file-upload or voice-cloning interfaces.
+- Before uploading, confirm that the user is the person in the portrait and voice or holds explicit permission, and remind them to read the chosen platform's current terms on storage, model improvement, third-party processing, deletion and opting out.
+- For sensitive assets, task cards and the content registry record only statuses: rights confirmed, terms read, manual upload done and assets selected. Index paths of deliverables such as generated clips, final videos and subtitles may go into task cards, the content registry and save checks.
+- Never record original portraits, recordings, their local paths, temporary upload or download links, object storage keys, file IDs, digital-human IDs, voice IDs or any private ID that could be used to retrieve the sensitive assets again.
+- Resource IDs needed at run time are used only as temporary references for the authorized operation and are not written into task cards, logs, the content registry or the repository.
+- Generated digital-human clips and final videos go into the user's content folder or a delivery folder the user names, never into the public Skill source repository.
 
-## 账号与采集安全
+## Account and collection safety
 
-- 用户自有账号的发布和数据管理，与竞品采集使用不同权限边界。
-- 不使用主账号登录态执行自动化竞品搜索、批量翻页或评论采集。
-- 竞品研究默认匿名或公开只读。确需登录时使用独立采集账号，并先获得用户同意。
-- 不自动点赞、评论、关注、私信或发布。
-- 验证码、限流、登录失效和平台风控出现时立即停止。
-- 不把 Cookie、Token、Secret 或完整凭证写入任务卡、日志或仓库。
+- Publishing and data management on the user's own accounts use different permissions from competitor collection.
+- Do not use the main account's login for automated competitor searches, bulk paging or comment collection.
+- Competitor research is anonymous or public and read-only by default. If a login is truly needed, use a separate collection account, and get the user's consent first.
+- Do not like, comment, follow, send messages or publish automatically.
+- Stop at once when a CAPTCHA, rate limit, expired login or platform risk control appears.
+- Never write cookies, tokens, secrets or complete credentials into task cards, logs or the repository.
 
-## 平台草稿预检
+## Content registry
 
-对支持草稿的平台，确认标题、摘要、作者、正文、封面和正文图片均有输入。用户确认终稿后再单独请求草稿授权。草稿创建不等于群发授权。
+Find the registry location in this order:
 
-## 内容注册表
+1. The location the user names.
+2. The project's existing content folder.
+3. `content-registry.md` in the content root folder.
 
-按以下顺序确定注册表位置：
-
-1. 用户指定位置。
-2. 项目已有内容目录。
-3. 内容根目录下的 `content-registry.md`。
-
-每个母题占一行，记录：日期、母题、类型、目标、平台、任务卡、原稿、终稿、素材、状态、发布链接和复盘链接。注册表只保存索引，证据和详细数据保存在任务卡与复盘文件中。
+Each core topic takes one row, recording the date, core topic, type, goal, platforms, task card, first draft, final copy, assets, status and publish link. The registry keeps only an index; evidence and detailed data stay in the task card.

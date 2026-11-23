@@ -1,105 +1,105 @@
-# 动画解说制片规范
+# Animated explainer production
 
-本规范是 `self-media-short-video` 的可选制片分支，用于科普、历史、品牌故事、知识讲解等**无真人出镜**的动画视频：合成配音讲述，AI 绘制或授权素材组成画面，镜头、字幕、数据标注和音乐由制片管线合成。它描述输入、确认点、制作、验收和降级，不绑定某一家图像、配音或动画工具。
+This guidance is an optional production branch of `self-media-short-video`, for animated videos with **no on-camera presenter** on science, history, brand stories, knowledge explainers and similar topics. A synthetic voice tells the story, AI-drawn or licensed assets make up the picture, and the production pipeline composes the shots, subtitles, data labels and music. It describes inputs, approvals, production, acceptance and fallbacks, and is not tied to any one image, voice or animation tool.
 
-## 进入条件
+## Entry conditions
 
-同时满足以下条件，才进入动画解说制片模式：
+Enter animated explainer production mode only when all of these hold:
 
-- 用户明确要成片，而不只是脚本或分镜。
-- 已确认母题、目标平台、主版本画幅、目标时长和主要行动。
-- 运行时发现了可用的配音、图像和视频合成能力。例如已安装的动画制片 Skill（基于 Remotion、three.js 等的电影化解说管线）、剪辑软件的工程模板或用户指定的视频工具。
-- 涉及付费生成（图像、配音、渲染服务）时，已按运行时工具的规则向用户说明预估费用并获得同意。
+- The user explicitly wants a finished video, not just a script or storyboard.
+- The core topic, target platforms, aspect ratio of the master version, target length and main call to action are approved.
+- Usable voice, image and video composition capabilities have been found at run time: for example an installed animation production Skill (a cinematic explainer pipeline based on Remotion, three.js and the like), an editing software project template, or a video tool the user names.
+- When paid generation is involved (image, voice or rendering services), the estimated cost has been explained to the user according to the runtime tool's rules, and the user has agreed.
 
-任一条件不满足时回到方案模式，交付脚本、分镜、画面提示词和素材清单。
+If any condition is not met, return to plan mode and deliver the script, storyboard, image prompts and asset list.
 
-## 制片流程
+## Production process
 
-### 1. 叙事骨架
+### 1. Narrative skeleton
 
-- 先按 [explainer-narrative.md](explainer-narrative.md) 搭结构：第二人称钩子或母题句、15 秒内的核心问题、片名卡、进度装置、情绪高点、回扣开头、开放式结尾。按年份罗列而不推进问题的段落要改写。
-- 把脚本拆成 8 到 12 个段落。每段写清：数值或年份等进度标记、画面任务、口播事实和屏幕文字。
-- 选定一个贯穿全片的叙述视角（虚构讲述者、旁白或物件），以及一条推进轴线（时间、深度、距离、价格等）。
-- 开头 3 秒给冲突或反差；结尾安排一次揭示或回扣，再接片名和频道名。
-- 每个关键事实标注来源，写入任务卡证据包。动画的视觉说服力强，事实错误的代价比图文更高。
+- First build the structure following [explainer-narrative.md](explainer-narrative.md): a second-person hook or motif line, the central question within 15 seconds, a title card, a progress device, an emotional peak, a callback to the opening and an open ending. Rewrite sections that list years without moving the question forward.
+- Split the script into 8 to 12 sections. For each section, write the progress marker (such as a value or a year), the visual job, the spoken facts and the on-screen text.
+- Choose one narrative viewpoint for the whole video (a fictional narrator, a voice-over or an object) and one line of progress (time, depth, distance, price and so on).
+- Give a conflict or contrast in the first 3 seconds; at the end, arrange a reveal or callback, followed by the title and channel name.
+- Mark the source of each key fact and write it into the task card's evidence pack. Animation is visually persuasive, so a factual error costs more than in an image post.
 
-### 2. 配音
+### 2. Voice-over
 
-- 使用合成音色时，从运行时可用的音色库中挑 2 到 3 个候选给用户试听，用户选定后写入账号风格档案，后续沿用。
-- 不用他人声音做克隆。克隆用户本人声音时，按 [digital-human-production.md](digital-human-production.md) 的权利与敏感素材规则处理。
-- 中文按每秒约 4 到 4.5 字估算时长。数字、年份和外文专名在台词里写成希望被读出的形式，同时建立发音词表；成片后逐个试听专名，读错就改台词或词表后重新生成该句。
+- When using a synthetic voice, pick 2 to 3 candidates from the voice library available at run time for the user to listen to. Once the user chooses, write the voice into the account's style profile and keep using it.
+- Do not clone other people's voices. When cloning the user's own voice, follow the rights and sensitive-asset rules in [digital-human-production.md](digital-human-production.md).
+- Estimate the length at about 150 words a minute (2.5 words a second). Write numbers, years and names in the script the way they should be read aloud, and keep a pronunciation list. When the video is made, listen to each name; if one is misread, change the script or the list and regenerate that line.
 
-### 3. 画面素材
+### 3. Visual assets
 
-- 先选画面路线：程序化动态图形（粒子、线描、图表、计数器，适合抽象机制和数据）、插画场景（AI 绘制，适合人物、历史和实物），或两者混合。系列内保持同一家族风格：一种底色、一种暖色主色、一种冷色点缀。
-- 先确定视觉锚（画风、色板、光线、构图），写入任务卡，全片素材共用同一风格后缀。
-- 真实存在的车型、建筑、人物，按公开资料描述外观；不在画面里生成可辨认的商标、品牌标识和文字，避免商标问题和 AI 生成文字的错字。
-- 真实历史人物不生成写实肖像冒充照片。需要讲述者时使用虚构人物，或做明显的插画风格处理。
-- 生成后先看总览图，检查朝向、留白、风格一致性和事实性外观错误，再进入合成。
+- First choose a visual route: procedural motion graphics (particles, line drawings, charts, counters; good for abstract mechanisms and data), illustrated scenes (AI-drawn; good for people, history and physical objects), or a mix of both. Keep one family style within a series: one background color, one warm main color and one cool accent.
+- Set the visual anchor first (art style, palette, lighting, composition), write it into the task card, and use the same style suffix for every asset in the video.
+- For car models, buildings and people that really exist, describe their appearance from public sources. Do not generate recognizable trademarks, brand logos or text in the picture, to avoid trademark problems and typos in AI-generated text.
+- Do not generate realistic portraits of real historical figures that pass as photos. When a narrator is needed, use a fictional character, or give the figure a clearly illustrated style.
+- After generating, look at the overview sheet first, and check orientation, empty space, style consistency and factual errors in appearance before moving on to composition.
 
-### 4. 合成与镜头
+### 4. Composition and shots
 
-- 主画面负责证明和情绪：推进的镜头、随段落变化的环境、重要物件的进出场、关键时刻的冲击或停顿。
-- 字幕主导：主版本烧录逐句大字幕，每行 1 到 2 个关键词用强调色，关掉声音也能看懂全片。进度标记、段落标题和关键数字作为字幕之外的第二层信息。
-- 钩子和核心问题之后（约 15 到 20 秒）放片名卡。
-- 关键数字用滚动计数、进度条或对比动画呈现，旁边用小字标出处。
-- 每 20 到 30 秒安排一次明显的视觉事件，避免幻灯片感。
-- 渲染整片前，按段落抽取静帧检查：缺失或黑块素材、文字溢出或遮挡、标注越界、讲述者对位。
+- The main picture carries proof and emotion: camera moves that push forward, settings that change with each section, important objects entering and leaving, and impact or pauses at key moments.
+- Subtitles lead: the master version has large burned-in subtitles line by line, with 1 to 2 key words per line in the accent color, so the whole video can be understood with the sound off. Progress markers, section titles and key numbers form a second layer of information beyond the subtitles.
+- Put the title card after the hook and the central question (about 15 to 20 seconds in).
+- Show key numbers with rolling counters, progress bars or comparison animations, with the source in small text next to them.
+- Arrange a clear visual event every 20 to 30 seconds, so the video does not feel like a slideshow.
+- Before rendering the whole video, take still frames from each section and check for missing assets or black blocks, overflowing or covered text, labels out of bounds, and the narrator's alignment.
 
-### 5. 音乐与音效
+### 5. Music and sound effects
 
-- 选曲方向：慢速（约 55 到 70 BPM）、小调、低频铺底、全程响度平稳的氛围曲，不和文字或解说抢注意力。系列可以固定一首或一组配乐作为听觉标识。
-- 来源只用三类：工具本地合成、平台音乐库、用户持有授权的曲目。记录曲名、作者、授权类型和署名要求。
-- 署名类授权（如 CC BY）要在视频描述里写署名；片尾也放一行署名更稳妥。
-- 解说出现时压低配乐（侧链压缩或手动包络），关键句可额外压低；结尾和弦尽量对齐黑场或片名。
-- 持续的低频铺底、引擎声和重复提示音容易被听成噪音，用户反馈后优先删除，而不是继续微调。
-- 成片整体做响度标准化，并记录平均响度和峰值。网络视频常用目标约为 −14 到 −16 LUFS、真峰值不高于 −1 dBTP；平台会再做音量归一，不必追求更响。
+- Direction for choosing music: a slow (about 55 to 70 BPM), minor-key ambient track with a low-frequency bed and steady loudness throughout, so it does not compete with the text or the narration. A series can keep one track or one set of tracks as its sound identity.
+- Use only three kinds of source: music synthesized locally by the tool, a platform's music library, and tracks the user holds a license for. Record the track title, artist, license type and attribution requirements.
+- For attribution licenses (such as CC BY), write the attribution in the video description; adding a line of attribution at the end of the video is safer.
+- Lower the music when narration comes in (sidechain compression or a manual envelope), and lower it further under key lines; try to align the final chord with the fade to black or the title.
+- A constant low-frequency bed, engine noise and repeated alert sounds are easily heard as noise. When the user points this out, delete them first instead of continuing to fine-tune.
+- Normalize the loudness of the whole video and record the average loudness and peak. Online video commonly targets about −14 to −16 LUFS, with a true peak no higher than −1 dBTP; platforms normalize the volume again, so there is no need to make it louder.
 
-### 6. 主版本与多平台版本
+### 6. Master version and versions for each platform
 
-先渲染一个主版本，再按 [video-platform-versions.md](video-platform-versions.md) 派生各平台版本（横屏、竖屏、字幕文件、封面）。音频在主版本中混好，派生版本直接复用，保证各平台听感一致。
+Render one master version first, then derive the version for each platform (landscape, vertical, subtitle files, covers) following [video-platform-versions.md](video-platform-versions.md). Mix the audio in the master version and reuse it in the derived versions, so the sound is the same on every platform.
 
-### 7. 纯字幕形态（可选）
+### 7. Subtitles-only format (optional)
 
-不用配音，只靠字幕和配乐讲完故事，适合静音浏览为主的平台。时间轴按文字阅读速度排（每行 1 到 2.5 秒），文字节奏要比配音版更紧。可以和配音版共用画面，作为实验对照。
+Tell the story with subtitles and music only, without a voice-over; this suits platforms browsed mostly with the sound off. Time the lines by reading speed (1 to 2.5 seconds a line), with a tighter text rhythm than in the voice-over version. It can share visuals with the voice-over version, as an experimental comparison.
 
-## 迭代纪律
+## Iteration discipline
 
-- 只改音频时，单独导出解说和音效音轨，重新混音后与已渲染画面合并，不重渲画面。
-- 只改某几句台词时，只重新生成这几句配音，再重建时间轴；时间轴变化后，音效和画面事件随之重排，需要重渲。
-- 每轮修改保留上一版成片，版本号递增，记录修改原因。
+- When only the audio changes, export the narration and sound-effect tracks separately, remix them and merge them with the rendered picture; do not re-render the picture.
+- When only a few lines change, regenerate only those lines of voice-over, then rebuild the timeline. Once the timeline changes, sound effects and visual events move with it, and the video needs to be re-rendered.
+- In each round of changes, keep the previous finished version, increase the version number and record the reason for the change.
 
-## 人工确认点
+## Human approvals
 
-- **脚本与事实确认**：段落、口播、关键数字和来源。
-- **音色确认**：试听后选定。
-- **视觉锚确认**：素材总览图和讲述者形象。
-- **终稿预览确认**：用户完整看过、听过成片。智能体只能报告实测的时长、响度和静帧检查结果，不能代替用户的听感判断。
-- **发布授权**：终稿确认不等于发布授权，见 `self-media-video-publisher`。
+- **Script and facts**: sections, spoken lines, key numbers and sources.
+- **Voice**: chosen after listening.
+- **Visual anchor**: the asset overview sheet and the narrator's look.
+- **Final preview**: the user has watched and listened to the whole finished video. The agent can report only the measured length, loudness and still-frame check results; it cannot replace the user's judgment of how the video sounds.
+- **Publishing permission**: approving the final cut is not permission to publish. The user uploads and publishes on each platform; this English edition has no video publishing module.
 
-## 交付物
+## Deliverables
 
-- 主版本成片和各平台派生版本。
-- 字幕文件（如 SRT）和逐句字幕文本。
-- 各平台封面或封面帧。
-- 配乐授权记录和署名文本。
-- 发音词表、事实来源清单、技术规格（画幅、时长、响度）和质量复核记录。
-- 制片工程目录和重建命令，方便以后改台词、换音乐。
+- The finished master version and the versions for each platform.
+- Subtitle files (such as SRT) and the subtitle text line by line.
+- A cover or cover frame for each platform.
+- Music license records and attribution text.
+- The pronunciation list, the list of fact sources, technical specs (aspect ratio, length, loudness) and the quality review record.
+- The production project folder and rebuild command, so lines and music can be changed later.
 
-成片和工程保存在用户内容目录或用户指定目录，不写入公开的 Skill 源码仓库。
+Save the finished video and the project in the user's content folder or a folder the user names, not in the public Skill source repository.
 
-## 降级方案
+## Fallbacks
 
-- 没有动画合成能力：交付段落脚本、分镜、画面提示词、配音稿和素材清单。
-- 有素材无配音：交付带字幕的无声粗剪和配音稿，标记待配音。
-- 配乐授权不明：使用本地合成音乐或平台音乐库，或交付无配乐版本，由用户在平台内选择音乐。
-- 无法确认平台规则：不猜测 AI 标识、时长或尺寸，标记为待用户在发布界面确认。
+- No animation composition capability: deliver the section script, storyboard, image prompts, voice-over script and asset list.
+- Assets but no voice-over: deliver a silent rough cut with subtitles and the voice-over script, marked as waiting for the voice-over.
+- Music license unclear: use locally synthesized music or a platform music library, or deliver a version without music and let the user choose music inside the platform.
+- Platform rules cannot be confirmed: do not guess AI labels, lengths or sizes; mark them for the user to confirm in the publishing screen.
 
-## 最低验收标准
+## Minimum acceptance standard
 
-- 口播完整，与字幕逐句一致；专名和数字已在发音词表中核对。
-- 关键事实都有来源，屏幕数字与口播一致。
-- 没有缺失素材、黑块、文字溢出、商标或乱码文字。
-- 配乐授权已记录；需要署名时，描述和片尾都已写上。
-- 响度和峰值已实测记录；用户已完整试听。
-- 各平台版本的画幅、时长、字幕、封面和 AI 标识字段已记录。
+- The spoken script is complete and matches the subtitles line by line; names and numbers have been checked against the pronunciation list.
+- Every key fact has a source, and the numbers on screen match the spoken lines.
+- No missing assets, black blocks, overflowing text, trademarks or garbled text.
+- The music license is recorded; where attribution is required, it is in both the description and the end of the video.
+- Loudness and peak are measured and recorded, and the user has listened to the whole video.
+- The aspect ratio, length, subtitles, cover and AI label fields of each platform version are recorded.

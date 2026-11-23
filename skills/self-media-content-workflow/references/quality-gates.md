@@ -1,73 +1,73 @@
-# 发布前质量门
+# Quality gates before publishing
 
-## 1. 事实与证据
+## 1. Facts and evidence
 
-- 每个关键数字指向后台截图、真实记录或可信来源。
-- 近期产品、价格、版本、人物、新闻和平台规则已重新核验。
-- 明确区分事实、个人判断、推断和建议。
-- 代码、命令和操作步骤已验证，或明确标记未验证。
-- 标题没有承诺正文无法交付的结果。
+- Every key number points to a back-end screenshot, a real record or a credible source.
+- Recent products, prices, versions, people, news and platform rules have been checked again.
+- Facts, personal judgments, inferences and advice are clearly separated.
+- Code, commands and steps have been tested, or are clearly marked as untested.
+- The title does not promise a result the body cannot deliver.
 
-关键事实失败时返回补证据，不继续包装。
+If a key fact fails, go back and add evidence; do not keep packaging.
 
-## 2. 账号声音
+## 2. Account voice
 
-优先读取同平台、同类型的已发布内容作为声音样本。检查：
+Use published content of the same platform and type as voice samples first. Check:
 
-| 失败信号 | 修正动作 |
+| Failure signal | Fix |
 |---|---|
-| 只有结论，没有时间、动作和对象 | 补真实细节，无法补就删 |
-| 全文像百科或机构媒体 | 用第一人称承担判断 |
-| 以行业套话开头 | 从场景、冲突、结果或判断开始 |
-| 每段都是整齐三点 | 按真实因果重排 |
-| 模板连接词密集 | 用事实和动作衔接 |
-| 无依据地使用震撼、颠覆等词 | 改成可观察结果 |
-| 结尾空泛升华 | 回到行动、边界或真实问题 |
-| 标题、导语和总结重复 | 让每处承担不同任务 |
+| Only conclusions, with no time, action or object | Add real details; if you cannot, delete it |
+| The whole text reads like an encyclopedia or institutional media | Take ownership of judgments in the first person |
+| Opens with industry clichés | Start from a scene, conflict, result or judgment |
+| Every paragraph is a neat set of three points | Reorder by real cause and effect |
+| Dense template linking words | Link with facts and actions |
+| Words such as "stunning" or "disruptive" with no support | Replace them with observable results |
+| An empty, uplifting ending | Return to an action, a limit or a real question |
+| The title, lead and summary repeat each other | Give each one a different job |
 
-不要输出 AI 概率或检测结论。
+Do not output an AI probability or a detection verdict.
 
-## 3. 平台原生程度
+## 3. Platform nativeness
 
-- X：第一屏成立，短观点脱离主帖也能理解。
-- 小红书：标题可搜索，封面可读，每页只有一个信息任务。
-- 公众号：结构有深度，段落适合手机阅读，正文内部交付完整价值。
-- 短视频：前 3 秒成立，口播说得出口，画面不重复字幕；数字人视频还要确认台词完整、音画同步和人物窗口没有遮挡信息。
+- X: the first screen works on its own, and a short point is understandable without the main post.
+- Xiaohongshu: the title is searchable, the cover is readable, and each page has one information job.
+- WeChat Official Account: the structure has depth, paragraphs suit phone reading, and the article itself delivers its full value.
+- Short video: the first 3 seconds work, the spoken script can be said aloud, and the visuals do not repeat the subtitles. For a digital-human video, also confirm that the lines are complete, sound and picture are in sync, and the presenter window does not cover information.
 
-同一母题的多平台稿件如果只有长短差异，判定失败。
+If the versions of one core topic for several platforms differ only in length, the check fails.
 
-## 4. 视觉一致性
+## 4. Visual consistency
 
-- 成图与用户选定的风格预设一致，同组不混用多套风格。
-- 已记录全组共用的画风、色板、光线、构图、文字和基调。
-- 每张图都能映射到一段文案或一个信息任务。
-- 封面文字与确认标题一致。
-- 产品界面、数字、Logo 和步骤与正文一致。
-- 没有真实 UI 素材时没有虚构产品界面。
-- 手机预览无错字、乱码、遮挡和截断。
-- 数字人视频的人物窗口保留完整脸部、头部和预期的肩部或上半身，表情与手势自然，没有只剩头像或明显循环动作。
-- 数字人视频的字幕位于正文视觉层，不添加额外角标、栏目标签或说明性标签；专名、缩写和数字发音统一。
+- The images match the style preset the user chose, and one set does not mix several styles.
+- The art style, palette, lighting, composition, text and tone shared by the whole set are recorded.
+- Each image maps to a passage of copy or one information job.
+- The cover text matches the approved title.
+- Product interfaces, numbers, logos and steps match the body.
+- Without real interface material, no product interface has been invented.
+- The phone preview has no typos, garbled text, covered areas or cut-offs.
+- In a digital-human video, the presenter window keeps the whole face, the head and the intended shoulders or upper body. Expressions and gestures look natural, and the presenter is not reduced to a floating head or obviously looping movements.
+- In a digital-human video, the subtitles sit on the main visual layer, with no extra badges, section labels or explanatory tags; names, abbreviations and numbers are pronounced the same way throughout.
 
-## 5. 合规与商业披露
+## 5. Compliance and commercial disclosure
 
-- 商单明确标记合作关系，区分广告事实和个人体验。
-- 不使用无法证明的最高级、收益、效率、功效和排名承诺。
-- 医疗健康内容不宣称治疗或治愈。
-- 金融理财内容不承诺收益、稳赚或无风险。
-- 不编造用户评价、销量、数据和案例。
-- 竞品研究只借鉴结构和需求，成稿保持原创。
-- 不泄露公司、客户、用户和个人敏感信息。
-- 数字人视频已确认肖像、声音和第三方素材的使用授权；是否需要 AI/数字人标识按发布平台当前规则确认。
-- 数字人平台的存储、模型改进、第三方处理、删除和退出机制已由用户知悉；数字人和声音由用户本人在平台中手动上传和选定。
-- 原始头像、录音及其本机路径、临时链接、对象存储键和平台私有标识未写入任务卡、日志、内容注册表、交付包或仓库；生成片段、最终成片和字幕等交付物的索引路径不在此列。
-- 数字人生成片段和最终成片保存在用户内容目录或指定交付目录，未写入公开的 Skill 源码仓库。
-- 数字人内容不用于欺骗、冒充、诈骗或其他未授权用途。
-- 每篇只保留一个主要行动。
+- Sponsored content clearly marks the partnership and separates advertising facts from personal experience.
+- No unprovable superlatives, and no promises about earnings, efficiency, effects or rankings.
+- Health content does not claim to treat or cure.
+- Finance content does not promise returns, sure profits or no risk.
+- No invented user reviews, sales, data or cases.
+- Competitor research borrows only structure and needs; the final piece stays original.
+- No sensitive information about companies, clients, users or individuals is disclosed.
+- For digital-human videos, permission to use the likeness, voice and third-party material is confirmed; whether an AI or digital-human label is needed follows the publishing platform's current rules.
+- The user knows the digital-human platform's terms on storage, model improvement, third-party processing, deletion and opting out, and uploaded and selected the digital human and voice on the platform themselves.
+- Original portraits, recordings, their local paths, temporary links, object storage keys and platform private IDs are not in task cards, logs, the content registry, the delivery pack or the repository. Index paths of deliverables such as generated clips, final videos and subtitles are not covered by this rule.
+- Generated digital-human clips and final videos are saved in the user's content folder or a named delivery folder, not in the public Skill source repository.
+- Digital-human content is not used to deceive, impersonate or defraud, or for any other unauthorized purpose.
+- Each piece keeps only one main call to action.
 
-## 6. 发布包完整性
+## 6. Publishing pack completeness
 
-按平台检查正文、摘要、封面、素材顺序、标签、首评、BGM、商业声明和发布设置。数字人视频还要检查肖像/声音权利、平台手动上传就绪、第三方数据处理、生成片段、最终合成视频、字幕文件、画幅、时长和 AI/数字人披露。只报告实际完成项，不用“已检查”代替结果。
+For each platform, check the body, summary, cover, order of assets, tags, first comment, background music, commercial disclosure and publishing settings. For digital-human videos, also check the likeness and voice rights, readiness of the manual upload on the platform, third-party data processing, generated clips, the final composed video, subtitle files, aspect ratio, length and AI or digital-human disclosure. Report only the items actually completed; do not write "checked" in place of a result.
 
-## 通过标准
+## Passing standard
 
-任务卡记录失败项、修改动作和复检结果。事实、个人证据、平台表达、视觉、合规和完整性全部通过后，状态才能进入 `等待终稿确认`。
+The task card records failed items, fixes and recheck results. Only when facts, personal evidence, platform expression, visuals, compliance and completeness all pass can the status move to `Awaiting final-copy approval`.

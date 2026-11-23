@@ -1,30 +1,30 @@
-# 微信公众号
+# WeChat Official Account
 
-## 适合内容
+## Suitable content
 
-深度方法、完整案例、技术拆解、阶段复盘、长期判断和需要上下文的个人故事。
+In-depth methods, complete cases, technical breakdowns, progress reviews, long-term judgments and personal stories that need context.
 
-## 产物
+## Outputs
 
-- 3 个标题候选。
-- 摘要、作者信息、正文和主要行动。
-- 封面、分享图和正文配图需求。
-- 图片说明、外链和商业合作声明。
+- 3 title candidates.
+- Summary, author information, body and main call to action.
+- Cover, share image and image needs for the body.
+- Image captions, external links and a commercial partnership statement.
 
-## 写法
+## How to write
 
-- 从具体经历、冲突、结果或判断进入，不写行业套话。
-- 小标题表达结论，不使用论文式目录堆砌。
-- 段落适合手机阅读，深度由证据决定，不为字数注水。
-- 技术内容给出步骤、边界、失败、适用条件和验证状态。
-- 在文章内部交付完整价值，不用外链替代正文。
-- 用第一人称承担判断，避免机构媒体口吻。
+- Enter through a specific experience, conflict, result or judgment; no industry clichés.
+- Subheadings state conclusions; do not stack up a thesis-style table of contents.
+- Paragraphs suit phone reading. Depth is decided by the evidence; do not pad for word count.
+- Technical content gives steps, limits, failures, conditions of use and whether it has been verified.
+- Deliver the full value inside the article; do not replace the body with external links.
+- Own judgments in the first person and avoid the tone of institutional media.
 
-## 草稿检查
+## Draft checks
 
-- 当前标题、摘要、作者、封面和分享图要求已核验。
-- 正文图片顺序、外链和格式在草稿预览中正常。
-- 数学公式和代码在平台编辑器中可读。
-- 只创建草稿，不直接群发。
+- The current requirements for the title, summary, author, cover and share image have been checked.
+- The order of images in the body, external links and formatting look right in the draft preview.
+- Math formulas and code are readable in the platform's editor.
+- Create only a draft; never mass-send it to followers directly.
 
-排版与草稿写入交给 `self-media-wechat-publisher`，它负责主题选择、图片上传和发布后核对。
+This English edition has no WeChat publishing module: the user formats the article and creates the draft in the WeChat editor.

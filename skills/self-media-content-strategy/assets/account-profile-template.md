@@ -1,42 +1,42 @@
-# 账号档案：{账号名称}
+# Account profile: {account name}
 
-## 定位
+## Positioning
 
-- 领域：
-- 人设：
-- 目标受众：
-- 一句话内容承诺：
-- 可信理由：
-- 当前阶段：冷启动、增长、稳定或转化
+- Field:
+- Persona:
+- Target audience:
+- One-sentence content promise:
+- Why people should believe it:
+- Current stage: starting out, growing, stable or converting
 
-## 目标
+## Goals
 
-- 主要业务目标：
-- 本周期内容目标：
-- 主要平台：
-- 扩展平台：
-- 更新频率：
-- 每周可投入时间：
+- Main business goal:
+- Content goal for this cycle:
+- Main platform:
+- Extra platforms:
+- Posting frequency:
+- Time available each week:
 
-## 内容来源
+## Content sources
 
-- 一手经历：
-- 专业能力：
-- 产品或服务：
-- 数据与案例：
-- 外部信息源：
+- First-hand experience:
+- Professional skills:
+- Products or services:
+- Data and cases:
+- External information sources:
 
-## 边界
+## Boundaries
 
-- 不做的内容：
-- 商业合作规则：
-- 隐私和合规限制：
-- 账号声音：
+- Content we do not make:
+- Rules for commercial partnerships:
+- Privacy and compliance limits:
+- Account voice:
 
-## 当前假设
+## Current hypotheses
 
-- 内容配比：
-- 核心栏目：
-- 成功指标：
-- 停止条件：
-- 下一个实验：
+- Content mix:
+- Core series:
+- Success measures:
+- Stopping conditions:
+- Next experiment:

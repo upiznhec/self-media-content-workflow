@@ -1,28 +1,28 @@
-# 视频号、抖音和小红书视频
+# WeChat Channels, Douyin and Xiaohongshu video
 
-## 共同原则
+## Shared principles
 
-- 一条视频只讲一个判断。
-- 前 3 秒给冲突、结果、利益或具体场景。
-- 口播句子说得出口，字幕不照搬长文章。
-- 画面负责证明、演示、对比或建立情绪。
-- 优先真人声音和真实录屏，不默认数字人。
+- One video makes one claim.
+- The first 3 seconds give a conflict, result, benefit or concrete scene.
+- The spoken lines can be said aloud, and the subtitles do not copy a long article.
+- The visuals prove, demonstrate, compare or set the mood.
+- Prefer a real person's voice and real screen recordings; do not default to a digital human.
 
-## 发布字段
+## Publishing fields
 
-交付：标题或发布文案、话题、封面标题、封面画面、字幕、BGM 建议、合集或商业声明。精确数量和尺寸以当前平台为准。
+Deliver the title or publishing copy, hashtags, cover title, cover visual, subtitles, background music suggestions, and a collection or commercial statement. Exact numbers and sizes follow the current platform.
 
-## 平台差异
+## Platform differences
 
-- 视频号：强调真实声音、微信关系链和完整可信表达。
-- 抖音：强调前 3 秒、强节奏、视觉演示和广泛可懂。
-- 小红书视频：强调搜索标题、身份处境、过程证据和可收藏信息。
+- WeChat Channels: a real voice, WeChat's network of relationships, and complete, credible expression.
+- Douyin: the first 3 seconds, a fast pace, visual demonstration and being easy for a broad audience to follow.
+- Xiaohongshu video: a searchable title, the viewer's identity and situation, evidence of the process and information worth saving.
 
-## 同一条视频发多个平台
+## One video on several platforms
 
-- 视频号描述偏完整叙述，可带一句个人判断；抖音标题短、冲突前置，靠话题补充检索词；小红书标题像搜索词，正文给可收藏的要点清单。
-- 三个平台都写不同的标题和正文，不复制 YouTube 描述。
-- 横屏素材发竖屏平台时，封面和画面里的钩子标题要与发布标题呼应。版本派生见 `self-media-short-video` 的多平台版本规范。
-- 使用了 AI 生成画面或合成配音时，在发布界面勾选 AI 生成声明；使用署名类授权音乐时，在正文末尾写署名。
+- The WeChat Channels description leans toward a complete narrative and can carry one personal judgment. The Douyin title is short with the conflict first, and hashtags add the search terms. The Xiaohongshu title reads like a search query, and the body gives a list of points worth saving.
+- Write a different title and body for each of the three platforms; do not copy the YouTube description.
+- When landscape footage goes to vertical platforms, the hook title on the cover and in the picture should echo the publishing title. For deriving versions, see the multi-platform version guidance in `self-media-short-video`.
+- When AI-generated visuals or a synthetic voice are used, tick the AI-generated declaration in the publishing screen; when music with an attribution license is used, write the attribution at the end of the body.
 
-需要完整口播、分镜和素材清单时调用 `self-media-short-video`。
+When a full spoken script, storyboard and asset list are needed, call `self-media-short-video`.

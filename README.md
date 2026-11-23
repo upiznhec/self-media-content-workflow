@@ -1,55 +1,53 @@
-# Self Media Skills
+# Self Media Skills (English edition)
 
-[![CI](https://github.com/yanhua1010/self-media-content-workflow/actions/workflows/validate.yml/badge.svg)](https://github.com/yanhua1010/self-media-content-workflow/actions/workflows/validate.yml)
+[![CI](https://github.com/upiznhec/self-media-content-workflow/actions/workflows/validate.yml/badge.svg)](https://github.com/upiznhec/self-media-content-workflow/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-0.1.0-informational)](CHANGELOG.md)
 
-**English** | [简体中文](README.zh-CN.md)
+A modular, tool-agnostic suite of agent skills for social-media content work: from a vague idea to a confirmed brief, account strategy, trend and competitor research, platform-native copy and short-video packages, with optional digital-human and animated-explainer production.
 
-A modular, tool-agnostic suite of agent skills for social-media content operations: from a vague idea to a confirmed brief, account strategy, trend and competitor research, platform-native copy, short-video packages, optional digital-human and animated-explainer production, multi-platform video publishing (YouTube, Douyin, WeChat Channels, Xiaohongshu), WeChat draft publishing, performance reviews, and verified delivery — the full content loop.
+This is an English edition of [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) by [Yanhua](https://github.com/yanhua1010). The method is the original's; the text is translated, and the parts listed under [What changed in this edition](#what-changed-in-this-edition) were removed or adapted.
 
-- **Tool-agnostic** — no binding to a specific model, browser, image, video, publishing, or analytics service; capabilities are discovered from the running environment
-- **Platform-native** — one topic shares facts and evidence, while titles, openings, structure, and calls to action are designed per platform
-- **Human-in-the-loop** — five mandatory approval gates (direction, platforms, title, final copy, publishing); drafts and publishing packages by default, never automatic broadcasting
-- **Evidence-first** — every key number needs a source; facts, opinions, inferences, and advice stay separated; no fabricated data, experience, or results
-- **Systematic visuals** — eight built-in image-style presets with platform routing; a style is chosen before generation, one style per image set, and account preferences override preset defaults
+- **Tool-agnostic**: no binding to a specific model, browser, image, video or research service; capabilities are discovered from the running environment
+- **Platform-native**: one topic shares facts and evidence, while titles, openings, structure and calls to action are designed per platform
+- **Human-in-the-loop**: five approval gates (direction, platforms, title, final copy, and any external write action); the skills deliver drafts and publishing packs, and you publish
+- **Evidence-first**: every key number needs a source; facts, opinions, inferences and advice stay separated; no invented data, experience or results
+- **Systematic visuals**: eight built-in image-style presets with platform routing; a style is chosen before generation, one style per image set, and account preferences override preset defaults
 
-For digital-human production, the user must personally upload and select likeness and voice assets in the chosen provider after reviewing its current data-processing terms. Task files, registries, and the repository must not store the original portrait or recording, their local paths, temporary links, or provider-private identifiers; they only index paths of deliverables such as generated clips, final videos, and caption files.
+For digital-human production, the user must personally upload and select likeness and voice assets in the chosen provider after reviewing its current data-processing terms. Task files, registries and the repository must not store the original portrait or recording, their local paths, temporary links or provider-private identifiers; they only index paths of deliverables such as generated clips, final videos and caption files.
 
 ## Architecture
 
 ```mermaid
 graph TD
     W["self-media-content-workflow<br/>Orchestrator: routing · state · approvals"]
-    W --> B["content-brief<br/>Creative brief"]
+    W --> B["content-brief<br/>Content brief"]
     W --> S["content-strategy<br/>Strategy"]
     W --> R["trend-radar<br/>Trends & competitors"]
     W --> C["platform-copywriting<br/>Platform copy"]
     W --> V["short-video<br/>Short video"]
-    W --> A["content-analytics<br/>Analytics"]
-    W --> D["content-delivery<br/>Delivery"]
-    W --> P["wechat-publisher<br/>WeChat publishing"]
-    W --> U["video-publisher<br/>Video publishing"]
 ```
 
 | Skill | Responsibility |
 |---|---|
-| [`self-media-content-workflow`](skills/self-media-content-workflow/SKILL.md) | Request routing, state management, approvals, and end-to-end orchestration |
-| [`self-media-content-brief`](skills/self-media-content-brief/SKILL.md) | Audience, goal, evidence, angle, tone, and constraints |
-| [`self-media-content-strategy`](skills/self-media-content-strategy/SKILL.md) | Positioning, content mix, series, topic pool, and calendar |
-| [`self-media-trend-radar`](skills/self-media-trend-radar/SKILL.md) | Trend tracking, keyword research, competitor teardowns, and original topics, with optional overseas comparison and Reddit discussion discovery |
-| [`self-media-platform-copywriting`](skills/self-media-platform-copywriting/SKILL.md) | Native copy for X, Xiaohongshu, Reddit, WeChat, short-video platforms, and YouTube, plus the visual style library |
-| [`self-media-short-video`](skills/self-media-short-video/SKILL.md) | Hooks, spoken script, storyboard, captions, shoot plan, optional digital-human and animated-explainer production, and landscape/vertical platform versions |
-| [`self-media-content-analytics`](skills/self-media-content-analytics/SKILL.md) | Data quality, comparable baselines, attribution, decisions, and experiments |
-| [`self-media-content-delivery`](skills/self-media-content-delivery/SKILL.md) | Milestone files, versions, path verification, and publishing packages |
-| [`self-media-wechat-publisher`](skills/self-media-wechat-publisher/SKILL.md) | WeChat formatting, image upload, draft creation, and image-message posts |
-| [`self-media-video-publisher`](skills/self-media-video-publisher/SKILL.md) | Per-platform video publish packs; with per-platform authorization, uploads to YouTube, Douyin, WeChat Channels, and Xiaohongshu as private, draft, or scheduled |
+| [`self-media-content-workflow`](skills/self-media-content-workflow/SKILL.md) | Request routing, state management, approvals, the evidence pack, quality gates and end-to-end orchestration |
+| [`self-media-content-brief`](skills/self-media-content-brief/SKILL.md) | Audience, goal, evidence, angle, tone and constraints |
+| [`self-media-content-strategy`](skills/self-media-content-strategy/SKILL.md) | Positioning, content mix, series, topic pool and calendar |
+| [`self-media-trend-radar`](skills/self-media-trend-radar/SKILL.md) | Trend tracking, keyword research, competitor teardowns and original topics, with optional Reddit discussion discovery |
+| [`self-media-platform-copywriting`](skills/self-media-platform-copywriting/SKILL.md) | Native copy for X, Xiaohongshu, Reddit, WeChat, short-video platforms and YouTube, plus the visual style library |
+| [`self-media-short-video`](skills/self-media-short-video/SKILL.md) | Hooks, spoken script, storyboard, subtitles, shooting plan, optional digital-human and animated-explainer production, and landscape and vertical platform versions |
 
-Video publishing can use the [SAU adapter](skills/self-media-video-publisher/references/sau-adapter.md) and dependency-free `publish.mjs` to preview each platform's upload plan.
+The trend radar's [Reddit discussion discovery](skills/self-media-trend-radar/references/reddit-discovery.md) can optionally read public Reddit data through the [AIsa](https://go.aisa.one/yanhua) REST API. Each request costs about $0.0019, and every run is quoted to you before it starts. Without a key, the same steps are done in a browser.
 
-The trend radar's [overseas comparison mode](skills/self-media-trend-radar/references/overseas-compare.md) is a dependency-free Python script that compares recent engagement for the same topic on X, YouTube and Reddit against Xiaohongshu, Douyin and Bilibili, and flags topics with a clear gap between the two sides. Data comes from the [AIsa](https://go.aisa.one/yanhua) REST API: one API key covers all six platforms, a run costs about $0.03 per topic, and every run is quoted first.
+> Disclosure: the AIsa link above is the original author's referral link. If you sign up and pay through it, the original author, Yanhua, earns a commission at no extra cost to you.
 
-> Disclosure: the AIsa link above is a referral link. If you sign up and pay through it, the author earns a commission at no extra cost to you.
+## Platforms
+
+Guidance is included for X, Reddit, YouTube, Xiaohongshu, WeChat Official Accounts, WeChat Channels and Douyin.
+
+- Instagram and Facebook: no guidance yet. If you need them, follow the Xiaohongshu method.
+- TikTok: no separate guide; use `self-media-short-video`.
+- LinkedIn: not covered.
 
 ## Quick start
 
@@ -57,32 +55,32 @@ The trend radar's [overseas comparison mode](skills/self-media-trend-radar/refer
 
 **Claude Code (recommended, no Node.js required)**
 
-Run these two commands inside Claude Code to install all 10 skills at once:
+Run these two commands inside Claude Code to install all 6 skills at once:
 
 ```text
-/plugin marketplace add yanhua1010/self-media-content-workflow
+/plugin marketplace add upiznhec/self-media-content-workflow
 ```
 
 ```text
 /plugin install self-media-suite@self-media
 ```
 
-**Other agents (Codex, Cursor, and more)**
+**Other agents (Codex, Cursor and more)**
 
 Use the official [skills CLI](https://github.com/vercel-labs/skills) (requires Node.js):
 
 ```bash
-# Install all 10 skills into the current project
-npx skills add yanhua1010/self-media-content-workflow
+# Install all 6 skills into the current project
+npx skills add upiznhec/self-media-content-workflow
 
 # Install into the user-global skill directory
-npx skills add yanhua1010/self-media-content-workflow -g
+npx skills add upiznhec/self-media-content-workflow -g
 ```
 
 Install a subset with `--skill <name>`, and target specific agents with `-a`:
 
 ```bash
-npx skills add yanhua1010/self-media-content-workflow --skill self-media-content-workflow -a claude-code
+npx skills add upiznhec/self-media-content-workflow --skill self-media-content-workflow -a claude-code
 ```
 
 ### First task
@@ -100,7 +98,7 @@ Use $self-media-content-strategy to build a topic pool and a one-month calendar 
 
 Use $self-media-trend-radar to research the most-asked questions about AI coding content in the last month.
 
-Use $self-media-content-analytics to review these 10 posts and identify the single next experiment.
+Use $self-media-short-video to turn this approved topic into a 60-second spoken script with three hooks and a storyboard.
 ```
 
 > The exact skill-invocation syntax depends on your agent.
@@ -109,24 +107,24 @@ Use $self-media-content-analytics to review these 10 posts and identify the sing
 
 ```text
 Clarify → Direction approval* → Research & evidence → Platform approval* → Preflight
-→ Platform-native draft → Title approval* → Assets (live-action / digital human) → Quality gates
-→ Final-copy approval* → Publishing authorization* → Draft or publishing package → Review
+→ Platform-native draft → Title approval* → Assets (live-action / digital human / animation) → Quality gates
+→ Final-copy approval* → Publishing pack
 ```
 
-`*` marks a mandatory human approval gate. Final-copy approval is not publishing authorization: skills create drafts or manual publishing packages by default and never broadcast.
+`*` marks a mandatory human approval gate. Any external write action needs its own approval as well. Final-copy approval is not permission to publish: the skills deliver a publishing pack for each platform, and you publish.
 
-Before assets are generated, the workflow recommends 2-3 styles from the [visual style library](skills/self-media-platform-copywriting/references/visual-styles.md) based on content type and platform, or reuses the account's established preference.
+Before assets are generated, the workflow recommends 2 to 3 styles from the [visual style library](skills/self-media-platform-copywriting/references/visual-styles.md) based on content type and platform, or reuses the account's established preference.
 
 ## Safety boundaries
 
 - No automated competitor scraping with a creator's primary account session
-- No automatic likes, comments, follows, DMs, or publishing
-- No cookies, tokens, or secrets in task cards, logs, or the repository
-- Digital-human portraits, likenesses, and voices must have confirmed usage rights; the user personally uploads and selects them in the chosen provider after reviewing its current data-processing terms
-- No original portraits or recordings, their local paths, temporary links, or digital-human provider-private identifiers in task cards, content registries, or the repository — only index paths of deliverables such as generated clips, final videos, and captions; confirm the required AI/digital-human disclosures per target platform
-- Stop immediately on CAPTCHAs, rate limits, or platform risk controls
-- Verify recent products, prices, versions, and platform rules against official sources
-- Never invent data, experience, revenue, user feedback, or test results
+- No automatic likes, comments, follows, DMs or publishing
+- No cookies, tokens or secrets in task cards, logs or the repository
+- Digital-human portraits, likenesses and voices must have confirmed usage rights; the user personally uploads and selects them in the chosen provider after reviewing its current data-processing terms
+- No original portraits or recordings, their local paths, temporary links or digital-human provider-private identifiers in task cards, content registries or the repository; only index paths of deliverables such as generated clips, final videos and captions; confirm the required AI or digital-human disclosures per target platform
+- Stop immediately on CAPTCHAs, rate limits or platform risk controls
+- Verify recent products, prices, versions and platform rules against official sources
+- Never invent data, experience, revenue, user feedback or test results
 
 See [SECURITY.md](SECURITY.md) for the full policy.
 
@@ -136,22 +134,15 @@ See [SECURITY.md](SECURITY.md) for the full policy.
 python3 scripts/validate.py
 ```
 
-The validator checks skill frontmatter, directory consistency, core-file length, UI metadata, relative links, and unresolved TODOs, with no third-party dependencies. CI runs the structural validation and the overseas comparison unit tests on every push, and performs a real installation test with the official skills CLI.
-
-To run the overseas comparison unit tests on their own:
-
-```bash
-python3 -m unittest discover -s skills/self-media-trend-radar/scripts
-```
+The validator checks skill frontmatter, directory consistency, core-file length, UI metadata, relative links and unresolved TODOs, with no third-party dependencies. CI runs the validation on every push and performs a real installation test with the official skills CLI.
 
 ## Repository layout
 
 ```text
-skills/                   # 10 independently installable skills
+skills/                   # 6 independently installable skills
 ├── <skill>/SKILL.md      #   core workflow (≤ 500 lines)
 ├── <skill>/references/   #   detailed platform guidance
-├── <skill>/assets/       #   copyable output templates
-└── <skill>/scripts/      #   optional scripts (video publishing, overseas comparison)
+└── <skill>/assets/       #   copyable output templates
 scripts/validate.py       # repository validation
 .claude-plugin/           # Claude Code plugin and marketplace manifests
 .github/workflows/        # structural validation + install test
@@ -159,24 +150,39 @@ scripts/validate.py       # repository validation
 
 ## Design decisions
 
-- One orchestrator owns routing and state; eight modules each own a single responsibility
-- Collection and publishing are runtime adapter layers, never vendor-bound
-- Platforms share facts and evidence while titles, openings, structure, and actions are rewritten per platform
+- One orchestrator owns routing and state; five modules each own a single responsibility
+- Research and generation tools are runtime adapters, never vendor-bound
+- Platforms share facts and evidence, while titles, openings, structure and actions are rewritten per platform
 - Platform limits change; exact values defer to official documentation or the publishing interface
+
+## What changed in this edition
+
+- Translated into English. The method is unchanged and the meaning is kept.
+- Kept: the orchestrator (trimmed to the kept modules), content brief, content strategy, trend radar (research process and Reddit discussion discovery), platform copywriting and short video.
+- Removed: content analytics, content delivery, the WeChat publisher, the video publisher, the workbench app, and the trend radar's overseas comparison mode and its scripts. The workflow ends with a publishing pack, and you publish.
+- Rules that counted Chinese characters were rewritten by what they are for. For example, "at most 14 characters per line" became "short enough to read as one line on a phone", and narration length is estimated at about 150 words a minute, the usual speaking rate in English. Details that only applied to Chinese text or Chinese-speaking viewers were removed.
+- Rules about Chinese platforms and Chinese law (for example, China's rules on labeling AI-generated content) are kept for the platforms that are kept.
+
+See [CHANGELOG.md](CHANGELOG.md) for details.
+
+## Credits
+
+- Original work: [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) by [Yanhua](https://github.com/yanhua1010), released under the MIT License (Copyright (c) 2026 Yanhua). The original repository is in Chinese and includes the modules this edition removed.
+- English edition: [upiznhec](https://github.com/upiznhec), under the same license.
 
 ## Contributing
 
-Issues and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and run `python3 scripts/validate.py` before submitting. See [CHANGELOG.md](CHANGELOG.md) for release history.
+Issues and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and run `python3 scripts/validate.py` before submitting. Changes that also apply to the original are better proposed in [the original repository](https://github.com/yanhua1010/self-media-content-workflow).
 
 ## Disclaimer
 
 This project is a content-creation assistance Skill suite, provided "as is" without warranty of any kind, express or implied. Before using it:
 
-- **Official platform rules prevail.** Platform conventions, publishing flows, and operational advice in this repository reflect experience at the time of writing, and platform rules can change at any time. When an exact value matters, defer to official announcements and the current publishing interface.
-- **Account operations are at your own risk.** This project performs real account operations, such as writing WeChat Official Account drafts. The author is not liable for rate limiting, account suspension, content removal, data loss, or any other damages arising from use of this project.
-- **You control your own credentials.** This project does not collect, transmit, or store credentials. Secrets such as `WECHAT_APP_ID` and `WECHAT_APP_SECRET` are supplied only through your local environment variables — never write them into any file that could be committed or shared.
+- **Official platform rules prevail.** Platform conventions and operational advice in this repository reflect experience at the time of writing, and platform rules can change at any time. When an exact value matters, defer to official announcements and the current publishing interface.
+- **Account use is at your own risk.** You publish on your own accounts, and any research or generation services you connect run under your accounts and their terms. The authors are not liable for rate limiting, account suspension, content removal, data loss or any other damages arising from use of this project.
+- **You control your own credentials.** This project does not collect, transmit or store credentials. Keys such as `AISA_API_KEY` are supplied only through your local environment variables; never write them into any file that could be committed or shared.
 - **Content compliance is the publisher's responsibility.** The compliance checklists here are not legal advice. Whether your published content complies with applicable advertising and content laws, and with each platform's community guidelines, is yours to judge and to answer for.
-- **No results are guaranteed.** This project makes no promise regarding reach, follower growth, conversion, or revenue.
+- **No results are guaranteed.** This project makes no promise regarding reach, follower growth, conversion or revenue.
 
 ## License
 

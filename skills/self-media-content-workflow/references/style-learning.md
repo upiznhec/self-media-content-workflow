@@ -1,32 +1,32 @@
-# 风格学习
+# Style learning
 
-## 用户修改信号
+## Signals from the user's edits
 
-比较完整 AI 初稿和用户确认终稿，记录：
+Compare the complete AI first draft with the final copy the user approved, and record:
 
-- 删除的套话和结构。
-- 补充的一手细节、情绪和判断。
-- 替换的词汇和句式。
-- 标题、开头、证据顺序和结尾调整。
+- Stock phrases and structures that were deleted.
+- First-hand details, feelings and judgments that were added.
+- Words and sentence patterns that were replaced.
+- Changes to the title, opening, order of evidence and ending.
 
-单次修改只记为观察。满足任一条件才升级为稳定偏好：
+Record a single edit only as an observation. Promote it to a stable preference only when one of these holds:
 
-- 用户明确说以后都这样。
-- 同一种修改在至少 3 篇同平台内容中重复出现。
+- The user says explicitly to always do it this way.
+- The same kind of edit appears in at least 3 pieces for the same platform.
 
-升级前向用户确认，再写入项目的账号档案或风格说明。不要静默改变规则。
+Ask the user before promoting it, then write it into the project's account profile or style notes. Never change the rules silently.
 
-## 数据表现信号
+## Signals from performance data
 
-按同平台、同内容类型和相近发布时间选择样本。至少 3 个样本，优先分析高于自身 P75 的内容。观察标题、开头、证据、结构、视觉和行动。
+Choose samples from the same platform, the same content type and similar publishing times. Use at least 3 samples, and focus first on content that performed above the account's own 75th percentile (P75). Look at the title, opening, evidence, structure, visuals and call to action.
 
-不要用跨平台原始播放量给风格排名，也不要把一次爆款永久写成规则。
+Do not rank styles by raw views across platforms, and do not turn one breakout hit into a permanent rule.
 
-## 输出
+## Output
 
-- 保留：重复验证的表达或结构。
-- 实验：有信号但样本不足的模式。
-- 停止：连续失败且换过包装的模式。
-- 不确定：受热点、投流、商单或平台推荐影响，无法归因。
+- Keep: expressions or structures confirmed repeatedly.
+- Experiment: patterns with a signal but too few samples.
+- Stop: patterns that kept failing even with different packaging.
+- Unsure: affected by trends, paid promotion, sponsored deals or platform recommendation, so it cannot be attributed.
 
-商单和自然内容分开学习。
+Learn from sponsored and organic content separately.

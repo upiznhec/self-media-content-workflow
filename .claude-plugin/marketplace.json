@@ -1,43 +1,41 @@
 {
   "name": "self-media",
-  "description": "通用、模块化的自媒体内容生产与经营 Skills",
+  "description": "General, modular Skills for creating and running self-media content (English edition)",
   "version": "0.1.0",
   "owner": {
-    "name": "yanhua",
-    "url": "https://github.com/yanhua1010"
+    "name": "upiznhec",
+    "url": "https://github.com/upiznhec"
   },
   "plugins": [
     {
       "name": "self-media-suite",
       "source": "./",
-      "displayName": "自媒体内容工作流",
-      "description": "十个 Skill 覆盖内容生产闭环：创作简报、账号策略、热点与竞品研究、平台原生文案、短视频与视频制片（含数字人和动画解说）、YouTube 与抖音视频号小红书视频发布、公众号排版发布、数据复盘和交付归档，由总控 Skill 编排。",
+      "displayName": "Self-media content workflow (English edition)",
+      "description": "Six Skills for creating content: content brief, account strategy, trend and competitor research, platform-native copy, and short video and video production (including digital humans and animated explainers), run by a main workflow Skill. An English edition of yanhua1010/self-media-content-workflow.",
       "version": "0.1.0",
       "author": {
         "name": "yanhua",
         "url": "https://github.com/yanhua1010"
       },
-      "homepage": "https://github.com/yanhua1010/self-media-content-workflow",
-      "repository": "https://github.com/yanhua1010/self-media-content-workflow",
+      "homepage": "https://github.com/upiznhec/self-media-content-workflow",
+      "repository": "https://github.com/upiznhec/self-media-content-workflow",
       "license": "MIT",
       "category": "content",
       "keywords": [
-        "自媒体",
-        "内容创作",
-        "小红书",
-        "公众号",
-        "短视频",
-        "YouTube",
-        "抖音",
-        "视频号",
-        "文案",
+        "self-media",
         "content-creation",
         "copywriting",
-        "social-media"
+        "social-media",
+        "short-video",
+        "YouTube",
+        "Reddit",
+        "Xiaohongshu",
+        "WeChat",
+        "Douyin"
       ],
       "tags": [
-        "自媒体",
-        "内容创作",
+        "self-media",
+        "content-creation",
         "copywriting"
       ]
     }

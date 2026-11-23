@@ -1,54 +1,53 @@
 # YouTube
 
-## 平台角色
+## Platform role
 
-搜索和推荐并重的长期资产平台。一条视频的流量可以持续数月甚至数年，标题、缩略图、描述和章节决定它能不能被找到、被点开、被看完。中文频道的观众分布在中国大陆以外的各地区，繁体用户占比不小。
+A platform for long-term assets, where search and recommendation matter equally. One video can keep getting traffic for months or even years; its title, thumbnail, description and chapters decide whether it is found, clicked and watched to the end.
 
-## 标题
+## Title
 
-- 前半句放钩子（冲突、反差、好奇），后半句放搜索词（主题名、核心概念）和价值承诺（如“90 秒看懂”）。
-- 关键信息放在前约 40 个字符内，避免在搜索结果和手机端被截断。
-- 标题、缩略图和视频前 5 秒讲同一个承诺，不做标题党。
-- 内部生成 6 到 8 个，按规则只展示最强 3 个。
+- Put the hook (conflict, contrast, curiosity) in the first half, and the search terms (topic name, core concept) and the value promise (such as "explained in 90 seconds") in the second half.
+- Put the key information at the start of the title, so it is not cut off in search results or on phones.
+- The title, thumbnail and first 5 seconds of the video make the same promise; no clickbait.
+- Generate 6 to 8 internally and, as the general rule says, show only the strongest 3.
 
-## 缩略图
+## Thumbnail
 
-- 16:9，主体大、对比强，字少（3 到 6 个字，或不放字）。
-- 与标题互补：标题讲事，缩略图给画面或情绪，不重复同一句话。
-- 同一系列保持统一版式，形成频道辨识度。
+- 16:9, with a large subject, strong contrast and little text: short enough to read at a glance on a small thumbnail, or none.
+- Complement the title: the title tells what happens, and the thumbnail gives a picture or an emotion; do not repeat the same sentence.
+- Keep one layout for a series, so the channel is recognizable.
 
-## 描述
+## Description
 
-结构：
+Structure:
 
-1. 前两行：复述钩子和视频价值（这两行在搜索结果和展开前可见）。
-2. 内容概要：一段话交代这条视频讲了什么。
-3. 章节：时间戳列表，第一个从 `0:00` 开始，至少 3 个章节，每章不短于 10 秒；YouTube 会据此生成进度条分段。
-4. 延伸信息：事实补充、来源或“你可能不知道”的要点，增加检索词覆盖。
-5. 音乐与素材署名：曲名、作者、授权和链接（CC BY 等授权必须写）。
-6. 声明：与品牌无关联、AI 绘制画面等透明度说明，以及商业合作声明（如有）。
-7. 末尾 2 到 3 个 `#话题`，它们会显示在标题附近，不要堆砌。
+1. The first two lines restate the hook and the video's value (these two lines are visible in search results and before the description is expanded).
+2. Summary: one paragraph on what the video covers.
+3. Chapters: a list of timestamps. The first starts at `0:00`; use at least 3 chapters, each at least 10 seconds long. YouTube uses them to split the progress bar into segments.
+4. Further information: added facts, sources or "things you might not know", which widen the search terms the video covers.
+5. Music and asset attribution: track name, author, license and link (required for licenses such as CC BY).
+6. Statements: no affiliation with brands, AI-drawn visuals and other transparency notes, plus a commercial partnership statement (if any).
+7. 2 to 3 `#hashtags` at the end. They show near the title, so do not pile them up.
 
-## 标签
+## Tags
 
-- 标签对排名作用有限，主要帮助处理常见错拼和同义词：品牌中英文名、核心概念、系列名。
-- 总长有字符上限（发布界面会提示），按相关度排序，不堆砌无关热词。
+- Tags do little for ranking. They mainly help with common misspellings and synonyms: the core concept and the series name.
+- The total length has a character limit (the publishing screen warns you). Order tags by relevance, and do not pile up unrelated trending words.
 
-## 字幕
+## Subtitles
 
-- 上传 SRT 字幕文件，不只依赖自动字幕。字幕可被搜索、可自动翻译，也照顾无声观看的观众。
-- 需要覆盖繁体观众时，可在后台加繁体中文的标题、描述翻译和字幕。
+- Upload an SRT subtitle file instead of relying only on automatic captions. Subtitles can be searched and translated automatically, and they serve viewers who watch without sound.
 
-## 发布设置
+## Publishing settings
 
-- 观众设置：如实选择“是否为面向儿童的内容”。
-- 更改或合成内容：写实到足以让人误以为真实时需要声明；明显的动画或插画风格通常不需要，但描述里说明更透明。
-- 公开范围：首次上传建议先设为私密或不公开，检查无误后再公开或定时。
-- 片尾画面和卡片：在最后 5 到 20 秒放订阅和推荐视频，片尾留出相应时长。
-- 播放列表：按系列归入，有利于连续观看。
+- Audience: answer whether the video is made for kids truthfully.
+- Altered or synthetic content: disclose it when the content is realistic enough to be mistaken for real. An obviously animated or illustrated style usually does not need it, but saying so in the description is more transparent.
+- Visibility: for a first upload, set it to private or unlisted first, then make it public or schedule it after checking.
+- End screens and cards: put subscribe and recommended videos in the last 5 to 20 seconds, and leave that much time at the end of the video.
+- Playlists: add videos to playlists by series, which helps people keep watching.
 
-## 交付
+## Deliverables
 
-标题 3 选 1、描述全文（含章节、署名、声明、话题）、标签、缩略图方案、字幕文件、观众与合成内容设置、公开范围建议。
+3 titles to choose 1 from, the full description (with chapters, attribution, statements and hashtags), tags, a thumbnail plan, the subtitle file, audience and synthetic-content settings, and a visibility recommendation.
 
-平台字符限制和功能会变化，精确值以 YouTube 帮助中心和上传界面为准。
+Platform character limits and features change; exact values come from the YouTube Help Center and the upload screen.

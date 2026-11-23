@@ -1,70 +1,70 @@
 ---
 name: self-media-content-brief
-description: 为单篇或多平台自媒体创作澄清需求并生成可确认的创作简报。用于用户只给一句话选题、一个链接、一份素材、一个产品或模糊创作要求，需要确认目标受众、内容目标、核心判断、角度、深度、调性、证据、禁区和平台差异时。纯数据分析、已确认方向后的改稿和细节微调不使用此 Skill。
+description: Clarifies what the user wants for a single piece or for multi-platform self-media content, and produces a content brief they can approve. Use it when the user gives only a one-line topic, a link, some material, a product or a vague request, and the target audience, content goal, core claim, angle, depth, tone, evidence, no-go areas and platform differences need confirming. Do not use it for pure data analysis, for edits after the direction is approved, or for fine-tuning details.
 ---
 
-# 创作简报
+# Content brief
 
-## 原则
+## Principles
 
-- 先查现有上下文和用户提供的素材，再提问。
-- 只问答案会改变创作方向的问题，最多 3 个。
-- 用户可以跳过问题并采用合理默认值。
-- 不把用户已明确的信息换一种说法再问一次。
-- 简报要让用户能快速确认，不写成长篇提案。
+- Check the existing context and the material the user provided before asking.
+- Ask only questions whose answers change the creative direction, at most 3.
+- The user can skip questions and accept reasonable defaults.
+- Do not ask again, in other words, about information the user has already made clear.
+- The brief should let the user approve it quickly; do not write it as a long proposal.
 
-## 需要确认的信息
+## What to confirm
 
-按影响大小检查：
+Check in order of impact:
 
-1. 账号定位和目标受众。
-2. 内容目标：涨粉、互动、建立信任、转化或其他。
-3. 一句话核心判断或希望读者记住的结果。
-4. 内容来源和可验证证据。
-5. 平台、形态、深度、篇幅或视频时长。
-6. 调性、参考内容和不能写的内容。
-7. 截止时间和是否包含商业合作。
+1. Account positioning and target audience.
+2. Content goal: followers, engagement, trust, conversion or something else.
+3. A one-sentence core claim, or the result you want readers to remember.
+4. Content sources and verifiable evidence.
+5. Platform, format, depth, length or video duration.
+6. Tone, reference content and what must not be written.
+7. Deadline, and whether there is a commercial partnership.
 
-## 提问路由
+## Question routing
 
-| 场景 | 优先问题 |
+| Situation | Questions to ask first |
 |---|---|
-| 公众号 | 目标读者、内容目标、深度、核心角度 |
-| 小红书 | 受众身份、搜索问题、图文或视频、真实证据 |
-| X | 想验证的判断、受众、短帖或线程、唯一行动 |
-| 视频号或抖音 | 时长、出镜方式、钩子方向、可用画面 |
-| 多平台 | 主平台、各平台承担的任务、可投入时间 |
+| WeChat Official Account | Target readers, content goal, depth, core angle |
+| Xiaohongshu | Audience identity, the search question, images or video, real evidence |
+| X | The claim to test, audience, short post or thread, the single action |
+| WeChat Channels or Douyin | Duration, how the creator appears on camera, hook direction, available footage |
+| Several platforms | Main platform, each platform's job, time available |
 
-缺少信息但可以从素材、项目文件或公开来源得到时，先查找，不反问用户。
+When information is missing but can be found in the material, project files or public sources, look it up instead of asking the user.
 
-## 输出创作简报
+## The content brief
 
-使用以下结构：
+Use this structure:
 
 ```markdown
-## 创作简报
+## Content brief
 
-- 账号定位：
-- 目标受众：
-- 内容目标：
-- 主平台：
-- 扩展平台：
-- 内容形态：
-- 一句话核心判断：
-- 准备使用的证据：
-- 读者收益：
-- 深度与调性：
-- 明确不写：
-- 各平台角度：
-- 截止时间：
+- Account positioning:
+- Target audience:
+- Content goal:
+- Main platform:
+- Extra platforms:
+- Content format:
+- Core claim in one sentence:
+- Evidence to use:
+- Reader benefit:
+- Depth and tone:
+- Explicitly out of scope:
+- Angle for each platform:
+- Deadline:
 ```
 
-列出使用的默认值。给出简报后停下，等待用户确认或修改。方向未确认前不要写完整正文。
+List the defaults you used. After giving the brief, stop and wait for the user to approve or edit it. Do not write the full body before the direction is approved.
 
-## 交棒条件
+## Handoff
 
-用户确认后：
+After the user approves:
 
-- 需要补热点、竞品或事实时，交给 `self-media-trend-radar`。
-- 写图文或平台文案时，交给 `self-media-platform-copywriting`。
-- 写视频时，交给 `self-media-short-video`。
+- For trends, competitors or facts, hand over to `self-media-trend-radar`.
+- For image-and-text posts or platform copy, hand over to `self-media-platform-copywriting`.
+- For video, hand over to `self-media-short-video`.

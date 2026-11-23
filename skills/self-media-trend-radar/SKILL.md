@@ -1,75 +1,69 @@
 ---
 name: self-media-trend-radar
-description: 安全追踪热点、研究关键词和拆解竞品内容，并将结果转成原创选题和证据包。用于用户要求找热点、看趋势、分析爆款、研究竞品账号、拆标题或开头、比较内容结构、发现评论需求、判断时效窗口，对比同一话题在海外与国内平台的热度差，以及为产品寻找值得参与的 Reddit 子版块和讨论帖。只做公开信息研究和只读采集，不自动互动、发布或使用主账号登录态抓取竞品。
+description: Tracks trends safely, researches keywords and takes competitor content apart, then turns the results into original topics and an evidence pack. Use it when the user wants to find trends, see what is rising, analyze breakout posts, research competitor accounts, break down titles or openings, compare content structures, find needs in comments, judge a timeliness window, or find subreddits and threads on Reddit worth joining for a product. It does only public research and read-only collection, never interacts or publishes automatically, and never uses the main account's login to collect competitor data.
 ---
 
-# 热点与竞品雷达
+# Trend and competitor radar
 
-## 目标
+## Goal
 
-识别用户需求、表达结构和时效机会，不复制竞品观点或文案。
+Identify user needs, ways of structuring and expressing content, and timely opportunities, without copying competitors' views or copy.
 
-## 数据源优先级
+## Source priority
 
-1. 用户提供的链接、截图、导出文件和素材。
-2. 官方文档、原始发布、论文、公告和作者原帖。
-3. 平台公开搜索、热榜、竞品主页和公开互动数据。
-4. 可信二手资料，用于补充背景，不替代一手事实。
+1. Links, screenshots, exported files and material the user provides.
+2. Official documents, original releases, papers, announcements and the author's original posts.
+3. Platform public search, trending lists, competitor profiles and public engagement data.
+4. Credible secondary sources, to add background, never to replace first-hand facts.
 
-近期产品、人物、价格、版本、新闻和平台规则必须联网核验。技术事实优先使用官方来源。
+Recent products, people, prices, versions, news and platform rules must be checked online. For technical facts, prefer official sources.
 
-## 海外对照模式（可选）
+## Reddit discussion discovery (optional)
 
-用户想知道某个话题在海外和国内的冷热差，或想找「海外已经热、国内还没人做」的选题时，且环境变量 `AISA_API_KEY` 已设置，可运行 `scripts/overseas_compare.py`，一次对比 X、YouTube、Reddit 与小红书、抖音、B站的近期热度。先用 `quote` 报价并取得用户同意，再执行 `run`。用法、费用、评分口径和限制见 [overseas-compare.md](references/overseas-compare.md)。
+When the user wants to promote a product or content on Reddit, first find the subreddits and threads where related problems are being discussed, read the comments and subreddit rules, and give a list of places worth joining, then hand over to platform copywriting to write the replies. The process, the AIsa API and how to judge subreddit rules are in [reddit-discovery.md](references/reddit-discovery.md).
 
-没有 key 时不运行脚本，按下面的研究流程人工抽样。脚本结果作为第 2 步的样本，后续步骤不变。
+## Research process
 
-## Reddit 讨论发现（可选）
+### 1. Define the research question
 
-用户想在 Reddit 上宣传产品或内容时，先找出正在讨论相关问题的子版块和帖子，读评论和版规，给出可参与的清单，再交给平台文案写回复。流程、AIsa 接口和版规判断见 [reddit-discovery.md](references/reddit-discovery.md)。
+Confirm what is to be answered: a trend window, keyword demand, competitor structure, account positioning or a content opportunity. First limit the platforms, time range and sample size.
 
-## 研究流程
+### 2. Collect a limited sample
 
-### 1. 定义研究问题
+Collect only samples that can answer the question. Record the link, publishing time, title, content format, public engagement and observation notes. Do not call one strong performance a pattern.
 
-确认要回答的是热点窗口、关键词需求、竞品结构、账号定位还是内容机会。先限定平台、时间范围和样本数量。
+### 3. Break down the structure
 
-### 2. 收集有限样本
+Check each sample:
 
-只收集能回答问题的样本。记录链接、发布时间、标题、内容形态、公开互动和观察备注。不要把一次高表现直接叫作规律。
+- What promise, identity, conflict or information gap the title uses.
+- How the first 3 seconds or the first screen make people stay.
+- How the content organizes evidence, story, steps and turns.
+- What job the cover or first image does.
+- How the call to action, tags, collections and publishing time support the goal.
+- What real questions and objections the comments reveal.
 
-### 3. 拆解结构
+### 4. Judge the opportunity
 
-逐条检查：
+Separate:
 
-- 标题使用了什么承诺、身份、冲突或信息差。
-- 开头 3 秒或第一屏如何建立停留。
-- 内容如何组织证据、故事、步骤和转折。
-- 封面或首图承担什么任务。
-- 行动、标签、合集和发布时间如何配合目标。
-- 评论区暴露了哪些真实问题和反对意见。
+- Facts that can be checked directly.
+- Patterns repeated across several samples.
+- Effects that may come from a trend, paid promotion or the account's size.
+- First-hand experience, counter-evidence and independent judgment the user can add.
 
-### 4. 判断机会
+### 5. Turn it into original topics
 
-区分：
+For each candidate, write a one-sentence claim, the target audience, the timeliness window, first-hand evidence, a different angle, suitable platforms, evidence still missing and risks.
 
-- 可以直接核验的事实。
-- 多个样本重复出现的模式。
-- 可能由热点、投流或账号体量造成的现象。
-- 用户能加入的一手经验、反证和独立判断。
+## Output
 
-### 5. 转成原创选题
+Deliver:
 
-每个候选写明：一句话判断、目标受众、时效窗口、一手证据、差异化角度、适合平台、仍缺证据和风险。
+1. The research scope and a note on the sample.
+2. 3 to 5 structural findings.
+3. What cannot be concluded.
+4. 3 to 5 original topics.
+5. The most recommended topic and the next step to test it.
 
-## 输出
-
-交付：
-
-1. 研究范围和样本说明。
-2. 3 到 5 条结构性发现。
-3. 不能下结论的内容。
-4. 3 到 5 个原创选题。
-5. 最推荐选题和下一步验证动作。
-
-读取 [research-safety.md](references/research-safety.md) 并遵守账号隔离、只读、控频、遇阻即停和凭证保护规则。
+Read [research-safety.md](references/research-safety.md) and follow its rules on account separation, read-only access, rate control, stopping when blocked and protecting credentials.

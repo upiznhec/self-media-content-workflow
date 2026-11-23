@@ -1,70 +1,70 @@
 ---
 name: self-media-content-strategy
-description: 把账号定位和业务目标转成可执行的自媒体内容策略。用于账号冷启动、重新定位、制定内容配比、规划系列栏目、建立选题池、安排周度或月度内容日历、评估产能和确定平台分工。单篇内容写作或纯数据复盘不使用此 Skill。
+description: Turns account positioning and business goals into a self-media content strategy that can be acted on. Use it for starting a new account, repositioning, setting the content mix, planning series, building a topic pool, laying out a weekly or monthly content calendar, judging production capacity and deciding what each platform is for. Do not use it for writing a single piece or for pure data reviews.
 ---
 
-# 内容策略
+# Content strategy
 
-## 输入
+## Inputs
 
-优先读取已有账号说明、历史内容和数据。只有缺失且会改变策略时，确认：
+Read existing account notes, past content and data first. Confirm the following only when they are missing and would change the strategy:
 
-- 领域、人设和目标受众。
-- 业务目标和本阶段优先级。
-- 已有平台、账号阶段和历史表现。
-- 更新频率、团队规模和可投入时间。
-- 可持续的一手证据和内容来源。
-- 商业目标、品牌边界和不能做的内容。
+- Field, persona and target audience.
+- Business goals and this stage's priorities.
+- Existing platforms, the account's stage and past performance.
+- Posting frequency, team size and time available.
+- First-hand evidence and content sources that can be kept up.
+- Commercial goals, brand boundaries and content that is off limits.
 
-可从 [account-profile-template.md](assets/account-profile-template.md) 建立账号档案。
+You can set up an account profile from [account-profile-template.md](assets/account-profile-template.md).
 
-## 方法
+## Method
 
-### 1. 写清定位承诺
+### 1. Write a clear positioning promise
 
-用一句话说明“谁，为谁，持续提供什么价值，凭什么相信”。定位必须能约束选题，不写空泛口号。
+In one sentence, say "who, for whom, keeps providing what value, and why they should be believed". The positioning must narrow the choice of topics; do not write an empty slogan.
 
-### 2. 将目标映射为内容类型
+### 2. Map goals to content types
 
-| 类型 | 主要作用 | 常见形式 |
+| Type | Main job | Common formats |
 |---|---|---|
-| 涨粉 | 被新用户发现 | 教程、避坑、反常识、趋势解释 |
-| 互动 | 激活现有受众 | 问题、选择、争议、共同经历 |
-| 信任 | 建立专业度和人格 | 案例、幕后、复盘、深度方法 |
-| 转化 | 承接产品或服务 | 测评、答疑、案例、合作内容 |
+| Growth | Be discovered by new users | Tutorials, pitfalls to avoid, counter-intuitive points, trend explanations |
+| Engagement | Activate the existing audience | Questions, choices, debates, shared experiences |
+| Trust | Build expertise and personality | Cases, behind the scenes, retrospectives, in-depth methods |
+| Conversion | Lead to a product or service | Reviews, Q&A, cases, partnership content |
 
-不要套用固定比例。根据账号阶段、历史数据和产能提出初始比例，并明确这是待验证假设。
+Do not apply a fixed ratio. Propose a starting mix based on the account's stage, past data and production capacity, and state clearly that it is a hypothesis to test.
 
-### 3. 建立选题池
+### 3. Build a topic pool
 
-每条选题至少记录：
+Record at least the following for each topic:
 
-- 母题和一句话钩子。
-- 内容目标和目标受众。
-- 主平台和可扩展平台。
-- 一手证据和仍缺证据。
-- 时效窗口、优先级和预计成本。
-- 是否属于系列。
+- The core topic and a one-sentence hook.
+- The content goal and target audience.
+- The main platform and possible extra platforms.
+- First-hand evidence, and evidence still missing.
+- Timeliness window, priority and estimated cost.
+- Whether it belongs to a series.
 
-使用 [topic-pool-template.md](assets/topic-pool-template.md)。优先留下可持续生产、能强化定位和有真实证据的选题。
+Use [topic-pool-template.md](assets/topic-pool-template.md). Keep first the topics that can be produced sustainably, strengthen the positioning and have real evidence.
 
-### 4. 设计系列栏目
+### 4. Design series
 
-将零散选题收敛为 2 到 4 个栏目。每个栏目写清内容承诺、证据来源、适合平台、更新频率和停止条件。
+Narrow scattered topics into 2 to 4 series. For each series, write down its content promise, evidence sources, suitable platforms, frequency and when to stop it.
 
-### 5. 生成内容日历
+### 5. Make the content calendar
 
-先分配产能，再排日期。保留热点插槽，避免把未来内容全部写死。每个周期只设置一个可归因的实验变量。使用 [content-calendar-template.md](assets/content-calendar-template.md)。只有用户明确要求提醒且当前环境提供调度能力时，才创建排期提醒。
+Allocate production capacity first, then set dates. Keep slots for trends, and do not fix all future content in advance. In each cycle, change only one variable whose effect you can attribute. Use [content-calendar-template.md](assets/content-calendar-template.md). Create schedule reminders only when the user explicitly asks for reminders and the current environment can schedule them.
 
-## 输出
+## Output
 
-交付：
+Deliver:
 
-1. 一句话定位。
-2. 阶段目标和内容配比假设。
-3. 2 到 4 个栏目。
-4. 选题池。
-5. 周度或月度日历。
-6. 成功指标、停止条件和本周期唯一实验。
+1. A one-sentence positioning.
+2. The stage goal and the content mix hypothesis.
+3. 2 to 4 series.
+4. A topic pool.
+5. A weekly or monthly calendar.
+6. Success measures, stopping conditions and the single experiment for this cycle.
 
-如果历史数据不足，明确写“建立基线”，不伪造精确目标。
+If there is not enough past data, write "establish a baseline" plainly; do not invent precise targets.

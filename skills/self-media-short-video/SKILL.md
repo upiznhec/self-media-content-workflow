@@ -1,77 +1,77 @@
 ---
 name: self-media-short-video
-description: 把已确认的母题或文案转成可直接拍摄、录屏或交给视频工具制作的视频方案，也支持在用户确认肖像与声音权利并完成平台手动上传后制作数字人视频，以及用合成配音和 AI 绘制画面制作无真人出镜的动画解说视频（科普、历史、品牌故事）。用于视频号、抖音、小红书视频、YouTube 横屏视频和 Shorts 的口播稿、前 3 秒钩子、分镜、字幕、录屏清单、封面、话题、配乐与授权、数字人或动画制片包、横竖屏多平台版本和发布文案。
+description: Turns an approved core topic or copy into a video plan that can be shot, screen-recorded or handed to video tools. It also supports making digital-human videos after the user confirms the likeness and voice rights and finishes the manual upload on the platform, and making animated explainer videos with no on-camera presenter (science, history, brand stories) with a synthetic voice and AI-drawn visuals. Use it for spoken scripts, the first 3-second hook, storyboards, subtitles, screen-recording checklists, covers, hashtags, music and licensing, digital-human or animated production packs, landscape and vertical versions for several platforms, and publishing copy for WeChat Channels, Douyin, Xiaohongshu video, YouTube landscape videos and Shorts.
 ---
 
-# 短视频与视频制片
+# Short video and video production
 
-## 原则
+## Principles
 
-- 一条视频只讲一个核心判断。
-- 前 3 秒给出冲突、结果、利益或具体场景；优先用第二人称（“你……”）或一句能重复出现的母题句把观众拉进来。
-- 字幕必须能脱离声音独立成立：关掉声音只看字幕也能看懂。
-- 口播必须说得出口，不把长文章切成字幕。
-- 画面承担证明、演示、对比或情绪任务，不重复字幕。
-- 优先使用真实人物声音、产品录屏和真实证据，不默认数字人或动画。
-- 数字人是用户主动选择后的制片模式，必须有头像与声音的使用权利；用户本人负责在所选数字人平台中手动上传、创建和选定敏感素材，并保留人工预览和发布确认。
+- One video makes only one core claim.
+- The first 3 seconds give a conflict, result, benefit or concrete scene. Prefer the second person ("you...") or a motif line that can recur, to draw viewers in.
+- Subtitles must work without sound: with the sound off, the subtitles alone are enough to follow the video.
+- The spoken script must be easy to say aloud; do not cut a long article into subtitles.
+- Visuals prove, demonstrate, compare or carry emotion; they do not repeat the subtitles.
+- Prefer a real person's voice, product screen recordings and real evidence; do not default to a digital human or animation.
+- The digital human is a production mode used only after the user chooses it, and it requires rights to the portrait and voice. The user personally uploads, creates and selects the sensitive assets on the chosen digital-human platform, and keeps the human preview and publishing confirmation.
 
-## 确认输入
+## Confirm the inputs
 
-检查：目标平台、受众、内容目标、时长、出镜方式、可用素材、核心判断、行动和不能展示的内容。缺少会改变方案的信息时最多问 3 个问题。
+Check the target platform, audience, content goal, length, how the creator appears on camera, available assets, core claim, call to action and what must not be shown. If information that would change the plan is missing, ask at most 3 questions.
 
-## 视频制作模式
+## Video production modes
 
-- `方案模式`：没有原片、没有确认数字人平台素材已就绪，或没有明确成片授权时，交付可拍摄方案，不擅自生成成片。
-- `真人剪辑模式`：用户提供原片并明确要求剪辑时，调用当前环境可用的视频、字幕和音频能力。
-- `数字人制片模式`：用户明确选择数字人、确认肖像与声音权利，并已在所选平台手动上传、创建和选定数字人及声音后，按 [digital-human-production.md](references/digital-human-production.md) 生成数字人讲解片段，再完成画面解析、字幕、人物窗口和竖屏成片。
-- `动画解说制片模式`：用户明确要无真人出镜的动画成片，且运行时发现了配音、图像和视频合成能力时，按 [animated-explainer-production.md](references/animated-explainer-production.md) 和 [explainer-narrative.md](references/explainer-narrative.md) 完成叙事骨架、合成配音、画面素材、镜头合成、配乐授权与混音，先出主版本。
+- `Plan mode`: when there is no raw footage, no confirmation that the digital-human platform assets are ready, or no clear permission to make a finished video, deliver a plan that can be shot, and do not make a finished video on your own.
+- `Live-action editing mode`: when the user provides raw footage and explicitly asks for editing, use the video, subtitle and audio capabilities available in the current environment.
+- `Digital-human production mode`: when the user explicitly chooses a digital human, confirms the likeness and voice rights, and has uploaded, created and selected the digital human and voice on the chosen platform themselves, generate the digital-human presenter clips following [digital-human-production.md](references/digital-human-production.md), then complete the explanatory visuals, subtitles, presenter window and the vertical final video.
+- `Animated explainer production mode`: when the user explicitly wants a finished animated video with no on-camera presenter, and voice, image and video composition capabilities are found at run time, follow [animated-explainer-production.md](references/animated-explainer-production.md) and [explainer-narrative.md](references/explainer-narrative.md) to build the narrative skeleton, synthetic voice-over, visual assets, shot composition, music licensing and mixing, and produce the master version first.
 
-动画解说模式同样由运行时发现工具：可以是已安装的动画制片 Skill、剪辑软件工程模板或用户指定的视频工具，核心流程不写死某家图像或配音服务。付费生成前向用户说明预估费用。
+In animated explainer mode, tools are also found at run time: an installed animation production Skill, an editing software project template or a video tool the user names. The core process does not hard-code any image or voice service. Before paid generation, tell the user the estimated cost.
 
-数字人模式的生成工具由运行时发现。若当前环境提供 Topview MCP，可在用户确认 Topview 中的数字人和声音已就绪后，将其作为数字人片段生成适配器；本 Skill 不调用上传凭证或克隆接口代替用户上传原始头像、录音。核心流程不写死供应商 API。生成能力或合成能力不可用时，降级为数字人分镜、画面映射、字幕稿、素材清单和可手动完成的发布包。
+In digital-human mode, the generation tool is found at run time. If the current environment provides Topview MCP, it can be used as the adapter for generating digital-human clips after the user confirms that the digital human and voice in Topview are ready. This Skill does not use upload credentials or cloning interfaces in place of the user uploading the original portrait and recording. The core process does not hard-code a vendor API. When generation or composition is unavailable, fall back to a digital-human storyboard, visual mapping, subtitle script, asset list and a publishing pack that can be finished by hand.
 
-## 多平台版本
+## Versions for several platforms
 
-成片要发往多个平台时，先确定主版本（YouTube 通常是 16:9，竖屏平台通常是 9:16），再按 [video-platform-versions.md](references/video-platform-versions.md) 派生其他版本：横屏转竖屏（原生重排或横转竖包装）、烧录字幕或 SRT、各平台封面、AI 标识和配乐署名。用 [video-release-matrix-template.md](assets/video-release-matrix-template.md) 记录每个版本和发布字段。
+When the finished video goes to several platforms, first decide the master version (YouTube is usually 16:9; vertical platforms are usually 9:16), then derive the other versions following [video-platform-versions.md](references/video-platform-versions.md): landscape to vertical (a native re-layout or a vertical wrapper around the landscape video), burned-in subtitles or SRT, a cover for each platform, AI labels and music attribution. Use [video-release-matrix-template.md](assets/video-release-matrix-template.md) to record each version and its publishing fields.
 
-## 结构
+## Structure
 
-选择一种主体结构：
+Choose one main structure:
 
-- 问题 → 方法 → 例证。
-- 结果 → 过程 → 教训。
-- 冲突 → 选择 → 后果。
-- 演示 → 解释 → 适用边界。
+- Problem → method → example.
+- Result → process → lesson.
+- Conflict → choice → consequence.
+- Demonstration → explanation → limits.
 
-结尾给一个记忆点和一个主要行动。
+End with one thing to remember and one main call to action.
 
-## 分镜
+## Storyboard
 
-使用 [storyboard-template.md](assets/storyboard-template.md)。每个镜头写清：
+Use [storyboard-template.md](assets/storyboard-template.md). For each shot, write:
 
-- 时间和时长。
-- 景别、画面、人物动作或录屏操作。
-- 口播、字幕和屏幕文字。
-- 证据、B-roll、音效、BGM 和转场。
+- Time and length.
+- Shot size, picture, the person's action or the screen-recording operation.
+- Spoken lines, subtitles and on-screen text.
+- Evidence, B-roll, sound effects, background music and transitions.
 
-所有镜头时长之和必须等于目标时长。字幕与口播事实必须一致。
+The shot lengths must add up to the target length. The facts in the subtitles and the spoken lines must agree.
 
-## 输出包
+## Output package
 
-交付：
+Deliver:
 
-1. 3 个钩子和推荐版本。
-2. 完整口播稿。
-3. 分镜表或录屏清单。
-4. 字幕稿。
-5. 封面标题和画面说明。
-6. 发布标题、正文、话题和 BGM 建议。
-7. 拍摄或素材缺口。
+1. 3 hooks and the recommended one.
+2. The full spoken script.
+3. A storyboard or screen-recording checklist.
+4. The subtitle script.
+5. The cover title and a description of the cover picture.
+6. The publishing title, body, hashtags and background music suggestions.
+7. Gaps in shooting or assets.
 
-数字人制片模式额外交付：肖像与声音权利确认、平台手动上传和素材就绪状态、数字人生成片段、画面解析与人物窗口规格、字幕文件或字幕文本、发音词表、最终视频技术规格、AI/数字人披露要求和验收结果。交付包不包含原始头像、录音或平台私有标识。
+Digital-human production mode also delivers the likeness and voice rights confirmation, the status of the platform manual upload and asset readiness, generated digital-human clips, specs for the explanatory visuals and presenter window, subtitle files or subtitle text, the pronunciation list, technical specs of the final video, AI or digital-human disclosure requirements and acceptance results. The delivery pack does not include the original portrait, recordings or platform private IDs.
 
-动画解说制片模式额外交付：主版本和各平台派生版本、字幕文件、各平台封面、配乐授权与署名文本、发音词表、事实来源清单、响度与画幅等技术规格、制片工程目录和重建命令。
+Animated explainer production mode also delivers the master version and the version for each platform, subtitle files, a cover for each platform, music license and attribution text, the pronunciation list, a list of fact sources, technical specs such as loudness and aspect ratio, the production project folder and the rebuild command.
 
-多平台发布时交付发布矩阵；上传和发布交给 `self-media-video-publisher`，并遵守逐平台授权。
+When publishing on several platforms, deliver the release matrix. The user uploads and publishes on each platform; this English edition has no video publishing module.
 
-用户没有提供原片时，默认停在可拍摄方案；但用户明确选择数字人制片、完成权利确认，并确认数字人和声音已在所选平台中手动上传和选定时，可以继续发现并调用当前环境的数字人、视频、字幕和音频工具。
+When the user has provided no raw footage, stop at a plan that can be shot by default. But when the user explicitly chooses digital-human production, completes the rights confirmation, and confirms that the digital human and voice have been uploaded and selected on the chosen platform by hand, you may go on to find and call the digital-human, video, subtitle and audio tools in the current environment.

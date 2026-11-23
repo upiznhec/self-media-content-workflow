@@ -1,74 +1,76 @@
 ---
 name: self-media-platform-copywriting
-description: 将已确认的母题、证据和创作简报写成平台原生内容。用于 X 短帖、长帖或线程，小红书图文，Reddit 回复或发帖，微信公众号文章，视频号、抖音或小红书视频发布文案，YouTube 标题、描述、章节、标签和缩略图方案，以及同一母题的多平台适配。强调各平台独立设计标题、开头、证据顺序、结构和行动，不做机械缩写或共享正文式的一稿多发。
+description: Writes an approved core topic, evidence and content brief as platform-native content. Use it for X short posts, long posts or threads, Xiaohongshu image posts, Reddit replies or posts, WeChat Official Account articles, publishing copy for WeChat Channels, Douyin or Xiaohongshu videos, YouTube titles, descriptions, chapters, tags and thumbnail plans, and adapting one core topic for several platforms. It designs the title, opening, order of evidence, structure and call to action separately for each platform, instead of mechanically shortening one text or posting the same body everywhere.
 ---
 
-# 平台文案
+# Platform copywriting
 
-## 前置条件
+## Before you start
 
-开始完整写作前确认：目标受众、内容目标、核心判断、证据、平台、调性、禁区和商业关系。方向未确认时调用 `self-media-content-brief`。
+Before writing in full, confirm the target audience, content goal, core claim, evidence, platforms, tone, no-go areas and commercial relationships. If the direction is not approved, call `self-media-content-brief`.
 
-## 通用流程
+## General process
 
-1. 从证据包中提取事实、个人判断、推断和建议。
-2. 明确读者在当前平台为什么会停下、看完和采取行动。
-3. 内部生成 6 到 8 个标题，覆盖结果、利益、身份、冲突、反差、好奇和数字等入口。
-4. 删除正文无法兑现、缺少证据或过度承诺的标题。
-5. 只向用户展示最强的 3 个标题，并解释各自入口。
-6. 为每个平台分别设计开头、证据顺序、结构和行动。
-7. 保存完整初稿，等待标题确认后再生成封面和最终发布包。
+1. Take the facts, personal judgments, inferences and advice from the evidence pack.
+2. Make clear why readers on this platform would stop, read to the end and take action.
+3. Generate 6 to 8 titles internally, covering entry points such as result, benefit, identity, conflict, contrast, curiosity and numbers.
+4. Delete titles that the body cannot deliver on, that lack evidence, or that promise too much.
+5. Show the user only the strongest 3 titles and explain each one's entry point.
+6. Design the opening, order of evidence, structure and call to action separately for each platform.
+7. Save the complete first draft; make covers and the final publishing pack only after the title is approved.
 
-不要新增证据包中没有的品牌、产品、模型、人物、数据和结果。只知道“存在前后数据”但没有具体数值或变化方向时，不能写成提升、下降、更快、更省或更高等比较结论。需要具体信息但尚未提供时，使用明确占位符并列入人工核对项。
+Do not add brands, products, models, people, data or results that are not in the evidence pack. When you only know that "before and after data exist" but have no specific values or direction of change, do not write comparative conclusions such as improved, dropped, faster, cheaper or higher. When specific information is needed but not yet provided, use clear placeholders and list them as items to check by hand.
 
-## 平台路由
+## Platform routing
 
-只读取用户选择的平台规范：
+Read only the guidance for the platforms the user chose:
 
-- X：[x.md](references/x.md)
-- 小红书：[xiaohongshu.md](references/xiaohongshu.md)
-- Reddit：[reddit.md](references/reddit.md)
-- 微信公众号：[wechat.md](references/wechat.md)
-- 视频号、抖音和小红书视频：[short-video-platforms.md](references/short-video-platforms.md)
-- YouTube：[youtube.md](references/youtube.md)
-- 视觉风格库：[visual-styles.md](references/visual-styles.md)
-- 合规：[compliance.md](references/compliance.md)
+- X: [x.md](references/x.md)
+- Xiaohongshu: [xiaohongshu.md](references/xiaohongshu.md)
+- Reddit: [reddit.md](references/reddit.md)
+- WeChat Official Account: [wechat.md](references/wechat.md)
+- WeChat Channels, Douyin and Xiaohongshu video: [short-video-platforms.md](references/short-video-platforms.md)
+- YouTube: [youtube.md](references/youtube.md)
+- Visual style library: [visual-styles.md](references/visual-styles.md)
+- Compliance: [compliance.md](references/compliance.md)
 
-平台字符、图片尺寸、标题长度和标签限制可能变化。需要精确值时，以当前官方说明或发布界面为准，不把历史经验写成永久规则。
+Instagram and Facebook have no guide yet; if you need them, follow the Xiaohongshu method. TikTok uses `self-media-short-video`. LinkedIn is not covered.
 
-## 去模板化审校
+Platform character limits, image sizes, title lengths and tag limits can change. When an exact value is needed, follow the current official guidance or the publishing screen; do not write past experience into permanent rules.
 
-- 从真实场景、冲突、结果或判断开始，不写行业套话。
-- 用时间、动作、对象、数字和失败替代泛泛概括。
-- 让句子长短自然变化，不把每段写成对称三点。
-- 删除“首先、其次、最后、总而言之”等机械连接词。
-- “不是 A，而是 B”只在确有力量时使用一次。
-- 用“我”承担个人判断，不装成机构媒体。
-- 结尾回到行动、边界或真实问题，不做空泛升华。
+## Remove template writing
 
-## 多平台适配
+- Start from a real scene, conflict, result or judgment; do not write industry clichés.
+- Replace vague summaries with times, actions, objects, numbers and failures.
+- Let sentence length vary naturally; do not write every paragraph as a symmetrical set of three points.
+- Delete mechanical linking words such as "first", "second", "finally" and "in conclusion".
+- Use "not A, but B" only once, and only when it really adds force.
+- Use "I" to own personal judgments; do not pose as institutional media.
+- End with an action, a limit or a real question, not an empty uplifting conclusion.
 
-共享：母题、事实、证据、边界和商业披露。
+## Adapting for several platforms
 
-重写：标题、第一屏、例子顺序、信息密度、视觉、行动和发布字段。
+Shared: the core topic, facts, evidence, boundaries and commercial disclosure.
 
-如果多平台稿件只有长短差异，判定失败并重写。
+Rewritten: the title, first screen, order of examples, information density, visuals, call to action and publishing fields.
 
-## 输出
+If the versions for several platforms differ only in length, the check fails; rewrite them.
 
-标题确认前只交付：
+## Output
 
-- 3 个标题候选和最终标题占位。
-- 完整正文或发布文案。
-- 尚缺证据和需要人工核对的事实。
-- `AWAITING_USER` 状态和“选择或修改标题”这一项下一步动作。
+Before the title is approved, deliver only:
 
-小红书可以先列出正文各页的信息任务，但封面文字、封面视觉和最终组图方案保持待定。
+- 3 title candidates and a placeholder for the final title.
+- The full body or publishing copy.
+- Evidence still missing and facts that need checking by hand.
+- The `AWAITING_USER` status and the next action: "choose or edit the title".
 
-标题确认后再交付：
+For Xiaohongshu, you may first list the information job of each page of the body, but keep the cover text, cover visual and final image-set plan open.
 
-- 摘要、标签、首评、链接或合集等适用字段。
-- 从 [visual-styles.md](references/visual-styles.md) 推荐 2 到 3 套配图风格并等待用户选择，账号已有稳定偏好时默认沿用。
-- 封面文字、视觉需求和最终素材映射。
-- 需要人工核对的事实。
-- 商业合作声明。
+After the title is approved, deliver:
+
+- Applicable fields such as the summary, tags, first comment, links or collection.
+- 2 to 3 image styles recommended from [visual-styles.md](references/visual-styles.md); wait for the user to choose. If the account has a stable preference, use it by default.
+- Cover text, visual needs and the final asset mapping.
+- Facts that need checking by hand.
+- A commercial partnership disclosure.

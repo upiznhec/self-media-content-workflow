@@ -1,27 +1,27 @@
-# 内容合规
+# Content compliance
 
-## 通用
+## General
 
-- 不使用无法证明的最高级、唯一、永久、百分百和排名承诺。
-- 不编造数据、销量、用户评价、收入、案例和测试结果。
-- 标题承诺必须由正文和证据兑现。
-- 竞品研究只借鉴需求和结构，成稿保持原创。
+- Do not make unprovable claims such as superlatives, "the only", "permanent", "100%" or rankings.
+- Do not invent data, sales, user reviews, income, cases or test results.
+- Every promise in the title must be delivered by the body and the evidence.
+- Competitor research borrows only needs and structure; the final piece stays original.
 
-## 高风险领域
+## High-risk fields
 
-- 医疗健康：不宣称治疗、治愈或替代专业诊疗。
-- 金融理财：不承诺收益、稳赚或无风险。
-- 美妆护肤：功效表达保留条件和个体差异。
-- 副业收入：不使用无法核验的收入数字和时间承诺。
+- Health: do not claim to treat or cure, or to replace professional diagnosis and treatment.
+- Finance: do not promise returns, sure profits or no risk.
+- Beauty and skincare: keep the conditions and individual differences when describing effects.
+- Side-hustle income: do not use income figures or time promises that cannot be verified.
 
-## 商业合作
+## Commercial partnerships
 
-- 清楚标记合作关系。
-- 区分品牌提供事实、公开事实和个人体验。
-- 没有亲测的功能不写成亲身体验。
-- 不因为商业要求删除必要的限制、风险和适用边界。
+- Mark the partnership clearly.
+- Separate facts provided by the brand, public facts and personal experience.
+- Do not present features you have not tried yourself as personal experience.
+- Do not remove necessary limits, risks and conditions of use because of commercial requirements.
 
-## 隐私
+## Privacy
 
-- 不泄露公司、客户、用户、同事或个人敏感信息。
-- 截图在发布前检查姓名、账号、邮箱、Token、订单和内部系统。
+- Do not disclose sensitive information about companies, clients, users, colleagues or individuals.
+- Before publishing, check screenshots for names, account names, email addresses, tokens, orders and internal systems.

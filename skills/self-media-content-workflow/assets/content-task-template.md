@@ -1,200 +1,180 @@
-# 内容任务：{主题}
+# Content task: {topic}
 
-## 状态
+## Status
 
-- 当前状态：需求澄清
-- 创建日期：{YYYY-MM-DD}
-- 内容根目录：
-- 母题：
-- 内容类型：
-- 视频制作模式：方案 / 真人剪辑 / 数字人制片 / 动画解说制片 / 不适用
-- 内容目标：
-- 目标受众：
-- 主平台：
-- 扩展平台：
-- 计划发布时间：
-- 视频画幅与分辨率：
-- 实际发布时间：
-- 发布链接：
+- Current status: Clarifying needs
+- Created: {YYYY-MM-DD}
+- Content root folder:
+- Core topic:
+- Content type:
+- Video production mode: plan / live-action editing / digital-human production / animated explainer production / not applicable
+- Content goal:
+- Target audience:
+- Main platform:
+- Extra platforms:
+- Planned publishing time:
+- Video aspect ratio and resolution:
+- Actual publishing time:
+- Publish link:
 
-## 创作简报
+## Content brief
 
-- 账号定位：
-- 一句话核心判断：
-- 读者收益：
-- 内容形态：
-- 深度与调性：
-- 明确不写：
-- 各平台角度：
-- 用户确认：否
-- 确认时间：
+- Account positioning:
+- Core claim in one sentence:
+- Reader benefit:
+- Content format:
+- Depth and tone:
+- Explicitly out of scope:
+- Angle for each platform:
+- Approved by the user: no
+- Approved at:
 
-## 证据包
+## Evidence pack
 
-| 类型 | 内容 | 来源或文件 | 已核验 |
+| Type | Content | Source or file | Verified |
 |---|---|---|---|
-| 真实经历 | | | 否 |
-| 数据或截图 | | | 否 |
-| 外部事实 | | | 否 |
+| Real experience | | | no |
+| Data or screenshots | | | no |
+| External facts | | | no |
 
-## 边界
+## Boundaries
 
-- 事实：
-- 个人判断：
-- 推断：
-- 建议：
-- 暂时不能说：
+- Facts:
+- Personal judgments:
+- Inferences:
+- Advice:
+- Cannot say yet:
 
-## 研究记录
+## Research notes
 
-- 研究问题：
-- 样本范围：
-- 重复模式：
-- 无法归因：
-- 原创差异：
+- Research question:
+- Sample scope:
+- Repeated patterns:
+- Cannot be attributed:
+- Original angle:
 
-## 发布预检
+## Preflight
 
-| 能力 | 结果 | 降级方案 |
+| Capability | Result | Fallback |
 |---|---|---|
-| 写作 | 未检查 | |
-| 图片 | 未检查 | |
-| 视频原片或录屏 | 未检查 | |
-| 数字人敏感素材与平台就绪 | 未检查 | |
-| 视频合成与字幕 | 未检查 | |
-| 动画制片管线 | 未检查 | |
-| 配乐授权 | 未检查 | |
-| 视频上传 | 未检查 | |
-| 草稿 | 未检查 | |
-| 数据 | 未检查 | |
+| Writing | not checked | |
+| Images | not checked | |
+| Raw footage or screen recordings | not checked | |
+| Digital-human sensitive assets and platform readiness | not checked | |
+| Video composition and subtitles | not checked | |
+| Animation pipeline | not checked | |
+| Music licensing | not checked | |
 
-## 标题选择
+## Title choice
 
-| 方案 | 标题 | 入口 | 用户选择 |
+| Option | Title | Entry point | Chosen by the user |
 |---|---|---|---|
-| A | | 结果或利益 | 否 |
-| B | | 身份或冲突 | 否 |
-| C | | 反差或好奇 | 否 |
+| A | | Result or benefit | no |
+| B | | Identity or conflict | no |
+| C | | Contrast or curiosity | no |
 
-- 最终标题：
-- 确认时间：
+- Final title:
+- Approved at:
 
-## 平台产物
+## Platform outputs
 
-| 平台 | 初稿 | 用户修改稿 | 终稿 | 状态 | 版本 |
+| Platform | First draft | User's edited draft | Final copy | Status | Version |
 |---|---|---|---|---|---|
-| | | | | 未开始 | v0 |
+| | | | | Not started | v0 |
 
-## 视觉锚
+## Visual anchor
 
-- 风格预设：
-- 画风：
-- 主色板：
-- 光线与构图：
-- 文字样式：
-- 画面基调：
-- 参考素材：
+- Style preset:
+- Art style:
+- Main palette:
+- Lighting and composition:
+- Text style:
+- Visual tone:
+- Reference material:
 
-## 数字人视频资产
+## Digital-human video assets
 
-仅当状态区“视频制作模式”为数字人制片时填写；制作模式、画幅与分辨率以状态区字段为准。
+Fill in only when "Video production mode" in the Status section is digital-human production. The production mode, aspect ratio and resolution follow the fields in the Status section.
 
-- 肖像与声音权利确认：
-- 第三方数据处理条款已知悉：
-- 用户在数字人平台手动上传完成：否
-- 可用数字人和声音已选定：否
-- 已确认任务卡与仓库无原始敏感素材及平台私有标识：否
-- 数字人生成片段：
-- 画面解析与人物窗口：
-- 字幕文件或字幕文本：
-- 专名、英文缩写和数字发音词表：
-- 表情与手势要求：
-- 时长：
-- AI/数字人及商业披露：
-- 最终合成视频：
-- 生成或合成失败时的降级产物：
+- Likeness and voice rights confirmed:
+- Third-party data-processing terms read:
+- User finished the manual upload on the digital-human platform: no
+- Digital human and voice selected: no
+- Confirmed that the task card and repository hold no original sensitive assets or platform private IDs: no
+- Generated digital-human clips:
+- Explanatory visuals and presenter window:
+- Subtitle file or subtitle text:
+- Pronunciation list (names and numbers):
+- Expression and gesture requirements:
+- Length:
+- AI or digital-human disclosure and commercial disclosure:
+- Final composed video:
+- Fallback outputs if generation or composition fails:
 
-## 动画解说视频资产
+## Animated explainer video assets
 
-仅当状态区“视频制作模式”为动画解说制片时填写。
+Fill in only when "Video production mode" in the Status section is animated explainer production.
 
-- 叙事视角与推进轴线：
-- 音色（已试听选定）：
-- 视觉锚与素材总览已确认：否
-- 发音词表：
-- 配乐：曲名、作者、授权类型、署名文本：
-- 主版本成片：
-- 平均响度与峰值：
-- 制片工程目录与重建命令：
+- Narrative viewpoint and line of progress:
+- Voice (auditioned and chosen):
+- Visual anchor and asset overview approved: no
+- Pronunciation list:
+- Music (title, artist, license type, attribution text):
+- Master version:
+- Average loudness and peak:
+- Production project folder and rebuild command:
 
-## 多平台视频版本
+## Multi-platform video versions
 
-| 平台 | 视频文件 | 画幅 | 时长 | 字幕 | 封面 | AI 标识 | 发布级别 | 状态 |
-|---|---|---|---|---|---|---|---|---|
-| | | | | | | | L0 | 未开始 |
+| Platform | Video file | Aspect ratio | Length | Subtitles | Cover | AI label | Status |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | Not started |
 
-## 文案到画面映射
+## Copy-to-visual mapping
 
-| 序号 | 文案任务 | 画面 | 素材来源 | 已核验 |
+| No. | Copy job | Visual | Asset source | Verified |
 |---|---|---|---|---|
-| | | | | 否 |
+| | | | | no |
 
-## 质量审校
+## Quality review
 
-| 质量门 | 结果 | 修改动作 | 复检 |
+| Quality gate | Result | Fix | Recheck |
 |---|---|---|---|
-| 事实与证据 | 未检查 | | |
-| 账号声音 | 未检查 | | |
-| 平台原生 | 未检查 | | |
-| 视觉一致 | 未检查 | | |
-| 合规披露 | 未检查 | | |
-| 发布包完整 | 未检查 | | |
+| Facts and evidence | not checked | | |
+| Account voice | not checked | | |
+| Platform nativeness | not checked | | |
+| Visual consistency | not checked | | |
+| Compliance and disclosure | not checked | | |
+| Publishing pack completeness | not checked | | |
 
-## 用户确认
+## User approvals
 
-- 终稿确认：否
-- 终稿确认时间：
-- 发布授权：否
-- 发布授权时间：
+- Final copy approved: no
+- Final copy approved at:
+- Permission for an external write action (if any):
 
-## 版本记录
+## Version history
 
-| 时间 | 版本 | 阶段 | 修改原因 | 影响文件 |
+| Time | Version | Stage | Reason for the change | Files affected |
 |---|---|---|---|---|
-| | v0 | 初稿 | | |
+| | v0 | First draft | | |
 
-## 保存验证
+## Save check
 
-- 已回读：否
-- 文件存在且非空：否
-- 素材路径有效：否
-- 视频时长、画幅和字幕核验：否
-- 已报告路径：
+- Read back: no
+- Files exist and are not empty: no
+- Asset paths valid: no
+- Video length, aspect ratio and subtitles checked: no
+- Paths reported:
 
-## 发布结果
+## Publishing (as reported by the user)
 
-| 平台 | 结果 | 草稿或发布时间 | 链接 | 降级或阻塞 |
+| Platform | Published | Time | Link | Notes |
 |---|---|---|---|---|
 | | | | | |
 
-## 发布后数据
+## Status at the end of this session
 
-| 平台 | 曝光 | 阅读或播放 | 完播 | 点赞 | 评论 | 收藏 | 分享 | 新关注 | 转化 | 制作分钟 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | | | |
-
-## 复盘
-
-- 核心结论：
-- 归因：
-- 可复制因素：
-- 不可归因因素：
-- 决策：待复盘
-- 待验证假设：
-- 下次唯一实验：
-
-## 本次完成状态
-
-- 状态：AWAITING_USER
-- 已完成阶段：
-- 下一步唯一动作：
+- Status: AWAITING_USER
+- Completed stages:
+- Single next action:

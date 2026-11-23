@@ -1,71 +1,71 @@
-# 视频多平台版本
+# Multi-platform video versions
 
-同一条视频发往 YouTube、抖音、视频号、小红书时，共享事实、口播和混好的音频；画幅、字幕、封面、标题和发布字段按平台重做。本文件规定怎样从一个主版本派生各平台版本。
+When one video goes to YouTube, Douyin, WeChat Channels and Xiaohongshu, the facts, spoken script and mixed audio are shared, while the aspect ratio, subtitles, cover, title and publishing fields are redone for each platform. This file sets out how to derive each platform's version from one master version.
 
-## 版本矩阵
+## Version matrix
 
-先确定主版本，再列出派生版本。可用 [video-release-matrix-template.md](../assets/video-release-matrix-template.md) 记录。
+Decide the master version first, then list the derived versions. You can record them with [video-release-matrix-template.md](../assets/video-release-matrix-template.md).
 
-| 平台 | 常用画幅 | 字幕 | 封面 | 说明 |
+| Platform | Usual aspect ratio | Subtitles | Cover | Notes |
 |---|---|---|---|---|
-| YouTube 长视频 | 16:9 | 上传字幕文件（SRT），画面可不烧字幕 | 16:9 自定义缩略图 | 搜索和推荐都依赖标题、描述、章节和缩略图 |
-| YouTube Shorts | 9:16 | 烧录字幕 | 从视频中选帧 | 只发竖屏短版时使用 |
-| 抖音 | 9:16 优先 | 烧录字幕 | 竖版封面，前 1 秒即封面感 | 横屏也能发，但竖屏通常更占屏、更有利 |
-| 视频号 | 9:16 或 16:9 | 烧录字幕 | 竖版或横版封面 | 微信内转发场景多，横屏完整版也可用 |
-| 小红书视频 | 9:16 或 3:4 | 烧录字幕 | 3:4 封面配大字标题 | 封面在信息流中决定点击，标题偏搜索词 |
+| YouTube long video | 16:9 | Upload a subtitle file (SRT); subtitles need not be burned into the picture | Custom 16:9 thumbnail | Both search and recommendation depend on the title, description, chapters and thumbnail |
+| YouTube Shorts | 9:16 | Burned-in subtitles | A frame chosen from the video | Use only when posting a short vertical version |
+| Douyin | 9:16 preferred | Burned-in subtitles | Vertical cover; the first second should already work as a cover | Landscape can be posted too, but vertical usually fills more of the screen and does better |
+| WeChat Channels | 9:16 or 16:9 | Burned-in subtitles | Vertical or landscape cover | Often shared inside WeChat, so a full landscape version also works |
+| Xiaohongshu video | 9:16 or 3:4 | Burned-in subtitles | 3:4 cover with a large-type title | The cover decides clicks in the feed; the title leans toward search terms |
 
-具体分辨率、时长上限、文件大小和封面尺寸以发布时的平台界面和官方说明为准。
+Exact resolutions, length limits, file sizes and cover sizes follow the platform's publishing screen and official guidance at the time of publishing.
 
-## 横屏转竖屏的两种做法
+## Two ways to turn landscape into vertical
 
-### A. 原生竖屏重排（效果最好）
+### A. Native vertical re-layout (best result)
 
-在制片工程里新建 9:16 画面：重新安排镜头、主体位置和屏幕文字，重新渲染。适合竖屏是主战场的账号，代价是一次完整重排和渲染。
+Create a 9:16 frame in the production project: rearrange the shots, the subject's position and the on-screen text, and render again. This suits accounts whose main audience is on vertical platforms; the cost is a full re-layout and render.
 
-### B. 横转竖包装（最快）
+### B. Vertical wrapper around the landscape video (fastest)
 
-保留混好音的横屏成片，放在竖屏中部，用同一画面的模糊放大版铺满背景，上方加钩子标题，下方加大号字幕。适合横屏是主版本、竖屏平台作为扩展的情况。
+Keep the mixed landscape video and place it in the middle of the vertical frame, fill the background with a blurred, enlarged copy of the same picture, and add a hook title above and large subtitles below. This suits cases where landscape is the master version and vertical platforms are extras.
 
-- 钩子标题用一句话交代冲突或反差，2 行以内，全片保留。
-- 字幕字号要比横屏版大得多，放在画面下方、平台按钮区以上。
-- 片尾的频道名和署名在缩小后的横屏画面里通常看不清，竖屏版要单独放大一份。
-- 没有文字渲染能力的环境（例如 ffmpeg 缺少字体模块），用制片管线或剪辑软件叠加文字，不要交付无字幕的竖屏版。
+- The hook title states the conflict or contrast in one sentence, in no more than 2 lines, and stays on screen for the whole video.
+- The subtitles must be much larger than in the landscape version, placed in the lower part of the frame, above the platform's button area.
+- The channel name and attribution at the end are usually unreadable in the shrunken landscape picture; enlarge a separate copy for the vertical version.
+- In environments that cannot render text (for example, ffmpeg without its font module), overlay the text with the production pipeline or editing software; never deliver a vertical version without subtitles.
 
-## 安全区
+## Safe areas
 
-竖屏平台会在画面上叠加界面：顶部状态栏和搜索、底部的标题描述和进度条、右侧的点赞评论分享按钮。钩子标题、字幕和关键数字放在中部安全带，不放在底部 20% 左右和右侧按钮列。各平台界面会变，导出后用手机预览确认。
+Vertical platforms lay their interface over the picture: the status bar and search at the top, the title, description and progress bar at the bottom, and the like, comment and share buttons on the right. Put hook titles, subtitles and key numbers in the safe band in the middle, not in the bottom 20% or so or in the button column on the right. Platform interfaces change, so preview on a phone after exporting.
 
-## 字幕
+## Subtitles
 
-- 逐句字幕以最终配音为准，按标点切成手机上一行能读完的短句（中文约 14 字以内），时间点对齐配音里的真实停顿。
-- 字幕主导的视频，主版本直接烧录大字幕，各平台版本共用；YouTube 另外上传 SRT 供搜索和翻译。
-- 国内平台烧录字幕；YouTube 上传 SRT，可被搜索、自动翻译，听障观众也能用。
-- 专名和数字的写法与口播、屏幕文字一致。
+- Base the subtitles on the final voice-over. Cut them at punctuation into short lines that fit on one line on a phone, timed to the real pauses in the voice-over.
+- For subtitle-led videos, burn large subtitles into the master version and share them across all platform versions; for YouTube, also upload an SRT file for search and translation.
+- Chinese platforms take burned-in subtitles. YouTube takes an uploaded SRT file, which can be searched and automatically translated, and which deaf and hard-of-hearing viewers can also use.
+- Names and numbers are written the same way in the subtitles, the spoken script and the on-screen text.
 
-## 封面
+## Covers
 
-- YouTube：16:9 缩略图，主体大、字少（3 到 6 个字或不放字），和标题互补而不是重复。
-- 抖音、视频号：竖版封面帧，大字钩子；同一合集保持统一版式。
-- 小红书：3:4 封面，标题大字是点击的关键，可与发布标题不同但不矛盾。
+- YouTube: a 16:9 thumbnail with a large subject and little text, short enough to read at a glance on a small thumbnail, or none. It complements the title instead of repeating it.
+- Douyin and WeChat Channels: a vertical cover frame with a large-type hook; keep the same layout within a collection.
+- Xiaohongshu: a 3:4 cover. The large-type title is key to clicks; it can differ from the publishing title but must not contradict it.
 
-## 音乐与版权
+## Music and copyright
 
-- 派生版本复用主版本的音轨，不在各平台分别更换音乐。
-- 国内平台对站外音乐有版权识别。使用 CC BY 等外部授权曲目时，在描述里写署名；若被识别或静音，可改用平台音乐库重新配乐，或保留无配乐版。
-- YouTube 若出现版权声明（Content ID），凭授权和署名申诉；不要为躲避识别去改变速、加噪音。
+- Derived versions reuse the master version's audio track; do not change the music for each platform.
+- Chinese platforms detect copyrighted music from outside the platform. When using externally licensed tracks such as CC BY, write the attribution in the description. If the track is detected or muted, re-score the video with the platform's music library, or keep a version without music.
+- If YouTube raises a copyright claim (Content ID), dispute it with the license and attribution; do not change the speed or add noise to dodge detection.
 
-## AI 标识
+## AI labels
 
-- 使用 AI 生成画面或合成配音的内容，按平台发布界面的“AI 生成”或“合成内容”选项如实声明。国内《人工智能生成合成内容标识办法》自 2025 年 9 月 1 日起施行，要求对 AI 生成合成内容进行标识。
-- YouTube 的“更改或合成内容”声明主要针对写实到足以让人误以为真实的内容；明显的插画或动画风格通常不需要勾选，但在描述里说明“画面为 AI 绘制”对观众更透明。
-- 平台规则会变，发布时以界面提示为准，结果记入任务卡。
+- For content with AI-generated visuals or a synthetic voice, declare it truthfully with the "AI-generated" or "synthetic content" option in the platform's publishing screen. China's rules on labeling AI-generated synthetic content (人工智能生成合成内容标识办法) have been in force since September 1, 2025, and require AI-generated synthetic content to be labeled.
+- YouTube's "altered or synthetic content" declaration mainly targets content realistic enough to be mistaken for real. An obviously illustrated or animated style usually does not need the box ticked, but saying "visuals drawn with AI" in the description is more transparent to viewers.
+- Platform rules change; at publishing time, follow the prompts in the screen, and record the result in the task card.
 
-## 技术核验
+## Technical checks
 
-每个版本导出后检查并记录：
+After exporting each version, check and record:
 
-- 时长与主版本一致（或符合短版剪辑计划）。
-- 分辨率和画幅正确，首帧和末帧画面正常。
-- 有音轨，平均响度和峰值与主版本一致。
-- 字幕全程出现、无遮挡、无错字；片尾署名可读。
-- 文件可在手机上正常播放。
+- The length matches the master version (or the plan for a short cut).
+- Resolution and aspect ratio are correct, and the first and last frames look right.
+- There is an audio track, and its average loudness and peak match the master version.
+- Subtitles appear throughout, are not covered and have no typos; the end attribution is readable.
+- The file plays normally on a phone.

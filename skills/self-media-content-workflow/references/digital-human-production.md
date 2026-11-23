@@ -1,43 +1,43 @@
-# 数字人制片编排
+# Digital-human production in the workflow
 
-本参考只规定总控工作流的安全边界和阶段转换。具体脚本、分镜、画面合成和验收由 `self-media-short-video` 负责。数字人是可选分支，不是默认出镜方式。
+This reference sets only the safety boundaries and stage transitions for the main workflow. The script, storyboard, visual composition and acceptance are handled by `self-media-short-video`. The digital human is an optional branch, not the default way to appear on camera.
 
-## 进入条件
+## Entry conditions
 
-- 用户明确选择数字人视频，并确认最终口播、目标平台、时长和画面方向。
-- 用户是头像与声音对应的本人，或持有可核验的明确授权。
-- 用户已了解所选数字人平台当前关于存储、模型改进、第三方处理、删除和退出机制的条款。
-- 用户本人已在 Topview 或所选平台中手动上传、创建并选定数字人和声音。
+- The user explicitly chooses a digital-human video and approves the final spoken script, target platforms, length and visual direction.
+- The user is the person whose portrait and voice are used, or holds explicit permission that can be verified.
+- The user knows the chosen digital-human platform's current terms on storage, model improvement, third-party processing, deletion and opting out.
+- The user has uploaded, created and selected the digital human and voice in Topview or the chosen platform themselves.
 
-本工作流不上传原始头像或录音。未满足手动上传条件时保持 `AWAITING_USER`，下一步只要求用户在平台完成上传和选择后确认“数字人和声音已就绪”。
+This workflow never uploads original portraits or recordings. Until the manual upload is done, stay in `AWAITING_USER`. The only next step is to ask the user to finish uploading and selecting on the platform, then confirm that "the digital human and voice are ready".
 
-## 阶段转换
+## Stage transitions
 
 ```text
-口播与平台确认
-→ 肖像/声音权利及第三方数据处理确认
-→ AWAITING_USER：用户在数字人平台手动上传、创建和选定素材
-→ 用户确认平台素材已就绪
-→ 费用与生成参数确认（如适用）
-→ 数字人讲解片段
-→ 画面解析、字幕和人物窗口合成
-→ 质量审校
-→ 等待终稿确认
+Spoken script and platforms approved
+→ Likeness and voice rights and third-party data processing confirmed
+→ AWAITING_USER: the user uploads, creates and selects the assets on the digital-human platform
+→ The user confirms the platform assets are ready
+→ Cost and generation settings confirmed (if applicable)
+→ Digital-human presenter clips
+→ Explanatory visuals, subtitles and presenter window composed
+→ Quality review
+→ Awaiting final-copy approval
 ```
 
-手动上传就绪确认是数字人分支的敏感素材闸门，不替代方向、平台、标题、终稿和发布授权五个原有确认点。终稿确认仍不等于发布授权。
+The confirmation that the manual upload is ready is the sensitive-asset gate of the digital-human branch. It does not replace the five existing approvals: direction, platforms, title, final copy and permission for an external write action. Approving the final copy still does not authorize any external write action.
 
-## 数据最小化
+## Data minimization
 
-- 任务卡对敏感素材只记录权利已确认、第三方条款已知悉、平台上传已完成和素材已选定等布尔状态；生成片段、最终成片和字幕等交付物的索引路径可写入任务卡、内容注册表和保存验证。
-- 不记录原始头像、录音及其本机路径、临时上传/下载链接、对象存储键、文件 ID、数字人 ID、声音 ID 或可用于重新获取敏感素材的私有标识。
-- 运行时确需资源标识时，只在本次授权操作中临时使用，不写入日志、任务卡、内容注册表或仓库。
-- 发布包只收录生成片段、最终成片、字幕和公开发布字段，不收录原始敏感素材。
-- 数字人生成片段和最终成片保存在用户内容目录或用户指定的交付目录，不写入公开的 Skill 源码仓库。
+- For sensitive assets, the task card records only yes/no statuses: rights confirmed, third-party terms read, platform upload done and assets selected. Index paths of deliverables such as generated clips, final videos and subtitles may go into the task card, the content registry and save checks.
+- Never record original portraits, recordings, their local paths, temporary upload or download links, object storage keys, file IDs, digital-human IDs, voice IDs or any private ID that could be used to retrieve the sensitive assets again.
+- When a resource ID is truly needed at run time, use it only temporarily in the authorized operation; do not write it into logs, task cards, the content registry or the repository.
+- The publishing pack contains only generated clips, the final video, subtitles and public publishing fields, never original sensitive assets.
+- Generated digital-human clips and final videos are saved in the user's content folder or a delivery folder the user names, not in the public Skill source repository.
 
-## 风险与降级
+## Risks and fallbacks
 
-- 用户未完成平台手动上传：停在 `AWAITING_USER`，不尝试代传。
-- 权利或第三方数据处理边界不清楚：状态为 `NEEDS_CONTEXT`，不进入生成。
-- 生成或合成能力不可用：交付台词、分镜、画面映射、字幕稿和手动制作清单。
-- 人物不自然、台词不完整、音画不同步或披露要求未确认：停在质量审校，不进入终稿确认。
+- The user has not finished the manual upload: stay in `AWAITING_USER`, and never try to upload on their behalf.
+- The rights or third-party data-processing boundaries are unclear: the status is `NEEDS_CONTEXT`; do not start generation.
+- Generation or composition is unavailable: deliver the lines, storyboard, visual mapping, subtitle script and a checklist for making it by hand.
+- The presenter looks unnatural, lines are incomplete, sound and picture are out of sync, or the disclosure requirements are unconfirmed: stop at quality review and do not move on to final-copy approval.

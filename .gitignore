@@ -4,11 +4,7 @@ __pycache__/
 .idea/
 .vscode/
 
-# 凭据文件。AppSecret 等同账号密码，绝不提交。
+# Credential files. An app secret is as sensitive as a password; never commit it.
 .env
 .env.*
 !.env.example
-
-# 海外对照模式的运行输出和本地话题配置
-overseas-compare/
-topics.toml

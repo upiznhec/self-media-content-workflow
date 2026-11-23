@@ -1,27 +1,27 @@
-# X 平台
+# X
 
-## 适合内容
+## Suitable content
 
-观点、实时判断、行业讨论、实操经验、资源筛选、故事和公开建造记录。
+Opinions, real-time judgments, industry discussion, practical experience, curated resources, stories and building-in-public logs.
 
-## 产物
+## Outputs
 
-- 短帖、长帖或线程三选一。
-- 最多两条脱离主内容也能成立的短观点。
-- 长文按需要提供封面和正文配图。
-- 一个主要链接或行动。
+- One of: a short post, a long post or a thread.
+- At most two short points that still work on their own, away from the main content.
+- For long posts, a cover and images in the body as needed.
+- One main link or call to action.
 
-## 写法
+## How to write
 
-- 第一屏直接给结果、冲突、反常识或具体场景。
-- 用鲜明判断和第一人称承担立场。
-- 线程每条承担独立信息任务，避免把长文随意切段。
-- 代码、数据和截图优先承担证明任务。
-- 不堆标签，不用多个行动分散注意力。
+- The first screen gives the result, conflict, counter-intuitive point or concrete scene straight away.
+- Take a position with clear judgments in the first person.
+- Each post in a thread has its own information job; do not chop a long text into random pieces.
+- Code, data and screenshots do the work of proof first.
+- Do not pile up tags, and do not spread attention over several calls to action.
 
-## 检查
+## Checks
 
-- 第一屏脱离后文是否成立。
-- 每条线程是否有推进。
-- 链接和合作关系是否清楚。
-- 当前字符和媒体限制是否已核验。
+- Does the first screen work without what follows?
+- Does each post in the thread move things forward?
+- Are links and partnerships clear?
+- Have the current character and media limits been checked?
