@@ -164,7 +164,7 @@ scripts/validate.py       # repository validation
 - Rules about Chinese platforms and Chinese law (for example, China's rules on labeling AI-generated content) are kept for the platforms that are kept.
 - Changed one step: you choose the title (and, for video, the hook) before the first draft is written. The original writes the complete first draft first and then waits for your choice of title.
 - Added one step: after you choose the title and hook, the agent writes only the opening first, so you can check that it sounds right before it writes the rest. The original goes straight to the complete first draft.
-- Changed how images are made: when the agent can render images, it shows you a small sample of each suggested style, and it asks how the images will be made: it makes them, or it writes a design brief that you take to another AI image tool or design app. The original describes each style in one sentence, and the agent makes the images.
+- Changed how images are made: the agent shows you a small sample of each suggested style (in words only if nothing can be rendered), suggests styles that fit the tone of your content, and asks how the images will be made: it makes them, or it writes a design brief that you take to another AI image tool or design app. After every change it looks at the images again before saying they are fixed, and saves each revision under a new name. The original describes each style in one sentence, picks styles by content type and platform, and the agent makes the images.
 - Added one rule: what the evidence cannot prove is a note for you, not text for your audience. The content says only what the evidence supports.
 
 See [CHANGELOG.md](CHANGELOG.md) for details.

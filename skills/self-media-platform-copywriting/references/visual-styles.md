@@ -4,8 +4,8 @@ Before making images, choose a style for the current task from this library. The
 
 ## Recommend and choose
 
-1. After the title is approved and before setting the visual anchor, pick 2 to 3 candidates from the table below by content type and platform.
-2. Show the candidates to the user: for each one, a sentence on how to recognize it and why it fits, and point out the differences. If you can render images, also show a small sample of each candidate, made with the user's own title or text, so the user can see each style instead of only reading about it.
+1. After the title is approved and before setting the visual anchor, pick 2 to 3 candidates from the table below by content type and platform. They must also fit the tone set in the brief: playful content needs playful candidates, not only tidy ones. When no preset fits the tone, adapt one or propose a style of your own, and say which you did.
+2. Show each candidate as a small sample, made with the user's own title or text (render it as an image, or as an HTML page you show the user), with a sentence on how to recognize it and why it fits, and point out the differences. A description in words alone is not enough. Only if nothing can be rendered in this environment, say so, describe the candidates in words, and point to the design brief option.
 3. Each time you show style candidates, ask in the same message how the images will be made, and write out both options in full, equally visible:
    - **I make the images here**, with the tools available in this environment.
    - **I write a design brief**, and the user takes it to another AI image tool or design app.
@@ -130,3 +130,5 @@ Both approaches follow the same rules: real images serve as evidence, not decora
 - The cover text matches the approved title.
 - No unexpected watermarks, unrelated logos or invented interfaces.
 - When unsure, regenerate instead of delivering an image that only just works.
+- After every change, look at the changed images again before saying they are fixed, and put all images of the set side by side (for example in one contact sheet) to catch a change that broke another image.
+- Save each revision under a new file name (for example `-v2`, `-v3`) instead of overwriting the old file, so the user does not see an older copy that their viewer kept.

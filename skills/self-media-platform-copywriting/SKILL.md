@@ -70,7 +70,7 @@ After the title is approved, deliver a sample of the opening first and wait for 
 
 - The full body or publishing copy, written around the chosen title and hook.
 - Applicable fields such as the summary, tags, first comment, links or collection.
-- 2 to 3 image styles recommended from [visual-styles.md](references/visual-styles.md), with a small sample of each when you can render images, and the question of how the images will be made, with both options written out in full: you make them here, or you write a design brief that the user takes to another AI image tool or design app. Wait for the user to choose. If the account has a stable preference, use it by default.
+- 2 to 3 image styles recommended from [visual-styles.md](references/visual-styles.md), that fit the tone in the brief, with a small sample of each made with the user's own title or text, and the question of how the images will be made, with both options written out in full: you make them here, or you write a design brief that the user takes to another AI image tool or design app. Wait for the user to choose. If the account has a stable preference, use it by default.
 - Cover text, visual needs and the final asset mapping. When the user chooses the design brief, the brief instead of the images.
 - Facts that need checking by hand.
 - A commercial partnership disclosure.
