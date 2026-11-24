@@ -163,7 +163,7 @@ scripts/validate.py       # repository validation
 - Rules that counted Chinese characters were rewritten by what they are for. For example, "at most 14 characters per line" became "short enough to read as one line on a phone", and narration length is estimated at about 150 words a minute, the usual speaking rate in English. Details that only applied to Chinese text or Chinese-speaking viewers were removed.
 - Rules about Chinese platforms and Chinese law (for example, China's rules on labeling AI-generated content) are kept for the platforms that are kept.
 - Changed one step: you choose the title (and, for video, the hook) before the first draft is written. The original writes the complete first draft first and then waits for your choice of title.
-- Changed how images are made: when the agent can render images, it shows you a small sample of each suggested style, and it asks who makes the images, the agent or you with your own design tool. If you choose your own tool, it writes a design brief for that tool. The original describes each style in one sentence, and the agent makes the images.
+- Changed how images are made: when the agent can render images, it shows you a small sample of each suggested style, and it asks how the images will be made: it makes them, or it writes a design brief that you take to another AI image tool or design app. The original describes each style in one sentence, and the agent makes the images.
 - Added one rule: what the evidence cannot prove is a note for you, not text for your audience. The content says only what the evidence supports.
 
 See [CHANGELOG.md](CHANGELOG.md) for details.

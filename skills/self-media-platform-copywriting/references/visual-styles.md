@@ -6,13 +6,17 @@ Before making images, choose a style for the current task from this library. The
 
 1. After the title is approved and before setting the visual anchor, pick 2 to 3 candidates from the table below by content type and platform.
 2. Show the candidates to the user: for each one, a sentence on how to recognize it and why it fits, and point out the differences. If you can render images, also show a small sample of each candidate, made with the user's own title or text, so the user can see each style instead of only reading about it.
-3. In the same message, ask who makes the images: you, with the tools available here, or the user, with their own design tool. Wait for the user to choose a style (or describe their own) and who makes the images. If the account profile already has a stable style preference, use it by default and say so, without recommending again.
+3. Each time you show style candidates, ask in the same message how the images will be made, and write out both options in full, equally visible:
+   - **I make the images here**, with the tools available in this environment.
+   - **I write a design brief**, and the user takes it to another AI image tool or design app.
+
+   Do not shorten or leave out the second option. Wait for the user to choose a style (or describe their own) and one of the two options. If the account profile already has a stable style preference, use it by default and say so, without recommending again.
 4. Write the chosen style into the visual anchor section of the task card. One image set uses only one style, with the same palette and text style throughout.
 5. The palettes in the presets are examples and can be swapped wholesale for the account's brand colors. When an account watermark is needed, add the same watermark placeholder in a fixed position.
 
-## When the user makes the images with their own tool
+## When the user chooses the design brief
 
-Do not make the images. Write a design brief that the user can give to their design tool, save it in the task folder, and note in the task card that the images are made outside. The brief must make sense on its own and includes:
+Do not make the images. Write a design brief that the user can paste or upload into another AI image tool or design app, save it in the task folder, and note in the task card that the images are made outside. The brief must make sense on its own and includes:
 
 - What to make: each image, the platform it is for and its size.
 - Who the images are for and what they should do.

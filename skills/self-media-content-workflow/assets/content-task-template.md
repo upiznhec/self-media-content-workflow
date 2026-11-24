@@ -86,7 +86,7 @@
 ## Visual anchor
 
 - Style preset:
-- Images made by (the agent, or the user's own design tool with a design brief):
+- Images made by (the agent here, or another AI image tool or design app from a design brief):
 - Art style:
 - Main palette:
 - Lighting and composition:

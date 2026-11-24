@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## English edition update - 2026-11-24
+
+### Changes
+
+- Each time image styles are suggested, write out both ways of making the images in full and equally: the agent makes them, or it writes a design brief that the user takes to another AI image tool or design app. In a test the second option was mentioned only in passing, then left out. Changed in `self-media-content-workflow`, `self-media-platform-copywriting` (`SKILL.md` and `references/visual-styles.md`), the task card template and the README.
+
 ## English edition update - 2026-11-23
 
 ### Changes
