@@ -13,7 +13,9 @@
 - Clarifying needs
 - Research and evidence
 - Awaiting title approval
+- Awaiting writer choice
 - Awaiting sample approval
+- Awaiting the user's draft
 - Writing
 - Making assets
 - Quality review

@@ -10,7 +10,7 @@ This is an English edition of [self-media-content-workflow](https://github.com/y
 
 - **Tool-agnostic**: no binding to a specific model, browser, image, video or research service; capabilities are discovered from the running environment
 - **Platform-native**: one topic shares facts and evidence, while titles, openings, structure and calls to action are designed per platform
-- **Human-in-the-loop**: six approval gates (direction, platforms, title and hook, a sample of the opening, final copy, and any external write action); the skills deliver drafts and publishing packs, and you publish
+- **Human-in-the-loop**: seven approval gates (direction, platforms, title and hook, who writes the script, a sample of the opening, final copy, and any external write action); the skills deliver drafts and publishing packs, and you publish
 - **Evidence-first**: every key number needs a source; facts, opinions, inferences and advice stay separated; no invented data, experience or results
 - **Systematic visuals**: eight built-in image-style presets with platform routing; a style is chosen before generation, one style per image set, and account preferences override preset defaults
 
@@ -107,7 +107,7 @@ Use $self-media-short-video to turn this approved topic into a 60-second spoken 
 
 ```text
 Clarify → Direction approval* → Research & evidence → Platform approval* → Preflight
-→ Title and hook approval* → Sample approval* → Platform-native draft → Assets (live-action / digital human / animation) → Quality gates
+→ Title and hook approval* → Who writes the script* → Sample approval* → Platform-native draft → Assets (live-action / digital human / animation) → Quality gates
 → Final-copy approval* → Publishing pack
 ```
 
@@ -164,6 +164,7 @@ scripts/validate.py       # repository validation
 - Rules about Chinese platforms and Chinese law (for example, China's rules on labeling AI-generated content) are kept for the platforms that are kept.
 - Changed one step: you choose the title (and, for video, the hook) before the first draft is written. The original writes the complete first draft first and then waits for your choice of title.
 - Added one step: after you choose the title and hook, the agent writes only the opening first, so you can check that it sounds right before it writes the rest. The original goes straight to the complete first draft.
+- Added a choice: after you choose the title and hook, you say who writes the script. If you write it, the agent gives you a short writer's brief (the parts in order, the facts you can use with their sources, and what not to say), then checks your draft against the facts and each platform's rules without changing your voice. The original always writes the draft.
 - Changed how images are made: the agent shows you a small sample of each suggested style (in words only if nothing can be rendered), suggests styles that fit the tone of your content, and asks how the images will be made: it makes them, or it writes a design brief that you take to another AI image tool or design app. After every change it looks at the images again before saying they are fixed, and saves each revision under a new name. The original describes each style in one sentence, picks styles by content type and platform, and the agent makes the images.
 - Added one rule: what the evidence cannot prove is a note for you, not text for your audience. The content says only what the evidence supports.
 

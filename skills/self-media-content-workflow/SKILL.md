@@ -55,16 +55,19 @@ Read a module's whole `SKILL.md` before using it. If a module is not installed, 
 
 ## Content creation status flow
 
-`Clarifying needs → Awaiting direction approval → Research and evidence → Awaiting platform approval → Preflight → Awaiting title approval → Awaiting sample approval → Writing → Making assets → Quality review → Awaiting final-copy approval → Publishing pack delivered`
+`Clarifying needs → Awaiting direction approval → Research and evidence → Awaiting platform approval → Preflight → Awaiting title approval → Awaiting writer choice → Awaiting sample approval → Writing → Making assets → Quality review → Awaiting final-copy approval → Publishing pack delivered`
+
+When the user writes the script themselves, "Awaiting sample approval" and "Writing" become "Awaiting the user's draft" and "Checking the user's draft".
 
 These transitions must be made by the user:
 
 1. Approve the creative direction.
 2. Approve the platform mix.
 3. Choose or edit the title and, for video, the hook.
-4. Approve the sample of the opening, or say what to change.
-5. Approve the final copy.
-6. Authorize any external write action.
+4. Say who writes the script: the agent, or the user.
+5. When the agent writes: approve the sample of the opening, or say what to change.
+6. Approve the final copy.
+7. Authorize any external write action.
 
 Approving the final copy does not authorize any external write action.
 
@@ -96,13 +99,19 @@ Read [platforms.md](references/platforms.md) and recommend one main platform and
 
 Read [preflight-and-registry.md](references/preflight-and-registry.md). Check only the capabilities the chosen platforms need: writing, images, raw footage or screen recordings, digital-human sensitive assets and platform readiness, and video composition and subtitles. Check the animation pipeline and music licensing only when the video production mode is animated explainer production. Check digital-human sensitive assets and platform readiness, and video composition and subtitles, only when the video production mode is digital-human production; for other content types and for on-camera or footage-based tasks, mark these two as not applicable and do not go into `AWAITING_USER` because of them. When a capability is unavailable, offer a fallback such as a manual publishing pack. For the boundaries of digital-human production (rights confirmation, manual upload, third-party data processing, generation, composition and acceptance), see [digital-human-production.md](references/digital-human-production.md).
 
-### 4. Choose the title and hook, check a sample, then write platform-native first drafts
+### 4. Choose the title and hook, then who writes, then the first draft
 
 Call `self-media-platform-copywriting`, and read its `SKILL.md` before writing any title. Design the title, opening, order of evidence, structure and call to action separately for each platform; do not just shorten one text mechanically.
 
 Generate 6 to 8 titles internally, covering entry points such as result, benefit, identity, conflict, contrast, curiosity and numbers. After screening, show the user only the strongest 3 and explain which entry point each one uses. For video, also show 3 hooks, written by the rules in `self-media-short-video`, and say which one you recommend.
 
-Wait for the user to choose or edit the title and, for video, the hook. They are one decision: if the user settles only one, ask for the other. Until both are settled, show only the candidates and the evidence still missing: no outline with spoken lines, no script, no slide text or captions, no covers, and no changes to earlier drafts. Then write a sample: only the opening of the main piece, in the chosen title and hook (about the first minute of a long video, or the first few lines of a short video or a post), and stop so the user can check that it sounds right. After the user approves the sample, or after the changes they ask for, write the complete first draft around their choice, and save it.
+Wait for the user to choose or edit the title and, for video, the hook. They are one decision: if the user settles only one, ask for the other. Until both are settled, show only the candidates and the evidence still missing: no outline with spoken lines, no script, no slide text or captions, no covers, and no changes to earlier drafts.
+
+Once the title and hook are settled, ask who writes the script, in a message of its own, and write out both options in full, equally visible: **I write it**, first a sample of the opening and then the full draft; or **you write it**, from a short writer's brief I give you, and I check your draft. Wait for the answer before writing anything.
+
+When you write the script, start with a sample: only the opening of the main piece, in the chosen title and hook (about the first minute of a long video, or the first few lines of a short video or a post), and stop so the user can check that it sounds right. After the user approves the sample, or after the changes they ask for, write the complete first draft around their choice, and save it.
+
+When the user writes, give them a short writer's brief instead, and save it as its own file: the chosen title and hook; the parts in order, one line each on what the part does (with timings for video); the facts they can use, one line each with its source; and what not to say, one line each. Write it for a person, not as working notes: key points first, no research history or process notes, and nothing they do not need in order to write. Keep the full evidence pack as a separate file. When their draft arrives, check it against the evidence pack, the quality gates and each platform's rules; list each problem with a suggested fix, keep their voice and wording except where a fix needs a change, and wait for them to decide. Their checked draft then takes the place of the first draft for the rest of the flow.
 
 ### 5. Make visual or video assets
 
@@ -156,7 +165,7 @@ Read [style-learning.md](references/style-learning.md). Record a single manual e
 
 Each time you pause or finish, report the current task, completed stages, output paths, known fallbacks and the single next action. Use these statuses:
 
-- `AWAITING_USER`: waiting for the direction, platforms, title and hook, sample of the opening, final copy or permission for an external write action, or for the user to upload, create and select assets on the digital-human platform themselves.
+- `AWAITING_USER`: waiting for the direction, platforms, title and hook, who writes the script, sample of the opening, the user's own draft, final copy or permission for an external write action, or for the user to upload, create and select assets on the digital-human platform themselves.
 - `DONE`: every authorized step for this session is complete.
 - `DONE_WITH_CONCERNS`: complete, but with clear fallbacks.
 - `BLOCKED`: a key dependency failed and the work cannot continue now.

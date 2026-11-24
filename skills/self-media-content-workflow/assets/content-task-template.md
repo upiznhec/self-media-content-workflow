@@ -75,6 +75,7 @@
 
 - Final title:
 - Chosen hook (video):
+- Who writes the script (the agent, or the user):
 - Approved at:
 - Sample of the opening approved at:
 
