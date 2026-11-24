@@ -85,6 +85,8 @@ The evidence pack contains at least:
 - A concrete result the reader can take away.
 - What cannot be said yet or cannot be proven.
 
+The last item is a note for the creator, not text for the audience. In the content, say only what the evidence supports and leave the rest out; do not add lines that tell the audience what you could not prove.
+
 ### 3. Choose platforms and check capabilities
 
 Read [platforms.md](references/platforms.md) and recommend one main platform and at most two extra platforms. Explain each platform's role, output and time cost.
@@ -101,9 +103,9 @@ Wait for the user to choose or edit the title and, for video, the hook. Only the
 
 ### 5. Make visual or video assets
 
-Make assets only after the title is approved. First recommend 2 to 3 styles from the visual style library of `self-media-platform-copywriting` (`references/visual-styles.md`) based on the content type and platform, say in one sentence how they differ, and wait for the user to choose. When the account already has a stable style preference, use it by default and say so. If that module is not installed, confirm the art style, palette and composition with the user directly.
+Make assets only after the title is approved. First recommend 2 to 3 styles from the visual style library of `self-media-platform-copywriting` (`references/visual-styles.md`) based on the content type and platform, and say in one sentence how they differ. If you can render images, also show a small sample of each. In the same message, ask who makes the images: you, with the tools available here, or the user, with their own design tool. Wait for the user to choose. When the account already has a stable style preference, use it by default and say so. If that module is not installed, confirm the art style, palette and composition with the user directly.
 
-Write the chosen style into the task card's visual anchor, then map the copy to visuals. For software or product content, use real interface material when it exists; otherwise use scenes or metaphors, and never invent a product interface.
+Write the chosen style into the task card's visual anchor, then map the copy to visuals. For software or product content, use real interface material when it exists; otherwise use scenes or metaphors, and never invent a product interface. When the user makes the images with their own design tool, write a design brief for that tool instead of making them (see `references/visual-styles.md` in `self-media-platform-copywriting`), and check the images against it when the user brings them back.
 
 For video, call `self-media-short-video`. By default, without raw footage, deliver the script, storyboard, subtitles, cover and publishing fields. When the user explicitly chooses digital-human production, first confirm the likeness and voice rights; the user then uploads, creates and selects the digital human and voice in Topview or another chosen digital-human platform themselves. This workflow never uploads original portraits or recordings. Only after the user confirms the platform assets are ready, call an available adapter to generate the presenter clips, then compose the explanatory visuals, subtitles and presenter window, and finally check the aspect ratio, length, sound, subtitles and presenter framing for each target platform. For paid generation, follow the runtime tool's rules for confirming costs.
 

@@ -7,6 +7,7 @@
 - Facts, personal judgments, inferences and advice are clearly separated.
 - Code, commands and steps have been tested, or are clearly marked as untested.
 - The title does not promise a result the body cannot deliver.
+- The content says only what the evidence supports. It does not tell the audience what is unproven or missing; those notes stay in the task card for the creator.
 
 If a key fact fails, go back and add evidence; do not keep packaging.
 
@@ -22,7 +23,7 @@ Use published content of the same platform and type as voice samples first. Chec
 | Every paragraph is a neat set of three points | Reorder by real cause and effect |
 | Dense template linking words | Link with facts and actions |
 | Words such as "stunning" or "disruptive" with no support | Replace them with observable results |
-| An empty, uplifting ending | Return to an action, a limit or a real question |
+| An empty, uplifting ending | Return to an action, the situations it applies to, or a real question |
 | The title, lead and summary repeat each other | Give each one a different job |
 
 Do not output an AI probability or a detection verdict.

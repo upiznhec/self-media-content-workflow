@@ -46,7 +46,7 @@ Platform character limits, image sizes, title lengths and tag limits can change.
 - Delete mechanical linking words such as "first", "second", "finally" and "in conclusion".
 - Use "not A, but B" only once, and only when it really adds force.
 - Use "I" to own personal judgments; do not pose as institutional media.
-- End with an action, a limit or a real question, not an empty uplifting conclusion.
+- End with an action, the situations it applies to, or a real question, not an empty uplifting conclusion.
 
 ## Adapting for several platforms
 
@@ -70,7 +70,7 @@ After the title is approved, deliver:
 
 - The full body or publishing copy, written around the chosen title and hook.
 - Applicable fields such as the summary, tags, first comment, links or collection.
-- 2 to 3 image styles recommended from [visual-styles.md](references/visual-styles.md); wait for the user to choose. If the account has a stable preference, use it by default.
-- Cover text, visual needs and the final asset mapping.
+- 2 to 3 image styles recommended from [visual-styles.md](references/visual-styles.md), with a small sample of each when you can render images, and the question of who makes the images: you, or the user with their own design tool. Wait for the user to choose. If the account has a stable preference, use it by default.
+- Cover text, visual needs and the final asset mapping. When the user makes the images with their own design tool, a design brief for that tool instead of the images.
 - Facts that need checking by hand.
 - A commercial partnership disclosure.

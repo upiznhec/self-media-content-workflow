@@ -7,6 +7,9 @@ All notable changes to this project will be documented in this file.
 ### Changes
 
 - Show 3 title candidates (and, for video, 3 hooks) and wait for the user's choice before writing the first draft. The original writes the complete first draft first and then waits for the title. Changed in `self-media-content-workflow`, `self-media-platform-copywriting`, `self-media-short-video`, the task card and content registry templates, and the README.
+- When the agent can render images, show a small sample of each suggested image style, and ask who makes the images: the agent, or the user with their own design tool. If the user makes them, write a design brief for their tool and check the images against it when they come back. The original describes each style in one sentence. Changed in `self-media-content-workflow`, `self-media-platform-copywriting` (`references/visual-styles.md`), the task card template and the README.
+- What the evidence pack cannot prove is a note for the creator, not text for the audience: the content says only what the evidence supports. Added to `self-media-content-workflow` and `references/quality-gates.md`, and noted in the README.
+- Translation fix: 边界 (the situations a method applies to) had been translated as "limits" in three writing rules, which read as a list of weaknesses. It now reads "when it applies" or "the situations it applies to". Fixed in `self-media-short-video`, `self-media-platform-copywriting` and `references/quality-gates.md`.
 
 ## English edition - 2026-11-22
 

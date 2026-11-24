@@ -41,7 +41,7 @@ Choose one main structure:
 - Problem → method → example.
 - Result → process → lesson.
 - Conflict → choice → consequence.
-- Demonstration → explanation → limits.
+- Demonstration → explanation → when it applies.
 
 End with one thing to remember and one main call to action.
 
