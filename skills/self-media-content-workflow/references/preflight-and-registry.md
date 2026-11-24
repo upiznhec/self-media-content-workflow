@@ -16,6 +16,8 @@ Before writing the full draft and making assets, check only the capabilities the
 
 Check the animation pipeline and music licensing only when the video production mode is animated explainer production. Check digital-human sensitive assets and platform readiness, and video composition and subtitles, only when the task card's video production mode is digital-human production; for other content types and for on-camera or footage-based tasks, mark these two as not applicable and do not stay in `AWAITING_USER` because of them.
 
+Footage that is not in the content folder cannot be checked from here, so do not assume the user has it. For a video made from footage, list the key shots the story needs, one line each, and, unless the user has already said, ask in a message of its own which ones they have, before titles and hooks are shown. Use the answer when writing the hooks and the script. Mark each shot in the asset list as one the user has or one still missing, and deliver the list with the publishing pack.
+
 The preflight reports only whether a capability is available; it never prints credential contents.
 
 ## Digital-human sensitive asset safety

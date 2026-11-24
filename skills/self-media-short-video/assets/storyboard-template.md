@@ -36,9 +36,9 @@
 - Background music suggestion:
 - Collection or commercial statement:
 
-## Asset gaps
+## Asset list
 
-- {missing asset}
+- {shot or asset}: the user has it / still missing
 
 ## Length check
 

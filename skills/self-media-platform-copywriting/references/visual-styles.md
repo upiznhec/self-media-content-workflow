@@ -4,13 +4,13 @@ Before making images, choose a style for the current task from this library. The
 
 ## Recommend and choose
 
-1. After the title is approved and before setting the visual anchor, pick 2 to 3 candidates from the table below by content type and platform. They must also fit the tone set in the brief: playful content needs playful candidates, not only tidy ones. When no preset fits the tone, adapt one or propose a style of your own, and say which you did.
-2. Show each candidate as a small sample, made with the user's own title or text (render it as an image, or as an HTML page you show the user), with a sentence on how to recognize it and why it fits, and point out the differences. A description in words alone is not enough. Only if nothing can be rendered in this environment, say so, describe the candidates in words, and point to the design brief option.
-3. Each time you show style candidates, ask in the same message how the images will be made, and write out both options in full, equally visible:
-   - **I make the images here**, with the tools available in this environment.
-   - **I write a design brief**, and the user takes it to another AI image tool or design app.
+1. After the title is approved and before setting the visual anchor, pick 2 to 3 candidates from the table below by content type and platform. They must also fit the tone set in the brief: playful content needs playful candidates, not only tidy ones. When no preset fits the tone, adapt one or propose a style of your own, and say which you did. When the content is about real events or real people and the user works with real footage or photos, make at least one candidate from real images, such as stills from footage the user has, or photos of the event; in its sample, mark where each image goes if you do not have it yet. Say who holds the rights to those images and what the user needs in order to post them (for example, nothing if they are the user's own, a credit, or a paid licence, with the price if the seller shows one).
+2. Show each candidate as a small sample, made with the user's own title or text (render it as an image, or as an HTML page you show the user), with a sentence on how to recognize it and why it fits, and point out the differences. A description in words alone is not enough. Only if nothing can be rendered in this environment, say so, describe the candidates in words, and point to the design brief option. When you show new or revised samples, save them under a new file name (for example `-v2`) instead of overwriting the earlier ones.
+3. Each time you show style candidates, ask in the same message how the images will be made, and write out both options in full, equally visible, as A and B, each worded as the user would say it, so that it keeps its meaning when the user repeats it:
+   - **A. Make the images here**, with the tools available in this environment.
+   - **B. Give me a design brief** to take to another AI image tool or design app.
 
-   Do not shorten or leave out the second option. Wait for the user to choose a style (or describe their own) and one of the two options. If the account profile already has a stable style preference, use it by default and say so, without recommending again.
+   Do not shorten or leave out the second option. Wait for the user to choose a style (or describe their own) and one of the two options; if the reply could mean either option, ask which one. If the account profile already has a stable style preference, use it by default and say so, without recommending again.
 4. Write the chosen style into the visual anchor section of the task card. One image set uses only one style, with the same palette and text style throughout.
 5. The palettes in the presets are examples and can be swapped wholesale for the account's brand colors. When an account watermark is needed, add the same watermark placeholder in a fixed position.
 
