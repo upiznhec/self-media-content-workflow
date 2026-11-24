@@ -6,11 +6,11 @@
 
 A modular, tool-agnostic suite of agent skills for social-media content work: from a vague idea to a confirmed brief, account strategy, trend and competitor research, platform-native copy and short-video packages, with optional digital-human and animated-explainer production.
 
-This is an English edition of [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) by [Yanhua](https://github.com/yanhua1010). The method is the original's; the text is translated, and the parts listed under [What changed in this edition](#what-changed-in-this-edition) were removed or adapted.
+This is an English edition of [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) by [Yanhua](https://github.com/yanhua1010). The method is the original's; the text is translated, and the parts listed under [What changed in this edition](#what-changed-in-this-edition) were removed, adapted or changed.
 
 - **Tool-agnostic**: no binding to a specific model, browser, image, video or research service; capabilities are discovered from the running environment
 - **Platform-native**: one topic shares facts and evidence, while titles, openings, structure and calls to action are designed per platform
-- **Human-in-the-loop**: five approval gates (direction, platforms, title, final copy, and any external write action); the skills deliver drafts and publishing packs, and you publish
+- **Human-in-the-loop**: five approval gates (direction, platforms, title and hook, final copy, and any external write action); the skills deliver drafts and publishing packs, and you publish
 - **Evidence-first**: every key number needs a source; facts, opinions, inferences and advice stay separated; no invented data, experience or results
 - **Systematic visuals**: eight built-in image-style presets with platform routing; a style is chosen before generation, one style per image set, and account preferences override preset defaults
 
@@ -107,7 +107,7 @@ Use $self-media-short-video to turn this approved topic into a 60-second spoken 
 
 ```text
 Clarify → Direction approval* → Research & evidence → Platform approval* → Preflight
-→ Platform-native draft → Title approval* → Assets (live-action / digital human / animation) → Quality gates
+→ Title and hook approval* → Platform-native draft → Assets (live-action / digital human / animation) → Quality gates
 → Final-copy approval* → Publishing pack
 ```
 
@@ -157,11 +157,12 @@ scripts/validate.py       # repository validation
 
 ## What changed in this edition
 
-- Translated into English. The method is unchanged and the meaning is kept.
+- Translated into English, keeping the meaning.
 - Kept: the orchestrator (trimmed to the kept modules), content brief, content strategy, trend radar (research process and Reddit discussion discovery), platform copywriting and short video.
 - Removed: content analytics, content delivery, the WeChat publisher, the video publisher, the workbench app, and the trend radar's overseas comparison mode and its scripts. The workflow ends with a publishing pack, and you publish.
 - Rules that counted Chinese characters were rewritten by what they are for. For example, "at most 14 characters per line" became "short enough to read as one line on a phone", and narration length is estimated at about 150 words a minute, the usual speaking rate in English. Details that only applied to Chinese text or Chinese-speaking viewers were removed.
 - Rules about Chinese platforms and Chinese law (for example, China's rules on labeling AI-generated content) are kept for the platforms that are kept.
+- Changed one step: you choose the title (and, for video, the hook) before the first draft is written. The original writes the complete first draft first and then waits for your choice of title.
 
 See [CHANGELOG.md](CHANGELOG.md) for details.
 

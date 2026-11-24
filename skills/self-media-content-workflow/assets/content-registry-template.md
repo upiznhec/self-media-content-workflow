@@ -12,8 +12,8 @@
 
 - Clarifying needs
 - Research and evidence
-- Writing
 - Awaiting title approval
+- Writing
 - Making assets
 - Quality review
 - Awaiting final-copy approval

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## English edition update - 2026-11-23
+
+### Changes
+
+- Show 3 title candidates (and, for video, 3 hooks) and wait for the user's choice before writing the first draft. The original writes the complete first draft first and then waits for the title. Changed in `self-media-content-workflow`, `self-media-platform-copywriting`, `self-media-short-video`, the task card and content registry templates, and the README.
+
 ## English edition - 2026-11-22
 
 Based on the original repository, [yanhua1010/self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow), at commit `1cdc246` (2026-11-09).

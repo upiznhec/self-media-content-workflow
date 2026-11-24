@@ -74,6 +74,7 @@
 | C | | Contrast or curiosity | no |
 
 - Final title:
+- Chosen hook (video):
 - Approved at:
 
 ## Platform outputs

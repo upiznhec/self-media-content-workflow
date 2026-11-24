@@ -55,13 +55,13 @@ Read a module's whole `SKILL.md` before using it. If a module is not installed, 
 
 ## Content creation status flow
 
-`Clarifying needs → Awaiting direction approval → Research and evidence → Awaiting platform approval → Preflight → Writing → Awaiting title approval → Making assets → Quality review → Awaiting final-copy approval → Publishing pack delivered`
+`Clarifying needs → Awaiting direction approval → Research and evidence → Awaiting platform approval → Preflight → Awaiting title approval → Writing → Making assets → Quality review → Awaiting final-copy approval → Publishing pack delivered`
 
 These transitions must be made by the user:
 
 1. Approve the creative direction.
 2. Approve the platform mix.
-3. Choose or edit the title.
+3. Choose or edit the title and, for video, the hook.
 4. Approve the final copy.
 5. Authorize any external write action.
 
@@ -91,13 +91,13 @@ Read [platforms.md](references/platforms.md) and recommend one main platform and
 
 Read [preflight-and-registry.md](references/preflight-and-registry.md). Check only the capabilities the chosen platforms need: writing, images, raw footage or screen recordings, digital-human sensitive assets and platform readiness, and video composition and subtitles. Check the animation pipeline and music licensing only when the video production mode is animated explainer production. Check digital-human sensitive assets and platform readiness, and video composition and subtitles, only when the video production mode is digital-human production; for other content types and for on-camera or footage-based tasks, mark these two as not applicable and do not go into `AWAITING_USER` because of them. When a capability is unavailable, offer a fallback such as a manual publishing pack. For the boundaries of digital-human production (rights confirmation, manual upload, third-party data processing, generation, composition and acceptance), see [digital-human-production.md](references/digital-human-production.md).
 
-### 4. Write platform-native first drafts
+### 4. Choose the title and hook, then write platform-native first drafts
 
 Call `self-media-platform-copywriting`. Design the title, opening, order of evidence, structure and call to action separately for each platform; do not just shorten one text mechanically.
 
-Generate 6 to 8 titles internally, covering entry points such as result, benefit, identity, conflict, contrast, curiosity and numbers. After screening, show the user only the strongest 3 and explain which entry point each one uses.
+Generate 6 to 8 titles internally, covering entry points such as result, benefit, identity, conflict, contrast, curiosity and numbers. After screening, show the user only the strongest 3 and explain which entry point each one uses. For video, also show 3 hooks, written by the rules in `self-media-short-video`, and say which one you recommend.
 
-Save the complete first draft before waiting for title approval. Do not make covers before the title is approved.
+Wait for the user to choose or edit the title and, for video, the hook. Only then write the complete first draft around their choice, and save it. Do not write the full draft or make covers before the user has chosen.
 
 ### 5. Make visual or video assets
 
@@ -149,7 +149,7 @@ Read [style-learning.md](references/style-learning.md). Record a single manual e
 
 Each time you pause or finish, report the current task, completed stages, output paths, known fallbacks and the single next action. Use these statuses:
 
-- `AWAITING_USER`: waiting for the direction, platforms, title, final copy or permission for an external write action, or for the user to upload, create and select assets on the digital-human platform themselves.
+- `AWAITING_USER`: waiting for the direction, platforms, title and hook, final copy or permission for an external write action, or for the user to upload, create and select assets on the digital-human platform themselves.
 - `DONE`: every authorized step for this session is complete.
 - `DONE_WITH_CONCERNS`: complete, but with clear fallbacks.
 - `BLOCKED`: a key dependency failed and the work cannot continue now.

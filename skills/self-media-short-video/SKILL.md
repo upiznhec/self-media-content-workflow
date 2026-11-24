@@ -60,7 +60,7 @@ The shot lengths must add up to the target length. The facts in the subtitles an
 
 Deliver:
 
-1. 3 hooks and the recommended one.
+1. 3 hooks and the recommended one. If the user has not chosen a hook yet, show them before writing the script and wait for the choice. Write the script with the chosen hook.
 2. The full spoken script.
 3. A storyboard or screen-recording checklist.
 4. The subtitle script.

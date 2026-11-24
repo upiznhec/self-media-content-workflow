@@ -14,10 +14,10 @@ Before writing in full, confirm the target audience, content goal, core claim, e
 1. Take the facts, personal judgments, inferences and advice from the evidence pack.
 2. Make clear why readers on this platform would stop, read to the end and take action.
 3. Generate 6 to 8 titles internally, covering entry points such as result, benefit, identity, conflict, contrast, curiosity and numbers.
-4. Delete titles that the body cannot deliver on, that lack evidence, or that promise too much.
-5. Show the user only the strongest 3 titles and explain each one's entry point.
-6. Design the opening, order of evidence, structure and call to action separately for each platform.
-7. Save the complete first draft; make covers and the final publishing pack only after the title is approved.
+4. Delete titles that the evidence pack and the planned content cannot deliver on, that lack evidence, or that promise too much.
+5. Show the user only the strongest 3 titles and explain each one's entry point. For video, also show 3 hooks, written by the rules in `self-media-short-video`. Wait for the user to choose or edit them.
+6. After the user chooses, design the opening, order of evidence, structure and call to action separately for each platform, around the chosen title and hook.
+7. Write and save the complete first draft. Make covers and the final publishing pack after that.
 
 Do not add brands, products, models, people, data or results that are not in the evidence pack. When you only know that "before and after data exist" but have no specific values or direction of change, do not write comparative conclusions such as improved, dropped, faster, cheaper or higher. When specific information is needed but not yet provided, use clear placeholders and list them as items to check by hand.
 
@@ -60,15 +60,15 @@ If the versions for several platforms differ only in length, the check fails; re
 
 Before the title is approved, deliver only:
 
-- 3 title candidates and a placeholder for the final title.
-- The full body or publishing copy.
+- 3 title candidates and a placeholder for the final title. For video, also 3 hooks and the recommended one.
 - Evidence still missing and facts that need checking by hand.
-- The `AWAITING_USER` status and the next action: "choose or edit the title".
+- The `AWAITING_USER` status and the next action: "choose or edit the title" (and the hook, for video).
 
 For Xiaohongshu, you may first list the information job of each page of the body, but keep the cover text, cover visual and final image-set plan open.
 
 After the title is approved, deliver:
 
+- The full body or publishing copy, written around the chosen title and hook.
 - Applicable fields such as the summary, tags, first comment, links or collection.
 - 2 to 3 image styles recommended from [visual-styles.md](references/visual-styles.md); wait for the user to choose. If the account has a stable preference, use it by default.
 - Cover text, visual needs and the final asset mapping.
