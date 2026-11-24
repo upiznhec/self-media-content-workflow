@@ -13,6 +13,7 @@
 - Clarifying needs
 - Research and evidence
 - Awaiting title approval
+- Awaiting sample approval
 - Writing
 - Making assets
 - Quality review

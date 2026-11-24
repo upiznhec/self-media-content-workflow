@@ -59,7 +59,7 @@ Use this structure:
 - Deadline:
 ```
 
-List the defaults you used. After giving the brief, stop and wait for the user to approve or edit it. Do not write the full body before the direction is approved.
+List the defaults you used. After giving the brief, stop and wait for the user to approve or edit it. Answers to your questions are not approval: show the brief even when every question has been answered, and do not start research until the user approves or edits it. Do not write the full body before the direction is approved.
 
 ## Handoff
 

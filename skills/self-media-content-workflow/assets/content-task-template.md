@@ -76,6 +76,7 @@
 - Final title:
 - Chosen hook (video):
 - Approved at:
+- Sample of the opening approved at:
 
 ## Platform outputs
 

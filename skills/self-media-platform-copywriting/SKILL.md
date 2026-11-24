@@ -17,7 +17,7 @@ Before writing in full, confirm the target audience, content goal, core claim, e
 4. Delete titles that the evidence pack and the planned content cannot deliver on, that lack evidence, or that promise too much.
 5. Show the user only the strongest 3 titles and explain each one's entry point. For video, also show 3 hooks, written by the rules in `self-media-short-video`. Wait for the user to choose or edit them.
 6. After the user chooses, design the opening, order of evidence, structure and call to action separately for each platform, around the chosen title and hook.
-7. Write and save the complete first draft. Make covers and the final publishing pack after that.
+7. Write the opening of the main piece first, as a sample, and wait for the user to approve it or say what to change. Then write and save the complete first draft. Make covers and the final publishing pack after that.
 
 Do not add brands, products, models, people, data or results that are not in the evidence pack. When you only know that "before and after data exist" but have no specific values or direction of change, do not write comparative conclusions such as improved, dropped, faster, cheaper or higher. When specific information is needed but not yet provided, use clear placeholders and list them as items to check by hand.
 
@@ -66,7 +66,7 @@ Before the title is approved, deliver only:
 
 For Xiaohongshu, you may first list the information job of each page of the body, but keep the cover text, cover visual and final image-set plan open.
 
-After the title is approved, deliver:
+After the title is approved, deliver a sample of the opening first and wait for the user's approval. After the sample is approved, deliver:
 
 - The full body or publishing copy, written around the chosen title and hook.
 - Applicable fields such as the summary, tags, first comment, links or collection.

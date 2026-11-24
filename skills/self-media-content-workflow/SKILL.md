@@ -55,23 +55,26 @@ Read a module's whole `SKILL.md` before using it. If a module is not installed, 
 
 ## Content creation status flow
 
-`Clarifying needs → Awaiting direction approval → Research and evidence → Awaiting platform approval → Preflight → Awaiting title approval → Writing → Making assets → Quality review → Awaiting final-copy approval → Publishing pack delivered`
+`Clarifying needs → Awaiting direction approval → Research and evidence → Awaiting platform approval → Preflight → Awaiting title approval → Awaiting sample approval → Writing → Making assets → Quality review → Awaiting final-copy approval → Publishing pack delivered`
 
 These transitions must be made by the user:
 
 1. Approve the creative direction.
 2. Approve the platform mix.
 3. Choose or edit the title and, for video, the hook.
-4. Approve the final copy.
-5. Authorize any external write action.
+4. Approve the sample of the opening, or say what to change.
+5. Approve the final copy.
+6. Authorize any external write action.
 
 Approving the final copy does not authorize any external write action.
+
+At each of these points, show the user what they are deciding, stop, and wait for their reply to it. These do not count as the decision: answers to your questions, a request for changes, or a choice of only part of it (for example, the hook without the title). After a change, show the result and ask again. If something the user has already approved changes later, show the change and ask again before going on.
 
 ## Main creation flow
 
 ### 1. Write the brief and approve the direction
 
-Call `self-media-content-brief`. Put the account positioning, target audience, content goal, core claim, evidence, tone, depth, no-go areas and platform angles on one card for approval. When information is missing, ask at most 3 high-impact questions, and let the user accept reasonable defaults.
+Call `self-media-content-brief`. Put the account positioning, target audience, content goal, core claim, evidence, tone, depth, no-go areas and platform angles on one card for approval. When information is missing, ask at most 3 high-impact questions, and let the user accept reasonable defaults. Then show the card and stop: answers to your questions do not approve it, and research starts only after the user approves or edits the card.
 
 ### 2. Add research and evidence
 
@@ -93,13 +96,13 @@ Read [platforms.md](references/platforms.md) and recommend one main platform and
 
 Read [preflight-and-registry.md](references/preflight-and-registry.md). Check only the capabilities the chosen platforms need: writing, images, raw footage or screen recordings, digital-human sensitive assets and platform readiness, and video composition and subtitles. Check the animation pipeline and music licensing only when the video production mode is animated explainer production. Check digital-human sensitive assets and platform readiness, and video composition and subtitles, only when the video production mode is digital-human production; for other content types and for on-camera or footage-based tasks, mark these two as not applicable and do not go into `AWAITING_USER` because of them. When a capability is unavailable, offer a fallback such as a manual publishing pack. For the boundaries of digital-human production (rights confirmation, manual upload, third-party data processing, generation, composition and acceptance), see [digital-human-production.md](references/digital-human-production.md).
 
-### 4. Choose the title and hook, then write platform-native first drafts
+### 4. Choose the title and hook, check a sample, then write platform-native first drafts
 
-Call `self-media-platform-copywriting`. Design the title, opening, order of evidence, structure and call to action separately for each platform; do not just shorten one text mechanically.
+Call `self-media-platform-copywriting`, and read its `SKILL.md` before writing any title. Design the title, opening, order of evidence, structure and call to action separately for each platform; do not just shorten one text mechanically.
 
 Generate 6 to 8 titles internally, covering entry points such as result, benefit, identity, conflict, contrast, curiosity and numbers. After screening, show the user only the strongest 3 and explain which entry point each one uses. For video, also show 3 hooks, written by the rules in `self-media-short-video`, and say which one you recommend.
 
-Wait for the user to choose or edit the title and, for video, the hook. Only then write the complete first draft around their choice, and save it. Do not write the full draft or make covers before the user has chosen.
+Wait for the user to choose or edit the title and, for video, the hook. They are one decision: if the user settles only one, ask for the other. Until both are settled, show only the candidates and the evidence still missing: no outline with spoken lines, no script, no slide text or captions, no covers, and no changes to earlier drafts. Then write a sample: only the opening of the main piece, in the chosen title and hook (about the first minute of a long video, or the first few lines of a short video or a post), and stop so the user can check that it sounds right. After the user approves the sample, or after the changes they ask for, write the complete first draft around their choice, and save it.
 
 ### 5. Make visual or video assets
 
@@ -112,6 +115,8 @@ For video, call `self-media-short-video`. By default, without raw footage, deliv
 When the user wants a finished animated explainer with no on-camera presenter (science, history, brand stories), follow the animated explainer production guidance in `self-media-short-video`: confirm the script and facts, audition and choose a voice, and confirm the visual anchor before generating assets in bulk and rendering. Use only locally synthesized music, a platform's music library or tracks the user holds a license for, and record the attribution requirements. After the master version is finished, derive the version for each platform (YouTube 16:9 with an SRT subtitle file; Douyin, WeChat Channels and Xiaohongshu 9:16 with burned-in subtitles) and record them in the release matrix.
 
 ### 6. Quality review
+
+Run this review after step 5. When the user wants images or video, ask for final-copy approval only after they are made, or after the design brief is written if the user chose it.
 
 Read [quality-gates.md](references/quality-gates.md) in full and check:
 
@@ -151,7 +156,7 @@ Read [style-learning.md](references/style-learning.md). Record a single manual e
 
 Each time you pause or finish, report the current task, completed stages, output paths, known fallbacks and the single next action. Use these statuses:
 
-- `AWAITING_USER`: waiting for the direction, platforms, title and hook, final copy or permission for an external write action, or for the user to upload, create and select assets on the digital-human platform themselves.
+- `AWAITING_USER`: waiting for the direction, platforms, title and hook, sample of the opening, final copy or permission for an external write action, or for the user to upload, create and select assets on the digital-human platform themselves.
 - `DONE`: every authorized step for this session is complete.
 - `DONE_WITH_CONCERNS`: complete, but with clear fallbacks.
 - `BLOCKED`: a key dependency failed and the work cannot continue now.
