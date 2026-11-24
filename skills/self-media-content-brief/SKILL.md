@@ -11,7 +11,7 @@ description: Clarifies what the user wants for a single piece or for multi-platf
 - Ask only questions whose answers change the creative direction, at most 3.
 - The user can skip questions and accept reasonable defaults.
 - Do not ask again, in other words, about information the user has already made clear.
-- The brief should let the user approve it quickly; do not write it as a long proposal.
+- Keep each item of the brief short, so the user can approve it quickly; do not write it as a long proposal, and do not shorten it by leaving items out.
 
 ## What to confirm
 
@@ -39,7 +39,7 @@ When information is missing but can be found in the material, project files or p
 
 ## The content brief
 
-Use this structure:
+Show the brief to the user in the chat, in this structure: every item below, one line each, starting with the item's name, so the user can check each one before approving. Do not rewrite it as a paragraph or a shorter summary. When the user has not decided an item, fill in the default you used. Save the brief in the same structure.
 
 ```markdown
 ## Content brief

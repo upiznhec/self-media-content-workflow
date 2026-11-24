@@ -77,7 +77,7 @@ At each of these points, show the user what they are deciding, stop, and wait fo
 
 ### 1. Write the brief and approve the direction
 
-Call `self-media-content-brief`. Put the account positioning, target audience, content goal, core claim, evidence, tone, depth, no-go areas and platform angles on one card for approval. When information is missing, ask at most 3 high-impact questions, and let the user accept reasonable defaults. Then show the card and stop: answers to your questions do not approve it, and research starts only after the user approves or edits the card.
+Call `self-media-content-brief`. Put the account positioning, target audience, content goal, core claim, evidence, tone, depth, no-go areas and platform angles on one card for approval, in the structure set out in that module: shown in the chat, one line per item starting with the item's name, not as a summary in a paragraph. When information is missing, ask at most 3 high-impact questions, and let the user accept reasonable defaults. Then show the card and stop: answers to your questions do not approve it, and research starts only after the user approves or edits the card.
 
 ### 2. Add research and evidence
 
